@@ -17,6 +17,10 @@ eg. `color-on-primary` is the text/text color for a button with primary fill col
 eg. `color-hovered-on-bg-fill` is a hovered text/text color on a page background color
 If subject-type is `fill`, a matching `on-` state must be specified.
 
+Potential spec changes we could consider:
+- color-((<text-state>-)?<text-subject-type>-)?on-)?<color-variant><subject-type>(-<state>)?
+  - if we need different colors for text or icons/links on top of a certain color
+
 https://www.shadegenerator.com is a nifty tool for choosing alternate states (eg hovered)
 
 ### Spacing

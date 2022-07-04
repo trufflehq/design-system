@@ -67,6 +67,10 @@
     "value": "rgba(250, 108, 175, 1)",
     "description": "Used as the default border color for primary actions (eg buttons)"
   },
+  "color-primary-text": {
+    "value": "rgba(250, 108, 175, 1)",
+    "description": "Used as the default text color for primary text"
+  },
   "color-surface-fill": {
     "value": "rgba(255, 255, 255, 0.2)",
     "description": "Used as the default background color for surfaces (modals, cards, low-priority buttons, etc...)"
@@ -106,5 +110,13 @@
   "color-surface-border-selected": {
     "value": "var(--tfl-color-primary-border)",
     "description": "Used as the selected-state border color for surfaces (modals, cards, low-priority buttons, etc...)"
+  },
+  "color-critical-border": {
+    "value": "rgba(251, 122, 122, 1)",
+    "description": "Used as the default border color for errors / critical messages"
+  },
+  "color-critical-text": {
+    "value": "rgba(251, 122, 122, 1)",
+    "description": "Used as the default text color for errors / critical messages"
   }
 }
