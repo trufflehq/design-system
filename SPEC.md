@@ -2,8 +2,10 @@
 Naming should follow this convention:
 color-((<text-state>-)?on-)?<color-variant><subject-type>(-<state>)?
 
+text-state (optional) is one of:
+  `hovered`
 color-variant is one of:
-  `primary` | `secondary` | `bg` | `surface` | `accent-1` | `critical` | `warning`
+  `primary` | `secondary` | `bg` | `surface` | `accent-1` | `neutral` | `critical` | `warning`
 subject-type is what the color-variant is being applied to:
   `fill` | `text` | `border` | `shadow`
   Note that `text` is for having, for example, a primary colored text, *not* the text color on primary fill

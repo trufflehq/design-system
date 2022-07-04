@@ -24,20 +24,12 @@
     "description": "Used as the text color associated with `background: var(--tfl-color-bg-fill-selected)`"
   },
   "color-bg-fill-backdrop": {
-    "value": "rgba(255, 255, 255, 0.1)",
+    "value": "rgba(0, 0, 0, 0.4)",
     "description": "Used as the backdrop (in dialogs) color for page background"
   },
   "color-on-bg-fill-backdrop": {
-    "value": "rgba(0, 0, 0, 1)",
-    "description": "Used as the text color associated with `background: var(--tfl-color-bg-fill-backdrop)`"
-  },
-  "color-surface-fill": {
-    "value": "rgba(20, 20, 20, 1)",
-    "description": "Used as the default background color for surfaces (modals, cards, etc...)"
-  },
-  "color-on-surface-fill": {
     "value": "rgba(255, 255, 255, 1)",
-    "description": "Used as the text color associated with `background: var(--tfl-color-surface-fill)`"
+    "description": "Used as the text color associated with `background: var(--tfl-color-bg-fill-backdrop)`"
   },
   "color-primary-fill": {
     "value": "rgba(250, 108, 175, 1)",
@@ -70,5 +62,49 @@
   "color-on-primary-fill-disabled": {
     "value": "rgba(255, 255, 255, 1)",
     "description": "Used as the text color associated with `background: var(--tfl-color-primary-fill-disabled)`"
+  },
+  "color-primary-border": {
+    "value": "rgba(250, 108, 175, 1)",
+    "description": "Used as the default border color for primary actions (eg buttons)"
+  },
+  "color-surface-fill": {
+    "value": "rgba(255, 255, 255, 0.2)",
+    "description": "Used as the default background color for surfaces (modals, cards, low-priority buttons, etc...)"
+  },
+  "color-on-surface-fill": {
+    "value": "rgba(255, 255, 255, 1)",
+    "description": "Used as the text color associated with `background: var(--tfl-color-surface-fill)`"
+  },
+  "color-surface-fill-hovered": {
+    "value": "rgba(255, 255, 255, 0.15)",
+    "description": "Used as the hovered-state background color for surfaces (modals, cards, low-priority buttons, etc...)"
+  },
+  "color-on-surface-fill-hovered": {
+    "value": "rgba(255, 255, 255, 1)",
+    "description": "Used as the text color associated with `background: var(--tfl-color-surface-fill-hovered)`"
+  },
+  "color-surface-fill-pressed": {
+    "value": "rgba(255, 255, 255, 0.17)",
+    "description": "Used as the pressed-state background color for surfaces (modals, cards, low-priority buttons, etc...)"
+  },
+  "color-on-surface-fill-pressed": {
+    "value": "rgba(255, 255, 255, 1)",
+    "description": "Used as the text color associated with `background: var(--tfl-color-surface-fill-pressed)`"
+  },
+  "color-surface-fill-disabled": {
+    "value": "rgba(255, 255, 255, 0.1)",
+    "description": "Used as the disabled-state background color for surfaces (modals, cards, low-priority buttons, etc...)"
+  },
+  "color-on-surface-fill-disabled": {
+    "value": "rgba(255, 255, 255, 1)",
+    "description": "Used as the text color associated with `background: var(--tfl-color-surface-fill-disabled)`"
+  },
+  "color-surface-border": {
+    "value": "rgba(255, 255, 255, 0.2)",
+    "description": "Used as the default border color for surfaces (modals, cards, low-priority buttons, etc...)"
+  },
+  "color-surface-border-selected": {
+    "value": "var(--tfl-color-primary-border)",
+    "description": "Used as the selected-state border color for surfaces (modals, cards, low-priority buttons, etc...)"
   }
 }

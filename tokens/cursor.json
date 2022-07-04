@@ -1,0 +1,113 @@
+{
+  "cursor-auto": {
+    "value": "auto"
+  },
+  "cursor-default": {
+    "value": "default"
+  },
+  "cursor-disabled": {
+    "value": "disabled"
+  },
+  "cursor-none": {
+    "value": "none"
+  },
+  "cursor-context-menu": {
+    "value": "context-menu"
+  },
+  "cursor-help": {
+    "value": "help"
+  },
+  "cursor-pointer": {
+    "value": "pointer"
+  },
+  "cursor-progress": {
+    "value": "progress"
+  },
+  "cursor-wait": {
+    "value": "wait"
+  },
+  "cursor-cell": {
+    "value": "cell"
+  },
+  "cursor-crosshair": {
+    "value": "crosshair"
+  },
+  "cursor-text": {
+    "value": "text"
+  },
+  "cursor-vertical-text": {
+    "value": "vertical-text"
+  },
+  "cursor-alias": {
+    "value": "alias"
+  },
+  "cursor-copy": {
+    "value": "copy"
+  },
+  "cursor-move": {
+    "value": "move"
+  },
+  "cursor-no-drop": {
+    "value": "no-drop"
+  },
+  "cursor-not-allowed": {
+    "value": "not-allowed"
+  },
+  "cursor-grab": {
+    "value": "grab"
+  },
+  "cursor-grabbing": {
+    "value": "grabbing"
+  },
+  "cursor-all-scroll": {
+    "value": "all-scroll"
+  },
+  "cursor-col-resize": {
+    "value": "col-resize"
+  },
+  "cursor-row-resize": {
+    "value": "row-resize"
+  },
+  "cursor-n-resize": {
+    "value": "n-resize"
+  },
+  "cursor-e-resize": {
+    "value": "e-resize"
+  },
+  "cursor-s-resize": {
+    "value": "s-resize"
+  },
+  "cursor-w-resize": {
+    "value": "w-resize"
+  },
+  "cursor-ne-resize": {
+    "value": "ne-resize"
+  },
+  "cursor-nw-resize": {
+    "value": "nw-resize"
+  },
+  "cursor-se-resize": {
+    "value": "se-resize"
+  },
+  "cursor-sw-resize": {
+    "value": "sw-resize"
+  },
+  "cursor-ew-resize": {
+    "value": "ew-resize"
+  },
+  "cursor-ns-resize": {
+    "value": "ns-resize"
+  },
+  "cursor-nesw-resize": {
+    "value": "nesw-resize"
+  },
+  "cursor-nwse-resize": {
+    "value": "nwse-resize"
+  },
+  "cursor-zoom-in": {
+    "value": "zoom-in"
+  },
+  "cursor-zoom-out": {
+    "value": "zoom-out"
+  }
+}
