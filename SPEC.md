@@ -6,7 +6,7 @@ text-state (optional) is one of:
   `hovered`
 
 color-variant is one of:  
-  `primary` | `secondary` | `bg` | `surface` | `accent-1` | `neutral` | `critical` | `warning`
+  `primary` | `secondary` | `bg` | `surface` | `dialog` | `accent1` | `neutral` | `critical` | `warning`
 
 subject-type is what the color-variant is being applied to:  
   `fill` | `text` | `border` | `shadow`

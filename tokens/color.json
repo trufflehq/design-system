@@ -71,6 +71,14 @@
     "value": "rgba(250, 108, 175, 1)",
     "description": "Used as the default text color for primary text"
   },
+  "color-dialog-fill": {
+    "value": "rgba(30, 30, 30, 1)",
+    "description": "Used as the default background color for dialogs and/or anything that overlays other content"
+  },
+  "color-on-dialog-fill": {
+    "value": "rgba(255, 255, 255, 1)",
+    "description": "Used as the text color associated with `background: var(--tfl-color-dialog-fill)`"
+  },
   "color-surface-fill": {
     "value": "rgba(255, 255, 255, 0.2)",
     "description": "Used as the default background color for surfaces (modals, cards, low-priority buttons, etc...)"
