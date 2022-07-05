@@ -1,6 +1,6 @@
 ### Color naming convention
 Naming should follow this convention:
-color-((<text-state>-)?on-)?<color-variant><subject-type>(-<state>)?
+`color-((<text-state>-)?on-)?<color-variant><subject-type>(-<state>)?`
 
 text-state (optional) is one of:  
   `hovered`
@@ -21,7 +21,7 @@ eg. `color-hovered-on-bg-fill` is a hovered text/text color on a page background
 If subject-type is `fill`, a matching `on-` state must be specified.
 
 Potential spec changes we could consider:
-- color-((<text-state>-)?<text-subject-type>-)?on-)?<color-variant><subject-type>(-<state>)?
+- `color-((<text-state>-)?<text-subject-type>-)?on-)?<color-variant><subject-type>(-<state>)?`
   - if we need different colors for text or icons/links on top of a certain color
 
 https://www.shadegenerator.com is a nifty tool for choosing alternate states (eg hovered)
