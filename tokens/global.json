@@ -1,0 +1,710 @@
+{
+  "border-base": {
+    "value": "var(--tfl-border-width-1) solid var(--tfl-color-border)",
+    "type": "border"
+  },
+  "border-radius-sm": {
+    "value": "2px",
+    "type": "border"
+  },
+  "border-radius-md": {
+    "value": "4px",
+    "type": "border"
+  },
+  "border-radius-lg": {
+    "value": "8px",
+    "type": "border"
+  },
+  "border-radius-xl": {
+    "value": "12px",
+    "type": "border"
+  },
+  "border-radius-2xl": {
+    "value": "16px",
+    "type": "border"
+  },
+  "border-radius-3xl": {
+    "value": "20px",
+    "type": "border"
+  },
+  "border-radius-round": {
+    "value": "50%",
+    "type": "border"
+  },
+  "border-width-sm": {
+    "value": "1px",
+    "type": "border"
+  },
+  "border-width-md": {
+    "value": "2px",
+    "type": "border"
+  },
+  "border-width-lg": {
+    "value": "4px",
+    "type": "border"
+  },"breakpoint-xs": {
+    "value": "320px",
+    "description": ">= 320px",
+    "type": "breakpoint"
+  },
+  "breakpoint-sm": {
+    "value": "480px",
+    "description": ">= 480px",
+    "type": "breakpoint"
+  },
+  "breakpoint-md": {
+    "value": "768px",
+    "description": ">= 768px",
+    "type": "breakpoint"
+  },
+  "breakpoint-lg": {
+    "value": "1024px",
+    "description": ">= 1024px",
+    "type": "breakpoint"
+  },
+  "breakpoint-xl": {
+    "value": "1440px",
+    "description": ">= 1440px",
+    "type": "breakpoint"
+  },"color-bg-fill": {
+    "value": "rgba(0, 0, 0, 1)",
+    "description": "Used as the page background color",
+    "type": "color"
+  },
+  "color-on-bg-fill": {
+    "value": "rgba(255, 255, 255, 1)",
+    "description": "Used as the text color associated with `background: var(--tfl-color-bg)`",
+    "type": "color"
+  },
+  "color-bg-fill-hovered": {
+    "value": "rgba(20, 20, 20, 1)",
+    "description": "Used as hovered-state background-color for elements with same background color as page",
+    "type": "color"
+  },
+  "color-on-bg-fill-hovered": {
+    "value": "rgba(255, 255, 255, 1)",
+    "description": "Used as the text color associated with `background: var(--tfl-color-bg-fill-hovered)`",
+    "type": "color"
+  },
+  "color-bg-fill-selected": {
+    "value": "rgba(30, 30, 30, 1)",
+    "description": "Used as selected-state background-color for elements with same background color as page",
+    "type": "color"
+  },
+  "color-on-bg-fill-selected": {
+    "value": "rgba(30, 30, 30, 1)",
+    "description": "Used as the text color associated with `background: var(--tfl-color-bg-fill-selected)`",
+    "type": "color"
+  },
+  "color-bg-fill-backdrop": {
+    "value": "rgba(0, 0, 0, 0.4)",
+    "description": "Used as the backdrop (in dialogs) color for page background",
+    "type": "color"
+  },
+  "color-on-bg-fill-backdrop": {
+    "value": "rgba(255, 255, 255, 1)",
+    "description": "Used as the text color associated with `background: var(--tfl-color-bg-fill-backdrop)`",
+    "type": "color"
+  },
+  "color-primary-fill": {
+    "value": "rgba(250, 108, 175, 1)",
+    "description": "Used as the default background color for primary actions (eg buttons)",
+    "type": "color"
+  },
+  "color-on-primary-fill": {
+    "value": "rgba(255, 255, 255, 1)",
+    "description": "Used as the text color associated with `background: var(--tfl-color-primary-fill)`",
+    "type": "color"
+  },
+  "color-primary-fill-hovered": {
+    "value": "rgba(251, 123, 183, 1)",
+    "description": "Used as the hovered-state background color for primary actions (eg buttons)",
+    "type": "color"
+  },
+  "color-on-primary-fill-hovered": {
+    "value": "rgba(255, 255, 255, 1)",
+    "description": "Used as the text color associated with `background: var(--tfl-color-primary-fill-hovered)`",
+    "type": "color"
+  },
+  "color-primary-fill-pressed": {
+    "value": "rgba(251, 130, 187, 1)",
+    "description": "Used as the pressed-state background color for primary actions (eg buttons)",
+    "type": "color"
+  },
+  "color-on-primary-fill-pressed": {
+    "value": "rgba(255, 255, 255, 1)",
+    "description": "Used as the text color associated with `background: var(--tfl-color-primary-fill-pressed)`",
+    "type": "color"
+  },
+  "color-primary-fill-disabled": {
+    "value": "rgba(150, 65, 105, 1)",
+    "description": "Used as the disabled-state background color for primary actions (eg buttons)",
+    "type": "color"
+  },
+  "color-on-primary-fill-disabled": {
+    "value": "rgba(255, 255, 255, 1)",
+    "description": "Used as the text color associated with `background: var(--tfl-color-primary-fill-disabled)`",
+    "type": "color"
+  },
+  "color-primary-border": {
+    "value": "rgba(250, 108, 175, 1)",
+    "description": "Used as the default border color for primary actions (eg buttons)",
+    "type": "color"
+  },
+  "color-primary-text": {
+    "value": "rgba(250, 108, 175, 1)",
+    "description": "Used as the default text color for primary text",
+    "type": "color"
+  },
+  "color-dialog-fill": {
+    "value": "rgba(30, 30, 30, 1)",
+    "description": "Used as the default background color for dialogs and/or anything that overlays color content",
+    "type": "color"
+  },
+  "color-on-dialog-fill": {
+    "value": "rgba(255, 255, 255, 1)",
+    "description": "Used as the text color associated with `background: var(--tfl-color-dialog-fill)`",
+    "type": "color"
+  },
+  "color-surface-fill": {
+    "value": "rgba(255, 255, 255, 0.2)",
+    "description": "Used as the default background color for surfaces (modals, cards, low-priority buttons, etc...)",
+    "type": "color"
+  },
+  "color-on-surface-fill": {
+    "value": "rgba(255, 255, 255, 1)",
+    "description": "Used as the text color associated with `background: var(--tfl-color-surface-fill)`",
+    "type": "color"
+  },
+  "color-surface-fill-hovered": {
+    "value": "rgba(255, 255, 255, 0.15)",
+    "description": "Used as the hovered-state background color for surfaces (modals, cards, low-priority buttons, etc...)",
+    "type": "color"
+  },
+  "color-on-surface-fill-hovered": {
+    "value": "rgba(255, 255, 255, 1)",
+    "description": "Used as the text color associated with `background: var(--tfl-color-surface-fill-hovered)`",
+    "type": "color"
+  },
+  "color-surface-fill-pressed": {
+    "value": "rgba(255, 255, 255, 0.17)",
+    "description": "Used as the pressed-state background color for surfaces (modals, cards, low-priority buttons, etc...)",
+    "type": "color"
+  },
+  "color-on-surface-fill-pressed": {
+    "value": "rgba(255, 255, 255, 1)",
+    "description": "Used as the text color associated with `background: var(--tfl-color-surface-fill-pressed)`",
+    "type": "color"
+  },
+  "color-surface-fill-disabled": {
+    "value": "rgba(255, 255, 255, 0.1)",
+    "description": "Used as the disabled-state background color for surfaces (modals, cards, low-priority buttons, etc...)",
+    "type": "color"
+  },
+  "color-on-surface-fill-disabled": {
+    "value": "rgba(255, 255, 255, 1)",
+    "description": "Used as the text color associated with `background: var(--tfl-color-surface-fill-disabled)`",
+    "type": "color"
+  },
+  "color-surface-border": {
+    "value": "rgba(255, 255, 255, 0.2)",
+    "description": "Used as the default border color for surfaces (modals, cards, low-priority buttons, etc...)",
+    "type": "color"
+  },
+  "color-surface-border-selected": {
+    "value": "var(--tfl-color-primary-border)",
+    "description": "Used as the selected-state border color for surfaces (modals, cards, low-priority buttons, etc...)",
+    "type": "color"
+  },
+  "color-critical-border": {
+    "value": "rgba(251, 122, 122, 1)",
+    "description": "Used as the default border color for errors / critical messages",
+    "type": "color"
+  },
+  "color-critical-text": {
+    "value": "rgba(251, 122, 122, 1)",
+    "description": "Used as the default text color for errors / critical messages",
+    "type": "color"
+  },"cursor-auto": {
+    "value": "auto",
+    "type": "cursor"
+  },
+  "cursor-default": {
+    "value": "default",
+    "type": "cursor"
+  },
+  "cursor-disabled": {
+    "value": "disabled",
+    "type": "cursor"
+  },
+  "cursor-none": {
+    "value": "none",
+    "type": "cursor"
+  },
+  "cursor-context-menu": {
+    "value": "context-menu",
+    "type": "cursor"
+  },
+  "cursor-help": {
+    "value": "help",
+    "type": "cursor"
+  },
+  "cursor-pointer": {
+    "value": "pointer",
+    "type": "cursor"
+  },
+  "cursor-progress": {
+    "value": "progress",
+    "type": "cursor"
+  },
+  "cursor-wait": {
+    "value": "wait",
+    "type": "cursor"
+  },
+  "cursor-cell": {
+    "value": "cell",
+    "type": "cursor"
+  },
+  "cursor-crosshair": {
+    "value": "crosshair",
+    "type": "cursor"
+  },
+  "cursor-text": {
+    "value": "text",
+    "type": "cursor"
+  },
+  "cursor-vertical-text": {
+    "value": "vertical-text",
+    "type": "cursor"
+  },
+  "cursor-alias": {
+    "value": "alias",
+    "type": "cursor"
+  },
+  "cursor-copy": {
+    "value": "copy",
+    "type": "cursor"
+  },
+  "cursor-move": {
+    "value": "move",
+    "type": "cursor"
+  },
+  "cursor-no-drop": {
+    "value": "no-drop",
+    "type": "cursor"
+  },
+  "cursor-not-allowed": {
+    "value": "not-allowed",
+    "type": "cursor"
+  },
+  "cursor-grab": {
+    "value": "grab",
+    "type": "cursor"
+  },
+  "cursor-grabbing": {
+    "value": "grabbing",
+    "type": "cursor"
+  },
+  "cursor-all-scroll": {
+    "value": "all-scroll",
+    "type": "cursor"
+  },
+  "cursor-col-resize": {
+    "value": "col-resize",
+    "type": "cursor"
+  },
+  "cursor-row-resize": {
+    "value": "row-resize",
+    "type": "cursor"
+  },
+  "cursor-n-resize": {
+    "value": "n-resize",
+    "type": "cursor"
+  },
+  "cursor-e-resize": {
+    "value": "e-resize",
+    "type": "cursor"
+  },
+  "cursor-s-resize": {
+    "value": "s-resize",
+    "type": "cursor"
+  },
+  "cursor-w-resize": {
+    "value": "w-resize",
+    "type": "cursor"
+  },
+  "cursor-ne-resize": {
+    "value": "ne-resize",
+    "type": "cursor"
+  },
+  "cursor-nw-resize": {
+    "value": "nw-resize",
+    "type": "cursor"
+  },
+  "cursor-se-resize": {
+    "value": "se-resize",
+    "type": "cursor"
+  },
+  "cursor-sw-resize": {
+    "value": "sw-resize",
+    "type": "cursor"
+  },
+  "cursor-ew-resize": {
+    "value": "ew-resize",
+    "type": "cursor"
+  },
+  "cursor-ns-resize": {
+    "value": "ns-resize",
+    "type": "cursor"
+  },
+  "cursor-nesw-resize": {
+    "value": "nesw-resize",
+    "type": "cursor"
+  },
+  "cursor-nwse-resize": {
+    "value": "nwse-resize",
+    "type": "cursor"
+  },
+  "cursor-zoom-in": {
+    "value": "zoom-in",
+    "type": "cursor"
+  },
+  "cursor-zoom-out": {
+    "value": "zoom-out",
+    "type": "cursor"
+  },"font-family-body-mono": {
+    "value": "ui-monospace, monospace",
+    "type": "font"
+  },
+  "font-family-body-sans": {
+    "value": "Poppins, 'Helvetica Neue', sans-serif",
+    "type": "font"
+  },
+  "font-family-heading-mono": {
+    "value": "ui-monospace, monospace",
+    "type": "font"
+  },
+  "font-family-heading-sans": {
+    "value": "Poppins, 'Helvetica Neue', sans-serif",
+    "type": "font"
+  },
+  "font-size-body-2xl": {
+    "value": "20px",
+    "type": "font"
+  },
+  "font-size-body-xl": {
+    "value": "18px",
+    "type": "font"
+  },
+  "font-size-body-lg": {
+    "value": "16px",
+    "type": "font"
+  },
+  "font-size-body-md": {
+    "value": "14px",
+    "type": "font"
+  },
+  "font-size-body-sm": {
+    "value": "13px",
+    "type": "font"
+  },
+  "font-size-body-xs": {
+    "value": "12px",
+    "type": "font"
+  },
+  "font-size-body-2xs": {
+    "value": "10px",
+    "type": "font"
+  },
+  "font-size-heading-2xl": {
+    "value": "64px",
+    "type": "font"
+  },
+  "font-size-heading-xl": {
+    "value": "48px",
+    "type": "font"
+  },
+  "font-size-heading-lg": {
+    "value": "36px",
+    "type": "font"
+  },
+  "font-size-heading-md": {
+    "value": "24px",
+    "type": "font"
+  },
+  "font-size-heading-sm": {
+    "value": "20px",
+    "type": "font"
+  },
+  "font-size-heading-xs": {
+    "value": "18px",
+    "type": "font"
+  },
+  "font-size-heading-2xs": {
+    "value": "16px",
+    "type": "font"
+  },
+  "font-weight-body-regular": {
+    "value": "400",
+    "type": "font"
+  },
+  "font-weight-body-medium": {
+    "value": "500",
+    "type": "font"
+  },
+  "font-weight-body-semibold": {
+    "value": "600",
+    "type": "font"
+  },
+  "font-weight-body-bold": {
+    "value": "700",
+    "type": "font"
+  },
+  "font-weight-heading-regular": {
+    "value": "400",
+    "type": "font"
+  },
+  "font-weight-heading-medium": {
+    "value": "500",
+    "type": "font"
+  },
+  "font-weight-heading-semibold": {
+    "value": "600",
+    "type": "font"
+  },
+  "font-weight-heading-bold": {
+    "value": "700",
+    "type": "font"
+  },"motion-duration-0": {
+    "value": "0ms",
+    "type": "motion"
+  },
+  "motion-duration-50": {
+    "value": "50ms",
+    "type": "motion"
+  },
+  "motion-duration-100": {
+    "value": "100ms",
+    "type": "motion"
+  },
+  "motion-duration-150": {
+    "value": "150ms",
+    "type": "motion"
+  },
+  "motion-duration-200": {
+    "value": "200ms",
+    "type": "motion"
+  },
+  "motion-duration-250": {
+    "value": "250ms",
+    "type": "motion"
+  },
+  "motion-duration-300": {
+    "value": "300ms",
+    "type": "motion"
+  },
+  "motion-duration-350": {
+    "value": "350ms",
+    "type": "motion"
+  },
+  "motion-duration-400": {
+    "value": "400ms",
+    "type": "motion"
+  },
+  "motion-duration-450": {
+    "value": "450ms",
+    "type": "motion"
+  },
+  "motion-duration-500": {
+    "value": "500ms",
+    "type": "motion"
+  },
+  "motion-ease": {
+    "value": "ease",
+    "type": "motion"
+  },
+  "motion-ease-in": {
+    "value": "ease-in",
+    "type": "motion"
+  },
+  "motion-ease-in-out": {
+    "value": "ease-in-out",
+    "type": "motion"
+  },
+  "motion-ease-out": {
+    "value": "ease-out",
+    "type": "motion"
+  },
+  "motion-linear": {
+    "value": "linear",
+    "type": "motion"
+  },
+  "motion-step-end": {
+    "value": "step-send",
+    "type": "motion"
+  },
+  "motion-step-start": {
+    "value": "step-start",
+    "type": "motion"
+  },"opacity-0": {
+    "value": "0",
+    "type": "opacity"
+  },
+  "opacity-10": {
+    "value": "10",
+    "type": "opacity"
+  },
+  "opacity-20": {
+    "value": "20",
+    "type": "opacity"
+  },
+  "opacity-30": {
+    "value": "30",
+    "type": "opacity"
+  },
+  "opacity-40": {
+    "value": "40",
+    "type": "opacity"
+  },
+  "opacity-50": {
+    "value": "50",
+    "type": "opacity"
+  },
+  "opacity-60": {
+    "value": "60",
+    "type": "opacity"
+  },
+  "opacity-70": {
+    "value": "70",
+    "type": "opacity"
+  },
+  "opacity-80": {
+    "value": "80",
+    "type": "opacity"
+  },
+  "opacity-90": {
+    "value": "90",
+    "type": "opacity"
+  },
+  "opacity-100": {
+    "value": "100",
+    "type": "opacity"
+  },"shadow-1": {
+    "value": "0 1px 4px 0 rgba(0, 0, 0, 0.1)",
+    "type": "shadow"
+  },
+  "shadow-2": {
+    "value": "0 4px 8px 0 rgba(0, 0, 0, 0.1)",
+    "type": "shadow"
+  },
+  "shadow-3": {
+    "value": "0 8px 16px 0 rgba(0, 0, 0, 0.1)",
+    "type": "shadow"
+  },
+  "shadow-4": {
+    "value": "0 12px 24px 0 rgba(0, 0, 0, 0.1)",
+    "type": "shadow"
+  },"spacing-4xs": {
+    "value": "1px",
+    "type": "spacing"
+  },
+  "spacing-3xs": {
+    "value": "2px",
+    "type": "spacing"
+  },
+  "spacing-2xs": {
+    "value": "4px",
+    "type": "spacing"
+  },
+  "spacing-xs": {
+    "value": "8px",
+    "type": "spacing"
+  },
+  "spacing-sm": {
+    "value": "12px",
+    "type": "spacing"
+  },
+  "spacing-md": {
+    "value": "16px",
+    "type": "spacing"
+  },
+  "spacing-lg": {
+    "value": "20px",
+    "type": "spacing"
+  },
+  "spacing-xl": {
+    "value": "24px",
+    "type": "spacing"
+  },
+  "spacing-2xl": {
+    "value": "32px",
+    "type": "spacing"
+  },
+  "spacing-3xl": {
+    "value": "40px",
+    "type": "spacing"
+  },
+  "spacing-4xl": {
+    "value": "48px",
+    "type": "spacing"
+  },
+  "spacing-5xl": {
+    "value": "64px",
+    "type": "spacing"
+  },
+  "spacing-layout-2xs": {
+    "value": "16px",
+    "type": "spacing"
+  },
+  "spacing-layout-xs": {
+    "value": "24px",
+    "type": "spacing"
+  },
+  "spacing-layout-sm": {
+    "value": "32px",
+    "type": "spacing"
+  },
+  "spacing-layout-md": {
+    "value": "48px",
+    "type": "spacing"
+  },
+  "spacing-layout-lg": {
+    "value": "64px",
+    "type": "spacing"
+  },
+  "spacing-layout-xl": {
+    "value": "96px",
+    "type": "spacing"
+  },
+  "spacing-layout-2xl": {
+    "value": "128px",
+    "type": "spacing"
+  },"z-top": {
+    "value": "99999",
+    "type": "z-index"
+  },
+  "z-500": {
+    "value": "500",
+    "type": "z-index"
+  },
+  "z-400": {
+    "value": "400",
+    "type": "z-index"
+  },
+  "z-300": {
+    "value": "300",
+    "type": "z-index"
+  },
+  "z-200": {
+    "value": "200",
+    "type": "z-index"
+  },
+  "z-100": {
+    "value": "100",
+    "type": "z-index"
+  },
+  "z-bottom": {
+    "value": "-100",
+    "type": "z-index"
+  }
+}
