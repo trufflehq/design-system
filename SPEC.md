@@ -23,6 +23,8 @@ If subject-type is `fill`, a matching `on-` state must be specified.
 Potential spec changes we could consider:
 - `color-((<text-state>-)?<text-subject-type>-)?on-)?<color-variant><subject-type>(-<state>)?`
   - if we need different colors for text or icons/links on top of a certain color
+- we may want to be able to have multiple non-state variations of a color. eg bg-1 #000, bg-2 #111, bg-3 #222
+  - could either have an additional color-variant/subject-type/state. unsure which is best
 
 https://www.shadegenerator.com is a nifty tool for choosing alternate states (eg hovered)
 
