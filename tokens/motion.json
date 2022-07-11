@@ -1,56 +1,74 @@
 {
   "motion-duration-0": {
-    "value": "0ms"
+    "value": "0ms",
+    "type": "other"
   },
   "motion-duration-50": {
-    "value": "50ms"
+    "value": "50ms",
+    "type": "other"
   },
   "motion-duration-100": {
-    "value": "100ms"
+    "value": "100ms",
+    "type": "other"
   },
   "motion-duration-150": {
-    "value": "150ms"
+    "value": "150ms",
+    "type": "other"
   },
   "motion-duration-200": {
-    "value": "200ms"
+    "value": "200ms",
+    "type": "other"
   },
   "motion-duration-250": {
-    "value": "250ms"
+    "value": "250ms",
+    "type": "other"
   },
   "motion-duration-300": {
-    "value": "300ms"
+    "value": "300ms",
+    "type": "other"
   },
   "motion-duration-350": {
-    "value": "350ms"
+    "value": "350ms",
+    "type": "other"
   },
   "motion-duration-400": {
-    "value": "400ms"
+    "value": "400ms",
+    "type": "other"
   },
   "motion-duration-450": {
-    "value": "450ms"
+    "value": "450ms",
+    "type": "other"
   },
   "motion-duration-500": {
-    "value": "500ms"
+    "value": "500ms",
+    "type": "other"
   },
   "motion-ease": {
-    "value": "ease"
+    "value": "ease",
+    "type": "other"
   },
   "motion-ease-in": {
-    "value": "ease-in"
+    "value": "ease-in",
+    "type": "other"
   },
   "motion-ease-in-out": {
-    "value": "ease-in-out"
+    "value": "ease-in-out",
+    "type": "other"
   },
   "motion-ease-out": {
-    "value": "ease-out"
+    "value": "ease-out",
+    "type": "other"
   },
   "motion-linear": {
-    "value": "linear"
+    "value": "linear",
+    "type": "other"
   },
   "motion-step-end": {
-    "value": "step-send"
+    "value": "step-send",
+    "type": "other"
   },
   "motion-step-start": {
-    "value": "step-start"
+    "value": "step-start",
+    "type": "other"
   }
 }

@@ -1,23 +1,30 @@
 {
   "z-top": {
-    "value": "99999"
+    "value": "99999",
+    "type": "other"
   },
   "z-500": {
-    "value": "500"
+    "value": "500",
+    "type": "other"
   },
   "z-400": {
-    "value": "400"
+    "value": "400",
+    "type": "other"
   },
   "z-300": {
-    "value": "300"
+    "value": "300",
+    "type": "other"
   },
   "z-200": {
-    "value": "200"
+    "value": "200",
+    "type": "other"
   },
   "z-100": {
-    "value": "100"
+    "value": "100",
+    "type": "other"
   },
   "z-bottom": {
-    "value": "-100"
+    "value": "-100",
+    "type": "other"
   }
 }

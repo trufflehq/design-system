@@ -1,113 +1,150 @@
 {
   "cursor-auto": {
-    "value": "auto"
+    "value": "auto",
+    "type": "other"
   },
   "cursor-default": {
-    "value": "default"
+    "value": "default",
+    "type": "other"
   },
   "cursor-disabled": {
-    "value": "disabled"
+    "value": "disabled",
+    "type": "other"
   },
   "cursor-none": {
-    "value": "none"
+    "value": "none",
+    "type": "other"
   },
   "cursor-context-menu": {
-    "value": "context-menu"
+    "value": "context-menu",
+    "type": "other"
   },
   "cursor-help": {
-    "value": "help"
+    "value": "help",
+    "type": "other"
   },
   "cursor-pointer": {
-    "value": "pointer"
+    "value": "pointer",
+    "type": "other"
   },
   "cursor-progress": {
-    "value": "progress"
+    "value": "progress",
+    "type": "other"
   },
   "cursor-wait": {
-    "value": "wait"
+    "value": "wait",
+    "type": "other"
   },
   "cursor-cell": {
-    "value": "cell"
+    "value": "cell",
+    "type": "other"
   },
   "cursor-crosshair": {
-    "value": "crosshair"
+    "value": "crosshair",
+    "type": "other"
   },
   "cursor-text": {
-    "value": "text"
+    "value": "text",
+    "type": "other"
   },
   "cursor-vertical-text": {
-    "value": "vertical-text"
+    "value": "vertical-text",
+    "type": "other"
   },
   "cursor-alias": {
-    "value": "alias"
+    "value": "alias",
+    "type": "other"
   },
   "cursor-copy": {
-    "value": "copy"
+    "value": "copy",
+    "type": "other"
   },
   "cursor-move": {
-    "value": "move"
+    "value": "move",
+    "type": "other"
   },
   "cursor-no-drop": {
-    "value": "no-drop"
+    "value": "no-drop",
+    "type": "other"
   },
   "cursor-not-allowed": {
-    "value": "not-allowed"
+    "value": "not-allowed",
+    "type": "other"
   },
   "cursor-grab": {
-    "value": "grab"
+    "value": "grab",
+    "type": "other"
   },
   "cursor-grabbing": {
-    "value": "grabbing"
+    "value": "grabbing",
+    "type": "other"
   },
   "cursor-all-scroll": {
-    "value": "all-scroll"
+    "value": "all-scroll",
+    "type": "other"
   },
   "cursor-col-resize": {
-    "value": "col-resize"
+    "value": "col-resize",
+    "type": "other"
   },
   "cursor-row-resize": {
-    "value": "row-resize"
+    "value": "row-resize",
+    "type": "other"
   },
   "cursor-n-resize": {
-    "value": "n-resize"
+    "value": "n-resize",
+    "type": "other"
   },
   "cursor-e-resize": {
-    "value": "e-resize"
+    "value": "e-resize",
+    "type": "other"
   },
   "cursor-s-resize": {
-    "value": "s-resize"
+    "value": "s-resize",
+    "type": "other"
   },
   "cursor-w-resize": {
-    "value": "w-resize"
+    "value": "w-resize",
+    "type": "other"
   },
   "cursor-ne-resize": {
-    "value": "ne-resize"
+    "value": "ne-resize",
+    "type": "other"
   },
   "cursor-nw-resize": {
-    "value": "nw-resize"
+    "value": "nw-resize",
+    "type": "other"
   },
   "cursor-se-resize": {
-    "value": "se-resize"
+    "value": "se-resize",
+    "type": "other"
   },
   "cursor-sw-resize": {
-    "value": "sw-resize"
+    "value": "sw-resize",
+    "type": "other"
   },
   "cursor-ew-resize": {
-    "value": "ew-resize"
+    "value": "ew-resize",
+    "type": "other"
   },
   "cursor-ns-resize": {
-    "value": "ns-resize"
+    "value": "ns-resize",
+    "type": "other"
   },
   "cursor-nesw-resize": {
-    "value": "nesw-resize"
+    "value": "nesw-resize",
+    "type": "other"
   },
   "cursor-nwse-resize": {
-    "value": "nwse-resize"
+    "value": "nwse-resize",
+    "type": "other"
   },
   "cursor-zoom-in": {
-    "value": "zoom-in"
+    "value": "zoom-in",
+    "type": "other"
   },
   "cursor-zoom-out": {
-    "value": "zoom-out"
+    "value": "zoom-out",
+    "type": "other"
   }
 }

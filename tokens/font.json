@@ -1,80 +1,106 @@
 {
   "font-family-body-mono": {
-    "value": "ui-monospace, monospace"
+    "value": "ui-monospace, monospace",
+    "type": "other"
   },
   "font-family-body-sans": {
-    "value": "Poppins, 'Helvetica Neue', sans-serif"
+    "value": "Poppins, 'Helvetica Neue', sans-serif",
+    "type": "other"
   },
   "font-family-heading-mono": {
-    "value": "ui-monospace, monospace"
+    "value": "ui-monospace, monospace",
+    "type": "other"
   },
   "font-family-heading-sans": {
-    "value": "Poppins, 'Helvetica Neue', sans-serif"
+    "value": "Poppins, 'Helvetica Neue', sans-serif",
+    "type": "other"
   },
   "font-size-body-2xl": {
-    "value": "20px"
+    "value": "20px",
+    "type": "other"
   },
   "font-size-body-xl": {
-    "value": "18px"
+    "value": "18px",
+    "type": "other"
   },
   "font-size-body-lg": {
-    "value": "16px"
+    "value": "16px",
+    "type": "other"
   },
   "font-size-body-md": {
-    "value": "14px"
+    "value": "14px",
+    "type": "other"
   },
   "font-size-body-sm": {
-    "value": "13px"
+    "value": "13px",
+    "type": "other"
   },
   "font-size-body-xs": {
-    "value": "12px"
+    "value": "12px",
+    "type": "other"
   },
   "font-size-body-2xs": {
-    "value": "10px"
+    "value": "10px",
+    "type": "other"
   },
   "font-size-heading-2xl": {
-    "value": "64px"
+    "value": "64px",
+    "type": "other"
   },
   "font-size-heading-xl": {
-    "value": "48px"
+    "value": "48px",
+    "type": "other"
   },
   "font-size-heading-lg": {
-    "value": "36px"
+    "value": "36px",
+    "type": "other"
   },
   "font-size-heading-md": {
-    "value": "24px"
+    "value": "24px",
+    "type": "other"
   },
   "font-size-heading-sm": {
-    "value": "20px"
+    "value": "20px",
+    "type": "other"
   },
   "font-size-heading-xs": {
-    "value": "18px"
+    "value": "18px",
+    "type": "other"
   },
   "font-size-heading-2xs": {
-    "value": "16px"
+    "value": "16px",
+    "type": "other"
   },
   "font-weight-body-regular": {
-    "value": "400"
+    "value": "400",
+    "type": "other"
   },
   "font-weight-body-medium": {
-    "value": "500"
+    "value": "500",
+    "type": "other"
   },
   "font-weight-body-semibold": {
-    "value": "600"
+    "value": "600",
+    "type": "other"
   },
   "font-weight-body-bold": {
-    "value": "700"
+    "value": "700",
+    "type": "other"
   },
   "font-weight-heading-regular": {
-    "value": "400"
+    "value": "400",
+    "type": "other"
   },
   "font-weight-heading-medium": {
-    "value": "500"
+    "value": "500",
+    "type": "other"
   },
   "font-weight-heading-semibold": {
-    "value": "600"
+    "value": "600",
+    "type": "other"
   },
   "font-weight-heading-bold": {
-    "value": "700"
+    "value": "700",
+    "type": "other"
   }
 }

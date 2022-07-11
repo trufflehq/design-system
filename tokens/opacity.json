@@ -1,35 +1,46 @@
 {
   "opacity-0": {
-    "value": "0"
+    "value": "0",
+    "type": "other"
   },
   "opacity-10": {
-    "value": "10"
+    "value": "10",
+    "type": "other"
   },
   "opacity-20": {
-    "value": "20"
+    "value": "20",
+    "type": "other"
   },
   "opacity-30": {
-    "value": "30"
+    "value": "30",
+    "type": "other"
   },
   "opacity-40": {
-    "value": "40"
+    "value": "40",
+    "type": "other"
   },
   "opacity-50": {
-    "value": "50"
+    "value": "50",
+    "type": "other"
   },
   "opacity-60": {
-    "value": "60"
+    "value": "60",
+    "type": "other"
   },
   "opacity-70": {
-    "value": "70"
+    "value": "70",
+    "type": "other"
   },
   "opacity-80": {
-    "value": "80"
+    "value": "80",
+    "type": "other"
   },
   "opacity-90": {
-    "value": "90"
+    "value": "90",
+    "type": "other"
   },
   "opacity-100": {
-    "value": "100"
+    "value": "100",
+    "type": "other"
   }
 }
