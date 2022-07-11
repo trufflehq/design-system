@@ -5,43 +5,43 @@
   },
   "border-radius-sm": {
     "value": "2px",
-    "type": "Border"
+    "type": "borderRadius"
   },
   "border-radius-md": {
     "value": "4px",
-    "type": "Border"
+    "type": "borderRadius"
   },
   "border-radius-lg": {
     "value": "8px",
-    "type": "Border"
+    "type": "borderRadius"
   },
   "border-radius-xl": {
     "value": "12px",
-    "type": "Border"
+    "type": "borderRadius"
   },
   "border-radius-2xl": {
     "value": "16px",
-    "type": "Border"
+    "type": "borderRadius"
   },
   "border-radius-3xl": {
     "value": "20px",
-    "type": "Border"
+    "type": "borderRadius"
   },
   "border-radius-round": {
     "value": "50%",
-    "type": "Border"
+    "type": "borderRadius"
   },
   "border-width-sm": {
     "value": "1px",
-    "type": "Border"
+    "type": "borderWidth"
   },
   "border-width-md": {
     "value": "2px",
-    "type": "Border"
+    "type": "borderWidth"
   },
   "border-width-lg": {
     "value": "4px",
-    "type": "Border"
+    "type": "borderWidth"
   },
   "breakpoint-xs": {
     "value": "320px",
@@ -71,212 +71,212 @@
   "color-bg-fill": {
     "value": "rgba(0, 0, 0, 1)",
     "description": "Used as the page background color",
-    "type": "Color"
+    "type": "color"
   },
   "color-on-bg-fill": {
     "value": "rgba(255, 255, 255, 1)",
     "description": "Used as the text color associated with `background: var(--tfl-color-bg)`",
-    "type": "Color"
+    "type": "color"
   },
   "color-bg-fill-hovered": {
     "value": "rgba(20, 20, 20, 1)",
     "description": "Used as hovered-state background-color for elements with same background color as page",
-    "type": "Color"
+    "type": "color"
   },
   "color-on-bg-fill-hovered": {
     "value": "rgba(255, 255, 255, 1)",
     "description": "Used as the text color associated with `background: var(--tfl-color-bg-fill-hovered)`",
-    "type": "Color"
+    "type": "color"
   },
   "color-bg-fill-selected": {
     "value": "rgba(30, 30, 30, 1)",
     "description": "Used as selected-state background-color for elements with same background color as page",
-    "type": "Color"
+    "type": "color"
   },
   "color-on-bg-fill-selected": {
     "value": "rgba(30, 30, 30, 1)",
     "description": "Used as the text color associated with `background: var(--tfl-color-bg-fill-selected)`",
-    "type": "Color"
+    "type": "color"
   },
   "color-bg-fill-backdrop": {
     "value": "rgba(0, 0, 0, 0.4)",
     "description": "Used as the backdrop (in dialogs) color for page background",
-    "type": "Color"
+    "type": "color"
   },
   "color-on-bg-fill-backdrop": {
     "value": "rgba(255, 255, 255, 1)",
     "description": "Used as the text color associated with `background: var(--tfl-color-bg-fill-backdrop)`",
-    "type": "Color"
+    "type": "color"
   },
   "color-primary-fill": {
     "value": "rgba(250, 108, 175, 1)",
     "description": "Used as the default background color for primary actions (eg buttons)",
-    "type": "Color"
+    "type": "color"
   },
   "color-on-primary-fill": {
     "value": "rgba(255, 255, 255, 1)",
     "description": "Used as the text color associated with `background: var(--tfl-color-primary-fill)`",
-    "type": "Color"
+    "type": "color"
   },
   "color-primary-fill-hovered": {
     "value": "rgba(251, 123, 183, 1)",
     "description": "Used as the hovered-state background color for primary actions (eg buttons)",
-    "type": "Color"
+    "type": "color"
   },
   "color-on-primary-fill-hovered": {
     "value": "rgba(255, 255, 255, 1)",
     "description": "Used as the text color associated with `background: var(--tfl-color-primary-fill-hovered)`",
-    "type": "Color"
+    "type": "color"
   },
   "color-primary-fill-pressed": {
     "value": "rgba(251, 130, 187, 1)",
     "description": "Used as the pressed-state background color for primary actions (eg buttons)",
-    "type": "Color"
+    "type": "color"
   },
   "color-on-primary-fill-pressed": {
     "value": "rgba(255, 255, 255, 1)",
     "description": "Used as the text color associated with `background: var(--tfl-color-primary-fill-pressed)`",
-    "type": "Color"
+    "type": "color"
   },
   "color-primary-fill-disabled": {
     "value": "rgba(150, 65, 105, 1)",
     "description": "Used as the disabled-state background color for primary actions (eg buttons)",
-    "type": "Color"
+    "type": "color"
   },
   "color-on-primary-fill-disabled": {
     "value": "rgba(255, 255, 255, 1)",
     "description": "Used as the text color associated with `background: var(--tfl-color-primary-fill-disabled)`",
-    "type": "Color"
+    "type": "color"
   },
   "color-primary-border": {
     "value": "rgba(250, 108, 175, 1)",
     "description": "Used as the default border color for primary actions (eg buttons)",
-    "type": "Color"
+    "type": "color"
   },
   "color-primary-text": {
     "value": "rgba(250, 108, 175, 1)",
     "description": "Used as the default text color for primary text",
-    "type": "Color"
+    "type": "color"
   },
   "color-secondary-fill": {
     "value": "rgba(250, 108, 175, 1)",
     "description": "Used as the default background color for secondary actions (eg buttons)",
-    "type": "Color"
+    "type": "color"
   },
   "color-on-secondary-fill": {
     "value": "rgba(255, 255, 255, 1)",
     "description": "Used as the text color associated with `background: var(--tfl-color-secondary-fill)`",
-    "type": "Color"
+    "type": "color"
   },
   "color-secondary-fill-hovered": {
     "value": "rgba(251, 123, 183, 1)",
     "description": "Used as the hovered-state background color for secondary actions (eg buttons)",
-    "type": "Color"
+    "type": "color"
   },
   "color-on-secondary-fill-hovered": {
     "value": "rgba(255, 255, 255, 1)",
     "description": "Used as the text color associated with `background: var(--tfl-color-secondary-fill-hovered)`",
-    "type": "Color"
+    "type": "color"
   },
   "color-secondary-fill-pressed": {
     "value": "rgba(251, 130, 187, 1)",
     "description": "Used as the pressed-state background color for secondary actions (eg buttons)",
-    "type": "Color"
+    "type": "color"
   },
   "color-on-secondary-fill-pressed": {
     "value": "rgba(255, 255, 255, 1)",
     "description": "Used as the text color associated with `background: var(--tfl-color-secondary-fill-pressed)`",
-    "type": "Color"
+    "type": "color"
   },
   "color-secondary-fill-disabled": {
     "value": "rgba(150, 65, 105, 1)",
     "description": "Used as the disabled-state background color for secondary actions (eg buttons)",
-    "type": "Color"
+    "type": "color"
   },
   "color-on-secondary-fill-disabled": {
     "value": "rgba(255, 255, 255, 1)",
     "description": "Used as the text color associated with `background: var(--tfl-color-secondary-fill-disabled)`",
-    "type": "Color"
+    "type": "color"
   },
   "color-secondary-border": {
     "value": "rgba(250, 108, 175, 1)",
     "description": "Used as the default border color for secondary actions (eg buttons)",
-    "type": "Color"
+    "type": "color"
   },
   "color-secondary-text": {
     "value": "rgba(250, 108, 175, 1)",
     "description": "Used as the default text color for secondary text",
-    "type": "Color"
+    "type": "color"
   },
   "color-dialog-fill": {
     "value": "rgba(30, 30, 30, 1)",
     "description": "Used as the default background color for dialogs and/or anything that overlays color content",
-    "type": "Color"
+    "type": "color"
   },
   "color-on-dialog-fill": {
     "value": "rgba(255, 255, 255, 1)",
     "description": "Used as the text color associated with `background: var(--tfl-color-dialog-fill)`",
-    "type": "Color"
+    "type": "color"
   },
   "color-surface-fill": {
     "value": "rgba(255, 255, 255, 0.2)",
     "description": "Used as the default background color for surfaces (modals, cards, low-priority buttons, etc...)",
-    "type": "Color"
+    "type": "color"
   },
   "color-on-surface-fill": {
     "value": "rgba(255, 255, 255, 1)",
     "description": "Used as the text color associated with `background: var(--tfl-color-surface-fill)`",
-    "type": "Color"
+    "type": "color"
   },
   "color-surface-fill-hovered": {
     "value": "rgba(255, 255, 255, 0.15)",
     "description": "Used as the hovered-state background color for surfaces (modals, cards, low-priority buttons, etc...)",
-    "type": "Color"
+    "type": "color"
   },
   "color-on-surface-fill-hovered": {
     "value": "rgba(255, 255, 255, 1)",
     "description": "Used as the text color associated with `background: var(--tfl-color-surface-fill-hovered)`",
-    "type": "Color"
+    "type": "color"
   },
   "color-surface-fill-pressed": {
     "value": "rgba(255, 255, 255, 0.17)",
     "description": "Used as the pressed-state background color for surfaces (modals, cards, low-priority buttons, etc...)",
-    "type": "Color"
+    "type": "color"
   },
   "color-on-surface-fill-pressed": {
     "value": "rgba(255, 255, 255, 1)",
     "description": "Used as the text color associated with `background: var(--tfl-color-surface-fill-pressed)`",
-    "type": "Color"
+    "type": "color"
   },
   "color-surface-fill-disabled": {
     "value": "rgba(255, 255, 255, 0.1)",
     "description": "Used as the disabled-state background color for surfaces (modals, cards, low-priority buttons, etc...)",
-    "type": "Color"
+    "type": "color"
   },
   "color-on-surface-fill-disabled": {
     "value": "rgba(255, 255, 255, 1)",
     "description": "Used as the text color associated with `background: var(--tfl-color-surface-fill-disabled)`",
-    "type": "Color"
+    "type": "color"
   },
   "color-surface-border": {
     "value": "rgba(255, 255, 255, 0.2)",
     "description": "Used as the default border color for surfaces (modals, cards, low-priority buttons, etc...)",
-    "type": "Color"
+    "type": "color"
   },
   "color-surface-border-selected": {
     "value": "var(--tfl-color-primary-border)",
     "description": "Used as the selected-state border color for surfaces (modals, cards, low-priority buttons, etc...)",
-    "type": "Color"
+    "type": "color"
   },
   "color-critical-border": {
     "value": "rgba(251, 122, 122, 1)",
     "description": "Used as the default border color for errors / critical messages",
-    "type": "Color"
+    "type": "color"
   },
   "color-critical-text": {
     "value": "rgba(251, 122, 122, 1)",
     "description": "Used as the default text color for errors / critical messages",
-    "type": "Color"
+    "type": "color"
   },
   "cursor-auto": {
     "value": "auto",
@@ -428,107 +428,107 @@
   },
   "font-family-body-mono": {
     "value": "ui-monospace, monospace",
-    "type": "Font Family"
+    "type": "fontFamilies"
   },
   "font-family-body-sans": {
     "value": "Poppins, 'Helvetica Neue', sans-serif",
-    "type": "Font Family"
+    "type": "fontFamilies"
   },
   "font-family-heading-mono": {
     "value": "ui-monospace, monospace",
-    "type": "Font Family"
+    "type": "fontFamilies"
   },
   "font-family-heading-sans": {
     "value": "Poppins, 'Helvetica Neue', sans-serif",
-    "type": "Font Family"
+    "type": "fontFamilies"
   },
   "font-size-body-2xl": {
     "value": "20px",
-    "type": "Font Size"
+    "type": "fontSizes"
   },
   "font-size-body-xl": {
     "value": "18px",
-    "type": "Font Size"
+    "type": "fontSizes"
   },
   "font-size-body-lg": {
     "value": "16px",
-    "type": "Font Size"
+    "type": "fontSizes"
   },
   "font-size-body-md": {
     "value": "14px",
-    "type": "Font Size"
+    "type": "fontSizes"
   },
   "font-size-body-sm": {
     "value": "13px",
-    "type": "Font Size"
+    "type": "fontSizes"
   },
   "font-size-body-xs": {
     "value": "12px",
-    "type": "Font Size"
+    "type": "fontSizes"
   },
   "font-size-body-2xs": {
     "value": "10px",
-    "type": "Font Size"
+    "type": "fontSizes"
   },
   "font-size-heading-2xl": {
     "value": "64px",
-    "type": "Font Size"
+    "type": "fontSizes"
   },
   "font-size-heading-xl": {
     "value": "48px",
-    "type": "Font Size"
+    "type": "fontSizes"
   },
   "font-size-heading-lg": {
     "value": "36px",
-    "type": "Font Size"
+    "type": "fontSizes"
   },
   "font-size-heading-md": {
     "value": "24px",
-    "type": "Font Size"
+    "type": "fontSizes"
   },
   "font-size-heading-sm": {
     "value": "20px",
-    "type": "Font Size"
+    "type": "fontSizes"
   },
   "font-size-heading-xs": {
     "value": "18px",
-    "type": "Font Size"
+    "type": "fontSizes"
   },
   "font-size-heading-2xs": {
     "value": "16px",
-    "type": "Font Size"
+    "type": "fontSizes"
   },
   "font-weight-body-regular": {
     "value": "400",
-    "type": "Font Weight"
+    "type": "fontWeights"
   },
   "font-weight-body-medium": {
     "value": "500",
-    "type": "Font Weight"
+    "type": "fontWeights"
   },
   "font-weight-body-semibold": {
     "value": "600",
-    "type": "Font Weight"
+    "type": "fontWeights"
   },
   "font-weight-body-bold": {
     "value": "700",
-    "type": "Font Weight"
+    "type": "fontWeights"
   },
   "font-weight-heading-regular": {
     "value": "400",
-    "type": "Font Weight"
+    "type": "fontWeights"
   },
   "font-weight-heading-medium": {
     "value": "500",
-    "type": "Font Weight"
+    "type": "fontWeights"
   },
   "font-weight-heading-semibold": {
     "value": "600",
-    "type": "Font Weight"
+    "type": "fontWeights"
   },
   "font-weight-heading-bold": {
     "value": "700",
-    "type": "Font Weight"
+    "type": "fontWeights"
   },
   "motion-duration-0": {
     "value": "0ms",
@@ -604,63 +604,63 @@
   },
   "opacity-0": {
     "value": "0",
-    "type": "Opacity"
+    "type": "opacity"
   },
   "opacity-10": {
     "value": "10",
-    "type": "Opacity"
+    "type": "opacity"
   },
   "opacity-20": {
     "value": "20",
-    "type": "Opacity"
+    "type": "opacity"
   },
   "opacity-30": {
     "value": "30",
-    "type": "Opacity"
+    "type": "opacity"
   },
   "opacity-40": {
     "value": "40",
-    "type": "Opacity"
+    "type": "opacity"
   },
   "opacity-50": {
     "value": "50",
-    "type": "Opacity"
+    "type": "opacity"
   },
   "opacity-60": {
     "value": "60",
-    "type": "Opacity"
+    "type": "opacity"
   },
   "opacity-70": {
     "value": "70",
-    "type": "Opacity"
+    "type": "opacity"
   },
   "opacity-80": {
     "value": "80",
-    "type": "Opacity"
+    "type": "opacity"
   },
   "opacity-90": {
     "value": "90",
-    "type": "Opacity"
+    "type": "opacity"
   },
   "opacity-100": {
     "value": "100",
-    "type": "Opacity"
+    "type": "opacity"
   },
   "shadow-1": {
     "value": "0 1px 4px 0 rgba(0, 0, 0, 0.1)",
-    "type": "Shadow"
+    "type": "boxShadow"
   },
   "shadow-2": {
     "value": "0 4px 8px 0 rgba(0, 0, 0, 0.1)",
-    "type": "Shadow"
+    "type": "boxShadow"
   },
   "shadow-3": {
     "value": "0 8px 16px 0 rgba(0, 0, 0, 0.1)",
-    "type": "Shadow"
+    "type": "boxShadow"
   },
   "shadow-4": {
     "value": "0 12px 24px 0 rgba(0, 0, 0, 0.1)",
-    "type": "Shadow"
+    "type": "boxShadow"
   },
   "spacing-4xs": {
     "value": "1px",
