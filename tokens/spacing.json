@@ -1,82 +1,78 @@
 {
   "spacing-4xs": {
     "value": "1px",
-    "type": "other"
+    "type": "spacing"
   },
   "spacing-3xs": {
     "value": "2px",
-    "type": "other"
+    "type": "spacing"
   },
   "spacing-2xs": {
     "value": "4px",
-    "type": "other"
+    "type": "spacing"
   },
   "spacing-xs": {
     "value": "8px",
-    "type": "other"
+    "type": "spacing"
   },
   "spacing-sm": {
     "value": "12px",
-    "type": "other"
+    "type": "spacing"
   },
   "spacing-md": {
     "value": "16px",
-    "type": "other"
+    "type": "spacing"
   },
   "spacing-lg": {
     "value": "20px",
-    "type": "other"
+    "type": "spacing"
   },
   "spacing-xl": {
     "value": "24px",
-    "type": "other"
+    "type": "spacing"
   },
   "spacing-2xl": {
     "value": "32px",
-    "type": "other"
+    "type": "spacing"
   },
   "spacing-3xl": {
     "value": "40px",
-    "type": "other"
+    "type": "spacing"
   },
   "spacing-4xl": {
     "value": "48px",
-    "type": "other"
+    "type": "spacing"
   },
   "spacing-5xl": {
     "value": "64px",
-    "type": "other"
+    "type": "spacing"
   },
   "spacing-layout-2xs": {
     "value": "16px",
-    "type": "other"
+    "type": "spacing"
   },
   "spacing-layout-xs": {
     "value": "24px",
-    "type": "other"
+    "type": "spacing"
   },
   "spacing-layout-sm": {
     "value": "32px",
-    "type": "other"
+    "type": "spacing"
   },
   "spacing-layout-md": {
     "value": "48px",
-    "type": "other"
+    "type": "spacing"
   },
   "spacing-layout-lg": {
     "value": "64px",
-    "type": "other"
+    "type": "spacing"
   },
   "spacing-layout-xl": {
     "value": "96px",
-    "type": "other"
+    "type": "spacing"
   },
   "spacing-layout-2xl": {
     "value": "128px",
-    "type": "other"
-  },
-  "sizing-1": {
-    "value": "1",
-    "type": "sizing"
+    "type": "spacing"
   }
 }

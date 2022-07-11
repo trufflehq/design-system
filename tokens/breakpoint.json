@@ -2,26 +2,26 @@
   "breakpoint-xs": {
     "value": "320px",
     "description": ">= 320px",
-    "type": "other"
+    "type": "breakpoint"
   },
   "breakpoint-sm": {
     "value": "480px",
     "description": ">= 480px",
-    "type": "other"
+    "type": "breakpoint"
   },
   "breakpoint-md": {
     "value": "768px",
     "description": ">= 768px",
-    "type": "other"
+    "type": "breakpoint"
   },
   "breakpoint-lg": {
     "value": "1024px",
     "description": ">= 1024px",
-    "type": "other"
+    "type": "breakpoint"
   },
   "breakpoint-xl": {
     "value": "1440px",
     "description": ">= 1440px",
-    "type": "other"
+    "type": "breakpoint"
   }
 }
