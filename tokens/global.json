@@ -428,19 +428,19 @@
   },
   "font-family-body-mono": {
     "value": "ui-monospace, monospace",
-    "type": "Font Family"
+    "type": "font-family"
   },
   "font-family-body-sans": {
     "value": "Poppins, 'Helvetica Neue', sans-serif",
-    "type": "Font Family"
+    "type": "font-family"
   },
   "font-family-heading-mono": {
     "value": "ui-monospace, monospace",
-    "type": "Font Family"
+    "type": "font-family"
   },
   "font-family-heading-sans": {
     "value": "Poppins, 'Helvetica Neue', sans-serif",
-    "type": "Font Family"
+    "type": "font-family"
   },
   "font-size-body-2xl": {
     "value": "20px",
