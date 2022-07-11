@@ -1,0 +1,14 @@
+{
+  "4xs": {
+    "value": "1",
+    "type": "spacing"
+  },
+  "sm": {
+    "value": "1",
+    "type": "borderRadius"
+  },
+  "Inter": {
+    "value": "Inter",
+    "type": "fontFamilies"
+  }
+}
