@@ -431,7 +431,7 @@
     "type": "fontFamilies"
   },
   "font-family-body-sans": {
-    "value": "Poppins, 'Helvetica Neue', sans-serif",
+    "value": "Inter",
     "type": "fontFamilies"
   },
   "font-family-heading-mono": {
@@ -765,5 +765,77 @@
   "z-bottom": {
     "value": "-100",
     "type": "Z-Index"
+  },
+  "text-case-uppercase": {
+    "value": "uppercase",
+    "type": "textCase"
+  },
+  "text-case-regular": {
+    "value": "none",
+    "type": "textCase"
+  },
+  "letter-spacing-wide": {
+    "value": "12%",
+    "type": "letterSpacing"
+  },
+  "text-decoration-underline": {
+    "value": "underline",
+    "type": "textDecoration"
+  },
+  "line-height-body-2xl": {
+    "value": "28",
+    "type": "lineHeights"
+  },
+  "line-height-body-xl": {
+    "value": "28",
+    "type": "lineHeights"
+  },
+  "line-height-body-lg": {
+    "value": "24",
+    "type": "lineHeights"
+  },
+  "line-height-body-md": {
+    "value": "20",
+    "type": "lineHeights"
+  },
+  "line-height-body-sm": {
+    "value": "18",
+    "type": "lineHeights"
+  },
+  "line-height-body-xs": {
+    "value": "16",
+    "type": "lineHeights"
+  },
+  "line-height-body-2xs": {
+    "value": "12",
+    "type": "lineHeights"
+  },
+  "line-height-heading-2xl": {
+    "value": "76",
+    "type": "lineHeights"
+  },
+  "line-height-heading-xl": {
+    "value": "58",
+    "type": "lineHeights"
+  },
+  "line-height-heading-lg": {
+    "value": "44",
+    "type": "lineHeights"
+  },
+  "line-height-heading-md": {
+    "value": "34",
+    "type": "lineHeights"
+  },
+  "line-height-heading-sm": {
+    "value": "28",
+    "type": "lineHeights"
+  },
+  "line-height-heading-xs": {
+    "value": "24",
+    "type": "lineHeights"
+  },
+  "line-height-heading-2xs": {
+    "value": "20",
+    "type": "lineHeights"
   }
 }
