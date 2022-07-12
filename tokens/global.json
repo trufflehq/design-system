@@ -499,36 +499,44 @@
     "type": "fontSizes"
   },
   "font-weight-body-regular": {
-    "value": "400",
-    "type": "fontWeights"
+    "value": "Regular",
+    "type": "fontWeights",
+    "description": "400"
   },
   "font-weight-body-medium": {
-    "value": "500",
-    "type": "fontWeights"
+    "value": "Medium",
+    "type": "fontWeights",
+    "description": "500"
   },
   "font-weight-body-semibold": {
-    "value": "600",
-    "type": "fontWeights"
+    "value": "Semi Bold",
+    "type": "fontWeights",
+    "description": "600"
   },
   "font-weight-body-bold": {
-    "value": "700",
-    "type": "fontWeights"
+    "value": "Bold",
+    "type": "fontWeights",
+    "description": "700"
   },
   "font-weight-heading-regular": {
-    "value": "400",
-    "type": "fontWeights"
+    "value": "Regular",
+    "type": "fontWeights",
+    "description": "400"
   },
   "font-weight-heading-medium": {
-    "value": "500",
-    "type": "fontWeights"
+    "value": "Medium",
+    "type": "fontWeights",
+    "description": "500"
   },
   "font-weight-heading-semibold": {
-    "value": "600",
-    "type": "fontWeights"
+    "value": "Semi Bold",
+    "type": "fontWeights",
+    "description": "600"
   },
   "font-weight-heading-bold": {
-    "value": "700",
-    "type": "fontWeights"
+    "value": "Bold",
+    "type": "fontWeights",
+    "description": "700"
   },
   "motion-duration-0": {
     "value": "0ms",
@@ -837,5 +845,45 @@
   "line-height-heading-2xs": {
     "value": "20",
     "type": "lineHeights"
+  },
+  "size-3xs": {
+    "value": "16",
+    "type": "sizing"
+  },
+  "size-2xs": {
+    "value": "20",
+    "type": "sizing"
+  },
+  "size-xs": {
+    "value": "24",
+    "type": "sizing"
+  },
+  "size-sm": {
+    "value": "28",
+    "type": "sizing"
+  },
+  "size-md": {
+    "value": "32",
+    "type": "sizing"
+  },
+  "size-lg": {
+    "value": "40",
+    "type": "sizing"
+  },
+  "size-xl": {
+    "value": "48",
+    "type": "sizing"
+  },
+  "size-2xl": {
+    "value": "64",
+    "type": "sizing"
+  },
+  "size-3xl": {
+    "value": "96",
+    "type": "sizing"
+  },
+  "size-4xl": {
+    "value": "124",
+    "type": "sizing"
   }
 }
