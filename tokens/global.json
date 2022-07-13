@@ -1,6 +1,6 @@
 {
   "border-base": {
-    "value": "var(--tfl-border-width-1) solid var(--tfl-color-border)",
+    "value": "var(--tfl-border-width-sm) solid var(--tfl-color-primary-border)",
     "type": "Border"
   },
   "border-radius-sm": {
