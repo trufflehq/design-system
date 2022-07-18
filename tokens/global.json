@@ -68,10 +68,18 @@
     "description": ">= 1440px",
     "type": "Breakpoint"
   },
-  "color-bg-fill": {
-    "value": "rgba(0, 0, 0, 1)",
-    "description": "Used as the page background color",
-    "type": "color"
+  "": {
+    "color": {
+      "bg": {
+        "": {
+          "fill": {
+            "value": "rgba(0, 0, 0, 1)",
+            "description": "Used as the page background color",
+            "type": "color"
+          }
+        }
+      }
+    }
   },
   "color-on-bg-fill": {
     "value": "rgba(255, 255, 255, 1)",
