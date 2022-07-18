@@ -70,46 +70,59 @@
       "type": "Breakpoint"
     }
   },
-  "color-bg-fill": {
-    "value": "rgba(0, 0, 0, 1)",
-    "description": "Used as the page background color",
-    "type": "color"
+  "color": {
+    "bg": {
+      "fill": {
+        "default": {
+          "value": "rgba(0, 0, 0, 1)",
+          "description": "Used as the page background color",
+          "type": "color"
+        },
+        "hovered": {
+          "value": "rgba(20, 20, 20, 1)",
+          "description": "Used as hovered-state background-color for elements with same background color as page",
+          "type": "color"
+        },
+        "selected": {
+          "value": "rgba(30, 30, 30, 1)",
+          "description": "Used as selected-state background-color for elements with same background color as page",
+          "type": "color"
+        },
+        "backdrop": {
+          "value": "rgba(0, 0, 0, 0.4)",
+          "description": "Used as the backdrop (in dialogs) color for page background",
+          "type": "color"
+        }
+      }
+    }
   },
-  "color-on-bg-fill": {
-    "value": "rgba(255, 255, 255, 1)",
-    "description": "Used as the text color associated with `background: var(--tfl-color-bg)`",
-    "type": "color"
+  "on": {
+    "bg": {
+      "fill": {
+        "default": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Used as the text color associated with `background: var(--tfl-color-bg)`",
+          "type": "color"
+        },
+        "hovered": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Used as the text color associated with `background: var(--tfl-color-bg-fill-hovered)`",
+          "type": "color"
+        },
+        "selected": {
+          "value": "rgba(30, 30, 30, 1)",
+          "description": "Used as the text color associated with `background: var(--tfl-color-bg-fill-selected)`",
+          "type": "color"
+        },
+        "backdrop": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Used as the text color associated with `background: var(--tfl-color-bg-fill-backdrop)`",
+          "type": "color"
+        }
+      }
+    }
   },
-  "color-bg-fill-hovered": {
-    "value": "rgba(20, 20, 20, 1)",
-    "description": "Used as hovered-state background-color for elements with same background color as page",
-    "type": "color"
-  },
-  "color-on-bg-fill-hovered": {
-    "value": "rgba(255, 255, 255, 1)",
-    "description": "Used as the text color associated with `background: var(--tfl-color-bg-fill-hovered)`",
-    "type": "color"
-  },
-  "color-bg-fill-selected": {
-    "value": "rgba(30, 30, 30, 1)",
-    "description": "Used as selected-state background-color for elements with same background color as page",
-    "type": "color"
-  },
-  "color-on-bg-fill-selected": {
-    "value": "rgba(30, 30, 30, 1)",
-    "description": "Used as the text color associated with `background: var(--tfl-color-bg-fill-selected)`",
-    "type": "color"
-  },
-  "color-bg-fill-backdrop": {
-    "value": "rgba(0, 0, 0, 0.4)",
-    "description": "Used as the backdrop (in dialogs) color for page background",
-    "type": "color"
-  },
-  "color-on-bg-fill-backdrop": {
-    "value": "rgba(255, 255, 255, 1)",
-    "description": "Used as the text color associated with `background: var(--tfl-color-bg-fill-backdrop)`",
-    "type": "color"
-  },
+  
   "color-primary-fill": {
     "value": "rgba(250, 108, 175, 1)",
     "description": "Used as the default background color for primary actions (eg buttons)",

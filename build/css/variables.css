@@ -1,10 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Mon, 18 Jul 2022 20:50:58 GMT
+ * Generated on Mon, 18 Jul 2022 20:57:39 GMT
  */
 
 :root {
-  --tfl-border-base: var(--tfl-border-width-1) solid var(--tfl-color-border);
   --tfl-border-radius-sm: 2px;
   --tfl-border-radius-md: 4px;
   --tfl-border-radius-lg: 8px;
@@ -20,14 +19,14 @@
   --tfl-breakpoint-md: 768px;
   --tfl-breakpoint-lg: 1024px;
   --tfl-breakpoint-xl: 1440px;
-  --tfl-color-bg-fill: rgba(0, 0, 0, 1);
-  --tfl-color-on-bg-fill: rgba(255, 255, 255, 1);
-  --tfl-color-bg-fill-hovered: rgba(20, 20, 20, 1);
-  --tfl-color-on-bg-fill-hovered: rgba(255, 255, 255, 1);
-  --tfl-color-bg-fill-selected: rgba(30, 30, 30, 1);
-  --tfl-color-on-bg-fill-selected: rgba(30, 30, 30, 1);
+  --tfl-color-bg-fill-default: #000000;
+  --tfl-color-bg-fill-hovered: #141414;
+  --tfl-color-bg-fill-selected: #1e1e1e;
   --tfl-color-bg-fill-backdrop: rgba(0, 0, 0, 0.4);
-  --tfl-color-on-bg-fill-backdrop: rgba(255, 255, 255, 1);
+  --tfl-on-bg-fill-default: rgba(255, 255, 255, 1);
+  --tfl-on-bg-fill-hovered: rgba(255, 255, 255, 1);
+  --tfl-on-bg-fill-selected: rgba(30, 30, 30, 1);
+  --tfl-on-bg-fill-backdrop: rgba(255, 255, 255, 1);
   --tfl-color-primary-fill: rgba(250, 108, 175, 1);
   --tfl-color-on-primary-fill: rgba(255, 255, 255, 1);
   --tfl-color-primary-fill-hovered: rgba(251, 123, 183, 1);
@@ -206,4 +205,8 @@
   --tfl-size-2xl: 64;
   --tfl-size-3xl: 96;
   --tfl-size-4xl: 124;
+  --tfl-shadow-1: [object Object];
+  --tfl-shadow-2: [object Object];
+  --tfl-shadow-3: [object Object];
+  --tfl-shadow-4: [object Object];
 }
