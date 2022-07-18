@@ -149,7 +149,7 @@
     "type": "color"
   },
   "color-primary-border": {
-    "value": "var(--color-primary-fill)",
+    "value": "{color-primary-fill}",
     "description": "Used as the default border color for primary actions (eg buttons)",
     "type": "color"
   },
