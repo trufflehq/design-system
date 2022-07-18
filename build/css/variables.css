@@ -1,10 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Wed, 13 Jul 2022 00:11:42 GMT
+ * Generated on Mon, 18 Jul 2022 20:50:58 GMT
  */
 
 :root {
-  --tfl-border-base: var(--tfl-border-width-sm) solid var(--tfl-color-primary-border);
+  --tfl-border-base: var(--tfl-border-width-1) solid var(--tfl-color-border);
   --tfl-border-radius-sm: 2px;
   --tfl-border-radius-md: 4px;
   --tfl-border-radius-lg: 8px;
@@ -102,7 +102,7 @@
   --tfl-font-family-body-mono: ui-monospace, monospace;
   --tfl-font-family-body-sans: Inter;
   --tfl-font-family-heading-mono: ui-monospace, monospace;
-  --tfl-font-family-heading-sans: Poppins, 'Helvetica Neue', sans-serif;
+  --tfl-font-family-heading-sans: Inter;
   --tfl-font-size-body-2xl: 20px;
   --tfl-font-size-body-xl: 18px;
   --tfl-font-size-body-lg: 16px;
@@ -154,10 +154,6 @@
   --tfl-opacity-80: 80;
   --tfl-opacity-90: 90;
   --tfl-opacity-100: 100;
-  --tfl-shadow-1: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
-  --tfl-shadow-2: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-  --tfl-shadow-3: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
-  --tfl-shadow-4: 0 12px 24px 0 rgba(0, 0, 0, 0.1);
   --tfl-spacing-4xs: 1px;
   --tfl-spacing-3xs: 2px;
   --tfl-spacing-2xs: 4px;
@@ -185,8 +181,6 @@
   --tfl-z-100: 100;
   --tfl-z-bottom: -100;
   --tfl-text-case-uppercase: uppercase;
-  --tfl-text-case-regular: none;
-  --tfl-letter-spacing-wide: 12%;
   --tfl-text-decoration-underline: underline;
   --tfl-line-height-body-2xl: 28;
   --tfl-line-height-body-xl: 28;
