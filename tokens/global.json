@@ -149,7 +149,7 @@
     "type": "color"
   },
   "color-primary-border": {
-    "value": "rgba(250, 108, 175, 1)",
+    "value": "var(--color-primary-fill)",
     "description": "Used as the default border color for primary actions (eg buttons)",
     "type": "color"
   },
