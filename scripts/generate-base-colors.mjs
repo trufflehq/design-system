@@ -2,46 +2,6 @@ import fs from 'fs'
 
 // used for initial setup. shouldn't really need to use again
 
-const ROLES = {
-  PRIMARY: {
-    key: 'primary',
-    // these are placeholder color values. actual value will be set in figma
-    baseRgbCsv: '243,87,161',
-    description: 'Used for key UI elements (buttons, active states, etc...)'
-  },
-  SECONDARY: {
-    key: 'secondary',
-    baseRgbCsv: '127,288,220',
-    description: 'Alternate color used for less prominent UI elements, and for adding variety'
-  },
-  BG: {
-    key: 'bg',
-    baseRgbCsv: '0,0,0',
-    description: 'Background color for the page'
-  },
-  DIALOG: {
-    key: 'dialog',
-    baseRgbCsv: '30,30,30',
-    description: 'Color for dialogs and any content that overlays the page'
-  },
-  CRITICAL: {
-    key: 'critical',
-    baseRgbCsv: '176,16,56',
-    description: 'Color for critical actions and errors'
-  },
-  WARNING: {
-    key: 'warning',
-    baseRgbCsv: '255,218,7',
-    description: 'Color for semi-critical actions and warnings'
-  },
-  SUCCESS: {
-    key: 'success',
-    baseRgbCsv: '0,255,0',
-    description: 'Color for successful actions'
-  },
-  // we can add these if/when needed: accent1, accent2, neutral
-}
-
 const STATES = {
   DEFAULT: {
     key: 'default',
@@ -77,23 +37,15 @@ const INTERACTIVE_STATES = [
 const PROPERTIES = {
   BACKGROUND: {
     key: 'background',
-    description: 'Background / fill color',
-    figmaType: 'color'
+    description: 'Background / fill color'
   },
   COLOR: {
     key: 'color',
-    description: 'Text / foreground color on site background color (white/black)',
-    figmaType: 'color'
+    description: 'Text / foreground color on site background color (white/black)'
   },
   BORDER_COLOR: {
     key: 'border-color',
-    description: 'Border color',
-    figmaType: 'color'
-  },
-  BORDER_RADIUS: {
-    key: 'border-radius',
-    description: 'Border radius',
-    figmaType: 'borderRadius'
+    description: 'Border color'
   }
 }
 
@@ -104,15 +56,13 @@ const UI_ELEMENTS = {
     baseOpacity: '1',
     description: 'Buttons',
     states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
-    roles: [ROLES.PRIMARY, ROLES.SECONDARY, ROLES.BG, ROLES.CRITICAL, ROLES.WARNING, ROLES.SUCCESS],
-    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR, PROPERTIES.BORDER_RADIUS]
+    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
   },
   LINK: {
     key: 'link',
     baseOpacity: '1',
     description: 'Plain text links',
     states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
-    roles: [ROLES.PRIMARY, ROLES.SECONDARY, ROLES.CRITICAL, ROLES.WARNING, ROLES.SUCCESS],
     properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
   },
   TAB: {
@@ -120,7 +70,6 @@ const UI_ELEMENTS = {
     baseOpacity: '1',
     description: 'Fancier links for tabs / navigation',
     states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
-    roles: [ROLES.PRIMARY, ROLES.SECONDARY, ROLES.BG],
     properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
   },
 
@@ -130,32 +79,78 @@ const UI_ELEMENTS = {
     baseOpacity: '1',
     description: 'Header text, paragraph text, icons, (needs to be legible on background surface color)',
     states: [STATES.DEFAULT],
-    roles: [ROLES.PRIMARY, ROLES.SECONDARY, ROLES.CRITICAL, ROLES.WARNING, ROLES.SUCCESS],
     properties: [PROPERTIES.COLOR]
+  },
+  DIALOG: {
+    key: 'dialog',
+    baseOpacity: '1',
+    description: 'Dialogs and modals',
+    states: [STATES.DEFAULT],
+    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
   },
   SURFACE: {
     key: 'surface',
     baseOpacity: '0.5',
     description: 'Card, warning message, info box, etc... Fill is typically muted color, border is higher contrast',
     states: [STATES.DEFAULT],
-    roles: [ROLES.PRIMARY, ROLES.SECONDARY, ROLES.BG, ROLES.CRITICAL, ROLES.WARNING, ROLES.SUCCESS],
     properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
   }
+}
+
+const ROLES = {
+  PRIMARY: {
+    key: 'primary',
+    // these are placeholder color values. actual value will be set in figma
+    baseRgbCsv: '243,87,161',
+    description: 'Used for key UI elements (buttons, active states, etc...)',
+    uiElements: [UI_ELEMENTS.ACTION, UI_ELEMENTS.LINK, UI_ELEMENTS.TAB, UI_ELEMENTS.SYMBOL, UI_ELEMENTS.SURFACE]
+  },
+  SECONDARY: {
+    key: 'secondary',
+    baseRgbCsv: '127,288,220',
+    description: 'Alternate color used for less prominent UI elements, and for adding variety',
+    uiElements: [UI_ELEMENTS.ACTION, UI_ELEMENTS.LINK, UI_ELEMENTS.TAB, UI_ELEMENTS.SYMBOL, UI_ELEMENTS.SURFACE]
+  },
+  BG: {
+    key: 'bg',
+    baseRgbCsv: '0,0,0',
+    description: 'Background color for the page',
+    uiElements: [UI_ELEMENTS.ACTION, UI_ELEMENTS.DIALOG, UI_ELEMENTS.TAB, UI_ELEMENTS.SURFACE]
+  },
+  CRITICAL: {
+    key: 'critical',
+    baseRgbCsv: '176,16,56',
+    description: 'Color for critical actions and errors',
+    uiElements: [UI_ELEMENTS.ACTION, UI_ELEMENTS.LINK, UI_ELEMENTS.SYMBOL, UI_ELEMENTS.SURFACE]
+  },
+  WARNING: {
+    key: 'warning',
+    baseRgbCsv: '255,218,7',
+    description: 'Color for semi-critical actions and warnings',
+    uiElements: [UI_ELEMENTS.ACTION, UI_ELEMENTS.LINK, UI_ELEMENTS.SYMBOL, UI_ELEMENTS.SURFACE]
+  },
+  SUCCESS: {
+    key: 'success',
+    baseRgbCsv: '0,255,0',
+    description: 'Color for successful actions',
+    uiElements: [UI_ELEMENTS.ACTION, UI_ELEMENTS.LINK, UI_ELEMENTS.SYMBOL, UI_ELEMENTS.SURFACE]
+  },
+  // we can add these if/when needed: accent1, accent2, neutral
 }
 
 // theme creators realistically shouldn't need to set all of these. we'll have good fallbacks
 
 const jsonObj = {
-  ui: Object.values(UI_ELEMENTS).reduce((obj, uiElement) => {
+  color: Object.values(ROLES).reduce((obj, role) => {
     return {
       ...obj,
-      [uiElement.key]: uiElement.states.reduce((obj, state) => {
+      [role.key]: role.uiElements.reduce((obj, uiElement) => {
         return {
           ...obj,
-          [state.key]: uiElement.roles.reduce((obj, role) => {
+          [uiElement.key]: uiElement.states.reduce((obj, state) => {
             return {
               ...obj,
-              [role.key]: uiElement.properties.reduce((obj, property) => {
+              [state.key]: uiElement.properties.reduce((obj, property) => {
                 const color = getDefinition({ uiElement, role, state, property })
                 return {
                   ...obj,
@@ -176,7 +171,7 @@ function getDefinition ({ uiElement, role, state, property }) {
     color = `rgba(${role.baseRgbCsv}, 0.3)`
   }
   else if (property.key === 'color') {
-    color = state.key === 'default' ? 'rgba(255, 255, 255, 1)' : `{ui.${uiElement.key}.default.${role.key}.color}`
+    color = state.key === 'default' ? 'rgba(255, 255, 255, 1)' : `{color.${role.key}.${uiElement.key}.default.color}`
   } else {
     if (role.baseRgbCsv) {
       color = `rgba(${role.baseRgbCsv}, ${state.baseOpacity})`
@@ -187,7 +182,7 @@ function getDefinition ({ uiElement, role, state, property }) {
   return {
     value: color,
     description: `Group: ${role.description}\nState: ${state.description}\nProperty: ${property.description}`,
-    type: property.figmaType
+    type: "color"
   }
 }
 
