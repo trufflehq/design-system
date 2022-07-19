@@ -5,6 +5,7 @@ import fs from 'fs'
 const COLOR_GROUPS = [
   {
     key: 'primary',
+    // these are placeholder color values. actual value will be set in figma
     baseRgbCsv: '243,87,161',
     description: 'Used for key UI elements (buttons, active states, etc...)'
   },
@@ -70,14 +71,7 @@ const STATES = [
     key: 'muted',
     baseOpacity: '0.6',
     description: 'Muted - softer colors for background/info-box'
-  },
-  // FIXME: limitation of not having on- is having variations of colors for hovered text
-  {
-    key: 'foreground',
-    baseOpacity: '1',
-    description: 'Foreground - when using as a text color and you need higher contrast'
   }
-  // colorGroup === 'background' has additional backdrop state
 ]
 const STYLE_PROPERTIES = [
   {
@@ -86,7 +80,11 @@ const STYLE_PROPERTIES = [
   },
   {
     key: 'text',
-    description: 'Text color'
+    description: 'Text / foreground color on site background color (white/black)'
+  },
+  {
+    key: 'text-on-fill',
+    description: 'Color of text on this state\'s fill color'
   },
   {
     key: 'border',
@@ -96,9 +94,7 @@ const STYLE_PROPERTIES = [
     key: 'shadow',
     description: 'Shadow color'
   },
-]
-const TEXT_STATES = [
-  'hovered'
+  // colorGroup === 'dialog' has additional backdrop style property
 ]
 
 // theme creators realistically shouldn't need to set all of these. we'll have good fallbacks
@@ -106,10 +102,10 @@ const TEXT_STATES = [
 const jsonObj = COLOR_GROUPS.reduce((obj, colorGroup) => {
   return {
     ...obj,
-    [colorGroup.key]: getStates(colorGroup.key).reduce((obj, state) => {
+    [colorGroup.key]: getStates(colorGroup).reduce((obj, state) => {
       return {
         ...obj,
-        [state.key]: STYLE_PROPERTIES.reduce((obj, styleProperty) => {
+        [state.key]: getStyleProperties(colorGroup).reduce((obj, styleProperty) => {
           const color = getDefinition({ colorGroup, state, styleProperty })
           return {
             ...obj,
@@ -121,19 +117,25 @@ const jsonObj = COLOR_GROUPS.reduce((obj, colorGroup) => {
   }
 }, {})
 
-function getStates (colorGroupKey) {
-  return colorGroupKey === 'background'
-    ? STATES.concat('backdrop')
+function getStates (colorGroup) {
+  return colorGroup.key === 'dialog'
+    ? STATES.filter(({ key }) => key === 'default')
     : STATES
+}
+
+function getStyleProperties (colorGroup) {
+  return colorGroup.key === 'dialog'
+    ? STYLE_PROPERTIES.concat({ key: 'backdrop', description: 'Overlay backdrop color' })
+    : STYLE_PROPERTIES
 }
 
 function getDefinition ({ colorGroup, state, styleProperty }) {
   let color
-  if (['shadow', 'border'].includes(styleProperty.key)) {
-    color = `{${colorGroup.key}.${state.key}.fill}`
+  if (['shadow', 'border', 'text'].includes(styleProperty.key)) {
+    color = `{color.${colorGroup.key}.${state.key}.fill}`
   }
-  else if (styleProperty.key === 'text') {
-    color = state.key === 'default' ? 'rgba(255, 255, 255, 1)' : `{${colorGroup.key}.default.text}`
+  else if (styleProperty.key === 'text-on-fill') {
+    color = state.key === 'default' ? 'rgba(255, 255, 255, 1)' : `{color.${colorGroup.key}.default.text}`
   } else {
     if (colorGroup.baseRgbCsv) {
       color = `rgba(${colorGroup.baseRgbCsv}, ${state.baseOpacity})`
