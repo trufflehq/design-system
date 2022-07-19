@@ -14,7 +14,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(243,87,161, 1)",
+            "value": "rgba(243,87,161, 0.3)",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Default\nProperty: Border color",
             "type": "color"
           }
@@ -31,7 +31,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(127,288,220, 1)",
+            "value": "rgba(127,288,220, 0.3)",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Default\nProperty: Border color",
             "type": "color"
           }
@@ -48,7 +48,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,0,0, 1)",
+            "value": "rgba(0,0,0, 0.3)",
             "description": "Group: Background color for the page\nState: Default\nProperty: Border color",
             "type": "color"
           }
@@ -65,7 +65,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(176,16,56, 1)",
+            "value": "rgba(176,16,56, 0.3)",
             "description": "Group: Color for critical actions and errors\nState: Default\nProperty: Border color",
             "type": "color"
           }
@@ -82,7 +82,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(255,218,7, 1)",
+            "value": "rgba(255,218,7, 0.3)",
             "description": "Group: Color for semi-critical actions and warnings\nState: Default\nProperty: Border color",
             "type": "color"
           }
@@ -99,7 +99,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,255,0, 1)",
+            "value": "rgba(0,255,0, 0.3)",
             "description": "Group: Color for successful actions\nState: Default\nProperty: Border color",
             "type": "color"
           }
@@ -118,7 +118,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(243,87,161, 0.9)",
+            "value": "rgba(243,87,161, 0.3)",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Hovered\nProperty: Border color",
             "type": "color"
           }
@@ -135,7 +135,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(127,288,220, 0.9)",
+            "value": "rgba(127,288,220, 0.3)",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Hovered\nProperty: Border color",
             "type": "color"
           }
@@ -152,7 +152,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,0,0, 0.9)",
+            "value": "rgba(0,0,0, 0.3)",
             "description": "Group: Background color for the page\nState: Hovered\nProperty: Border color",
             "type": "color"
           }
@@ -169,7 +169,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(176,16,56, 0.9)",
+            "value": "rgba(176,16,56, 0.3)",
             "description": "Group: Color for critical actions and errors\nState: Hovered\nProperty: Border color",
             "type": "color"
           }
@@ -186,7 +186,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(255,218,7, 0.9)",
+            "value": "rgba(255,218,7, 0.3)",
             "description": "Group: Color for semi-critical actions and warnings\nState: Hovered\nProperty: Border color",
             "type": "color"
           }
@@ -203,7 +203,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,255,0, 0.9)",
+            "value": "rgba(0,255,0, 0.3)",
             "description": "Group: Color for successful actions\nState: Hovered\nProperty: Border color",
             "type": "color"
           }
@@ -222,7 +222,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(243,87,161, 0.95)",
+            "value": "rgba(243,87,161, 0.3)",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Border color",
             "type": "color"
           }
@@ -239,7 +239,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(127,288,220, 0.95)",
+            "value": "rgba(127,288,220, 0.3)",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Pressed/Clicked\nProperty: Border color",
             "type": "color"
           }
@@ -256,7 +256,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,0,0, 0.95)",
+            "value": "rgba(0,0,0, 0.3)",
             "description": "Group: Background color for the page\nState: Pressed/Clicked\nProperty: Border color",
             "type": "color"
           }
@@ -273,7 +273,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(176,16,56, 0.95)",
+            "value": "rgba(176,16,56, 0.3)",
             "description": "Group: Color for critical actions and errors\nState: Pressed/Clicked\nProperty: Border color",
             "type": "color"
           }
@@ -290,7 +290,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(255,218,7, 0.95)",
+            "value": "rgba(255,218,7, 0.3)",
             "description": "Group: Color for semi-critical actions and warnings\nState: Pressed/Clicked\nProperty: Border color",
             "type": "color"
           }
@@ -307,7 +307,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,255,0, 0.95)",
+            "value": "rgba(0,255,0, 0.3)",
             "description": "Group: Color for successful actions\nState: Pressed/Clicked\nProperty: Border color",
             "type": "color"
           }
@@ -326,7 +326,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(243,87,161, 1)",
+            "value": "rgba(243,87,161, 0.3)",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Border color",
             "type": "color"
           }
@@ -343,7 +343,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(127,288,220, 1)",
+            "value": "rgba(127,288,220, 0.3)",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Selective/Active/Highlighted\nProperty: Border color",
             "type": "color"
           }
@@ -360,7 +360,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,0,0, 1)",
+            "value": "rgba(0,0,0, 0.3)",
             "description": "Group: Background color for the page\nState: Selective/Active/Highlighted\nProperty: Border color",
             "type": "color"
           }
@@ -377,7 +377,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(176,16,56, 1)",
+            "value": "rgba(176,16,56, 0.3)",
             "description": "Group: Color for critical actions and errors\nState: Selective/Active/Highlighted\nProperty: Border color",
             "type": "color"
           }
@@ -394,7 +394,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(255,218,7, 1)",
+            "value": "rgba(255,218,7, 0.3)",
             "description": "Group: Color for semi-critical actions and warnings\nState: Selective/Active/Highlighted\nProperty: Border color",
             "type": "color"
           }
@@ -411,7 +411,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,255,0, 1)",
+            "value": "rgba(0,255,0, 0.3)",
             "description": "Group: Color for successful actions\nState: Selective/Active/Highlighted\nProperty: Border color",
             "type": "color"
           }
@@ -430,7 +430,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(243,87,161, 0.5)",
+            "value": "rgba(243,87,161, 0.3)",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Border color",
             "type": "color"
           }
@@ -447,7 +447,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(127,288,220, 0.5)",
+            "value": "rgba(127,288,220, 0.3)",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Border color",
             "type": "color"
           }
@@ -464,7 +464,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,0,0, 0.5)",
+            "value": "rgba(0,0,0, 0.3)",
             "description": "Group: Background color for the page\nState: Disabled\nProperty: Border color",
             "type": "color"
           }
@@ -481,7 +481,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(176,16,56, 0.5)",
+            "value": "rgba(176,16,56, 0.3)",
             "description": "Group: Color for critical actions and errors\nState: Disabled\nProperty: Border color",
             "type": "color"
           }
@@ -498,7 +498,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(255,218,7, 0.5)",
+            "value": "rgba(255,218,7, 0.3)",
             "description": "Group: Color for semi-critical actions and warnings\nState: Disabled\nProperty: Border color",
             "type": "color"
           }
@@ -515,7 +515,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,255,0, 0.5)",
+            "value": "rgba(0,255,0, 0.3)",
             "description": "Group: Color for successful actions\nState: Disabled\nProperty: Border color",
             "type": "color"
           }
@@ -536,7 +536,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(243,87,161, 1)",
+            "value": "rgba(243,87,161, 0.3)",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Default\nProperty: Border color",
             "type": "color"
           }
@@ -553,7 +553,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(127,288,220, 1)",
+            "value": "rgba(127,288,220, 0.3)",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Default\nProperty: Border color",
             "type": "color"
           }
@@ -570,7 +570,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(176,16,56, 1)",
+            "value": "rgba(176,16,56, 0.3)",
             "description": "Group: Color for critical actions and errors\nState: Default\nProperty: Border color",
             "type": "color"
           }
@@ -587,7 +587,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(255,218,7, 1)",
+            "value": "rgba(255,218,7, 0.3)",
             "description": "Group: Color for semi-critical actions and warnings\nState: Default\nProperty: Border color",
             "type": "color"
           }
@@ -604,7 +604,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,255,0, 1)",
+            "value": "rgba(0,255,0, 0.3)",
             "description": "Group: Color for successful actions\nState: Default\nProperty: Border color",
             "type": "color"
           }
@@ -623,7 +623,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(243,87,161, 0.9)",
+            "value": "rgba(243,87,161, 0.3)",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Hovered\nProperty: Border color",
             "type": "color"
           }
@@ -640,7 +640,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(127,288,220, 0.9)",
+            "value": "rgba(127,288,220, 0.3)",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Hovered\nProperty: Border color",
             "type": "color"
           }
@@ -657,7 +657,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(176,16,56, 0.9)",
+            "value": "rgba(176,16,56, 0.3)",
             "description": "Group: Color for critical actions and errors\nState: Hovered\nProperty: Border color",
             "type": "color"
           }
@@ -674,7 +674,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(255,218,7, 0.9)",
+            "value": "rgba(255,218,7, 0.3)",
             "description": "Group: Color for semi-critical actions and warnings\nState: Hovered\nProperty: Border color",
             "type": "color"
           }
@@ -691,7 +691,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,255,0, 0.9)",
+            "value": "rgba(0,255,0, 0.3)",
             "description": "Group: Color for successful actions\nState: Hovered\nProperty: Border color",
             "type": "color"
           }
@@ -710,7 +710,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(243,87,161, 0.95)",
+            "value": "rgba(243,87,161, 0.3)",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Border color",
             "type": "color"
           }
@@ -727,7 +727,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(127,288,220, 0.95)",
+            "value": "rgba(127,288,220, 0.3)",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Pressed/Clicked\nProperty: Border color",
             "type": "color"
           }
@@ -744,7 +744,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(176,16,56, 0.95)",
+            "value": "rgba(176,16,56, 0.3)",
             "description": "Group: Color for critical actions and errors\nState: Pressed/Clicked\nProperty: Border color",
             "type": "color"
           }
@@ -761,7 +761,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(255,218,7, 0.95)",
+            "value": "rgba(255,218,7, 0.3)",
             "description": "Group: Color for semi-critical actions and warnings\nState: Pressed/Clicked\nProperty: Border color",
             "type": "color"
           }
@@ -778,7 +778,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,255,0, 0.95)",
+            "value": "rgba(0,255,0, 0.3)",
             "description": "Group: Color for successful actions\nState: Pressed/Clicked\nProperty: Border color",
             "type": "color"
           }
@@ -797,7 +797,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(243,87,161, 1)",
+            "value": "rgba(243,87,161, 0.3)",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Border color",
             "type": "color"
           }
@@ -814,7 +814,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(127,288,220, 1)",
+            "value": "rgba(127,288,220, 0.3)",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Selective/Active/Highlighted\nProperty: Border color",
             "type": "color"
           }
@@ -831,7 +831,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(176,16,56, 1)",
+            "value": "rgba(176,16,56, 0.3)",
             "description": "Group: Color for critical actions and errors\nState: Selective/Active/Highlighted\nProperty: Border color",
             "type": "color"
           }
@@ -848,7 +848,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(255,218,7, 1)",
+            "value": "rgba(255,218,7, 0.3)",
             "description": "Group: Color for semi-critical actions and warnings\nState: Selective/Active/Highlighted\nProperty: Border color",
             "type": "color"
           }
@@ -865,7 +865,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,255,0, 1)",
+            "value": "rgba(0,255,0, 0.3)",
             "description": "Group: Color for successful actions\nState: Selective/Active/Highlighted\nProperty: Border color",
             "type": "color"
           }
@@ -884,7 +884,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(243,87,161, 0.5)",
+            "value": "rgba(243,87,161, 0.3)",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Border color",
             "type": "color"
           }
@@ -901,7 +901,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(127,288,220, 0.5)",
+            "value": "rgba(127,288,220, 0.3)",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Border color",
             "type": "color"
           }
@@ -918,7 +918,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(176,16,56, 0.5)",
+            "value": "rgba(176,16,56, 0.3)",
             "description": "Group: Color for critical actions and errors\nState: Disabled\nProperty: Border color",
             "type": "color"
           }
@@ -935,7 +935,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(255,218,7, 0.5)",
+            "value": "rgba(255,218,7, 0.3)",
             "description": "Group: Color for semi-critical actions and warnings\nState: Disabled\nProperty: Border color",
             "type": "color"
           }
@@ -952,7 +952,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,255,0, 0.5)",
+            "value": "rgba(0,255,0, 0.3)",
             "description": "Group: Color for successful actions\nState: Disabled\nProperty: Border color",
             "type": "color"
           }
@@ -973,7 +973,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(243,87,161, 1)",
+            "value": "rgba(243,87,161, 0.3)",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Default\nProperty: Border color",
             "type": "color"
           }
@@ -990,7 +990,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(127,288,220, 1)",
+            "value": "rgba(127,288,220, 0.3)",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Default\nProperty: Border color",
             "type": "color"
           }
@@ -1007,7 +1007,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,0,0, 1)",
+            "value": "rgba(0,0,0, 0.3)",
             "description": "Group: Background color for the page\nState: Default\nProperty: Border color",
             "type": "color"
           }
@@ -1026,7 +1026,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(243,87,161, 0.9)",
+            "value": "rgba(243,87,161, 0.3)",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Hovered\nProperty: Border color",
             "type": "color"
           }
@@ -1043,7 +1043,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(127,288,220, 0.9)",
+            "value": "rgba(127,288,220, 0.3)",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Hovered\nProperty: Border color",
             "type": "color"
           }
@@ -1060,7 +1060,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,0,0, 0.9)",
+            "value": "rgba(0,0,0, 0.3)",
             "description": "Group: Background color for the page\nState: Hovered\nProperty: Border color",
             "type": "color"
           }
@@ -1079,7 +1079,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(243,87,161, 0.95)",
+            "value": "rgba(243,87,161, 0.3)",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Border color",
             "type": "color"
           }
@@ -1096,7 +1096,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(127,288,220, 0.95)",
+            "value": "rgba(127,288,220, 0.3)",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Pressed/Clicked\nProperty: Border color",
             "type": "color"
           }
@@ -1113,7 +1113,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,0,0, 0.95)",
+            "value": "rgba(0,0,0, 0.3)",
             "description": "Group: Background color for the page\nState: Pressed/Clicked\nProperty: Border color",
             "type": "color"
           }
@@ -1132,7 +1132,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(243,87,161, 1)",
+            "value": "rgba(243,87,161, 0.3)",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Border color",
             "type": "color"
           }
@@ -1149,7 +1149,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(127,288,220, 1)",
+            "value": "rgba(127,288,220, 0.3)",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Selective/Active/Highlighted\nProperty: Border color",
             "type": "color"
           }
@@ -1166,7 +1166,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,0,0, 1)",
+            "value": "rgba(0,0,0, 0.3)",
             "description": "Group: Background color for the page\nState: Selective/Active/Highlighted\nProperty: Border color",
             "type": "color"
           }
@@ -1185,7 +1185,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(243,87,161, 0.5)",
+            "value": "rgba(243,87,161, 0.3)",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Border color",
             "type": "color"
           }
@@ -1202,7 +1202,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(127,288,220, 0.5)",
+            "value": "rgba(127,288,220, 0.3)",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Border color",
             "type": "color"
           }
@@ -1219,7 +1219,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,0,0, 0.5)",
+            "value": "rgba(0,0,0, 0.3)",
             "description": "Group: Background color for the page\nState: Disabled\nProperty: Border color",
             "type": "color"
           }
@@ -1279,7 +1279,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(243,87,161, 1)",
+            "value": "rgba(243,87,161, 0.3)",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Default\nProperty: Border color",
             "type": "color"
           }
@@ -1296,7 +1296,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(127,288,220, 1)",
+            "value": "rgba(127,288,220, 0.3)",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Default\nProperty: Border color",
             "type": "color"
           }
@@ -1313,7 +1313,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,0,0, 1)",
+            "value": "rgba(0,0,0, 0.3)",
             "description": "Group: Background color for the page\nState: Default\nProperty: Border color",
             "type": "color"
           }
@@ -1330,7 +1330,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(176,16,56, 1)",
+            "value": "rgba(176,16,56, 0.3)",
             "description": "Group: Color for critical actions and errors\nState: Default\nProperty: Border color",
             "type": "color"
           }
@@ -1347,7 +1347,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(255,218,7, 1)",
+            "value": "rgba(255,218,7, 0.3)",
             "description": "Group: Color for semi-critical actions and warnings\nState: Default\nProperty: Border color",
             "type": "color"
           }
@@ -1364,7 +1364,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "rgba(0,255,0, 1)",
+            "value": "rgba(0,255,0, 0.3)",
             "description": "Group: Color for successful actions\nState: Default\nProperty: Border color",
             "type": "color"
           }

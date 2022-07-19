@@ -164,7 +164,7 @@ const jsonObj = {
 
 function getDefinition ({ uiElement, role, state, property }) {
   let color
-  if (property.key === 'border') {
+  if (property.key === 'border-color') {
     color = `rgba(${role.baseRgbCsv}, 0.3)`
   }
   else if (property.key === 'color') {
