@@ -138,7 +138,8 @@ function getDefinition ({ colorGroup, state, styleProperty }) {
   }
   return {
     value: color,
-    description: `Group: ${colorGroup.description}\nState: ${state.description}\nProperty: ${styleProperty.description}`
+    description: `Group: ${colorGroup.description}\nState: ${state.description}\nProperty: ${styleProperty.description}`,
+    type: "color"
   }
 }
 
