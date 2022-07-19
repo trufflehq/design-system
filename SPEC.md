@@ -16,28 +16,28 @@ style-property is roughly equal to the css property. fill == background (using b
 
 ### Examples
 **Primary-colored button**
-```
+```css
 .button {
   background: var(--tfl-color-primary-default-fill);
   color: var(--tfl-color-primary-default-text-on-fill);
   border: var(--tfl-color-primary-default-border);
+}
 
-  &:hover {
-    background: var(--tfl-color-primary-hovered-fill);
-    color: var(--tfl-color-primary-hovered-text-on-fill);
-    border: var(--tfl-color-primary-hovered-border);
-  }
+.button:hover {
+  background: var(--tfl-color-primary-hovered-fill);
+  color: var(--tfl-color-primary-hovered-text-on-fill);
+  border: var(--tfl-color-primary-hovered-border);
 }
 ```
 
 **Secondary-colored link**
-```
+```css
 .link {
   background: var(--tfl-color-primary-default-text);
+}
 
-  &:hover {
-    background: var(--tfl-color-primary-hovered-text);
-  }
+.link:hover {
+  background: var(--tfl-color-primary-hovered-text);
 }
 ```
 
