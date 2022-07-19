@@ -1,18 +1,119 @@
 {
   "ui": {
     "action": {
-      "primary": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default",
-        "hovered": {
+      "default": {
+        "primary": {
+          "background": {
+            "value": "rgba(243,87,161, 1)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Default\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(243,87,161, 1)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Default\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "background": {
+            "value": "rgba(127,288,220, 1)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Default\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(127,288,220, 1)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Default\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "bg": {
+          "background": {
+            "value": "rgba(0,0,0, 1)",
+            "description": "Group: Background color for the page\nState: Default\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Background color for the page\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(0,0,0, 1)",
+            "description": "Group: Background color for the page\nState: Default\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "critical": {
+          "background": {
+            "value": "rgba(176,16,56, 1)",
+            "description": "Group: Color for critical actions and errors\nState: Default\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Color for critical actions and errors\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(176,16,56, 1)",
+            "description": "Group: Color for critical actions and errors\nState: Default\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "warning": {
+          "background": {
+            "value": "rgba(255,218,7, 1)",
+            "description": "Group: Color for semi-critical actions and warnings\nState: Default\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Color for semi-critical actions and warnings\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(255,218,7, 1)",
+            "description": "Group: Color for semi-critical actions and warnings\nState: Default\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "success": {
+          "background": {
+            "value": "rgba(0,255,0, 1)",
+            "description": "Group: Color for successful actions\nState: Default\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Color for successful actions\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(0,255,0, 1)",
+            "description": "Group: Color for successful actions\nState: Default\nProperty: Border color",
+            "type": "color"
+          }
+        }
+      },
+      "hovered": {
+        "primary": {
           "background": {
             "value": "rgba(243,87,161, 0.9)",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(243,87,161, 0.9)",
+            "value": "{ui.action.default.primary.color}",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -22,70 +123,14 @@
             "type": "color"
           }
         },
-        "pressed": {
-          "background": {
-            "value": "rgba(243,87,161, 0.95)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(243,87,161, 0.95)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(243,87,161, 0.95)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
-            "value": "rgba(243,87,161, 1)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(243,87,161, 1)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(243,87,161, 1)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
-            "value": "rgba(243,87,161, 0.5)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(243,87,161, 0.5)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(243,87,161, 0.5)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Border color",
-            "type": "color"
-          }
-        }
-      },
-      "secondary": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default",
-        "hovered": {
+        "secondary": {
           "background": {
             "value": "rgba(127,288,220, 0.9)",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(127,288,220, 0.9)",
+            "value": "{ui.action.default.secondary.color}",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -95,70 +140,14 @@
             "type": "color"
           }
         },
-        "pressed": {
-          "background": {
-            "value": "rgba(127,288,220, 0.95)",
-            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Pressed/Clicked\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(127,288,220, 0.95)",
-            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(127,288,220, 0.95)",
-            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
-            "value": "rgba(127,288,220, 1)",
-            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(127,288,220, 1)",
-            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(127,288,220, 1)",
-            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
-            "value": "rgba(127,288,220, 0.5)",
-            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(127,288,220, 0.5)",
-            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(127,288,220, 0.5)",
-            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Border color",
-            "type": "color"
-          }
-        }
-      },
-      "bg": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default",
-        "hovered": {
+        "bg": {
           "background": {
             "value": "rgba(0,0,0, 0.9)",
             "description": "Group: Background color for the page\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(0,0,0, 0.9)",
+            "value": "{ui.action.default.bg.color}",
             "description": "Group: Background color for the page\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -168,70 +157,14 @@
             "type": "color"
           }
         },
-        "pressed": {
-          "background": {
-            "value": "rgba(0,0,0, 0.95)",
-            "description": "Group: Background color for the page\nState: Pressed/Clicked\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(0,0,0, 0.95)",
-            "description": "Group: Background color for the page\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,0,0, 0.95)",
-            "description": "Group: Background color for the page\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
-            "value": "rgba(0,0,0, 1)",
-            "description": "Group: Background color for the page\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(0,0,0, 1)",
-            "description": "Group: Background color for the page\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,0,0, 1)",
-            "description": "Group: Background color for the page\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
-            "value": "rgba(0,0,0, 0.5)",
-            "description": "Group: Background color for the page\nState: Disabled\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(0,0,0, 0.5)",
-            "description": "Group: Background color for the page\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,0,0, 0.5)",
-            "description": "Group: Background color for the page\nState: Disabled\nProperty: Border color",
-            "type": "color"
-          }
-        }
-      },
-      "critical": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default",
-        "hovered": {
+        "critical": {
           "background": {
             "value": "rgba(176,16,56, 0.9)",
             "description": "Group: Color for critical actions and errors\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(176,16,56, 0.9)",
+            "value": "{ui.action.default.critical.color}",
             "description": "Group: Color for critical actions and errors\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -241,70 +174,14 @@
             "type": "color"
           }
         },
-        "pressed": {
-          "background": {
-            "value": "rgba(176,16,56, 0.95)",
-            "description": "Group: Color for critical actions and errors\nState: Pressed/Clicked\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(176,16,56, 0.95)",
-            "description": "Group: Color for critical actions and errors\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(176,16,56, 0.95)",
-            "description": "Group: Color for critical actions and errors\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
-            "value": "rgba(176,16,56, 1)",
-            "description": "Group: Color for critical actions and errors\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(176,16,56, 1)",
-            "description": "Group: Color for critical actions and errors\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(176,16,56, 1)",
-            "description": "Group: Color for critical actions and errors\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
-            "value": "rgba(176,16,56, 0.5)",
-            "description": "Group: Color for critical actions and errors\nState: Disabled\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(176,16,56, 0.5)",
-            "description": "Group: Color for critical actions and errors\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(176,16,56, 0.5)",
-            "description": "Group: Color for critical actions and errors\nState: Disabled\nProperty: Border color",
-            "type": "color"
-          }
-        }
-      },
-      "warning": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default",
-        "hovered": {
+        "warning": {
           "background": {
             "value": "rgba(255,218,7, 0.9)",
             "description": "Group: Color for semi-critical actions and warnings\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(255,218,7, 0.9)",
+            "value": "{ui.action.default.warning.color}",
             "description": "Group: Color for semi-critical actions and warnings\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -314,14 +191,101 @@
             "type": "color"
           }
         },
-        "pressed": {
+        "success": {
+          "background": {
+            "value": "rgba(0,255,0, 0.9)",
+            "description": "Group: Color for successful actions\nState: Hovered\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.action.default.success.color}",
+            "description": "Group: Color for successful actions\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(0,255,0, 0.9)",
+            "description": "Group: Color for successful actions\nState: Hovered\nProperty: Border color",
+            "type": "color"
+          }
+        }
+      },
+      "pressed": {
+        "primary": {
+          "background": {
+            "value": "rgba(243,87,161, 0.95)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.action.default.primary.color}",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(243,87,161, 0.95)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "background": {
+            "value": "rgba(127,288,220, 0.95)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Pressed/Clicked\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.action.default.secondary.color}",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(127,288,220, 0.95)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "bg": {
+          "background": {
+            "value": "rgba(0,0,0, 0.95)",
+            "description": "Group: Background color for the page\nState: Pressed/Clicked\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.action.default.bg.color}",
+            "description": "Group: Background color for the page\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(0,0,0, 0.95)",
+            "description": "Group: Background color for the page\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "critical": {
+          "background": {
+            "value": "rgba(176,16,56, 0.95)",
+            "description": "Group: Color for critical actions and errors\nState: Pressed/Clicked\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.action.default.critical.color}",
+            "description": "Group: Color for critical actions and errors\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(176,16,56, 0.95)",
+            "description": "Group: Color for critical actions and errors\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "warning": {
           "background": {
             "value": "rgba(255,218,7, 0.95)",
             "description": "Group: Color for semi-critical actions and warnings\nState: Pressed/Clicked\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(255,218,7, 0.95)",
+            "value": "{ui.action.default.warning.color}",
             "description": "Group: Color for semi-critical actions and warnings\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -331,14 +295,101 @@
             "type": "color"
           }
         },
-        "selected": {
+        "success": {
+          "background": {
+            "value": "rgba(0,255,0, 0.95)",
+            "description": "Group: Color for successful actions\nState: Pressed/Clicked\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.action.default.success.color}",
+            "description": "Group: Color for successful actions\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(0,255,0, 0.95)",
+            "description": "Group: Color for successful actions\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          }
+        }
+      },
+      "selected": {
+        "primary": {
+          "background": {
+            "value": "rgba(243,87,161, 1)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.action.default.primary.color}",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(243,87,161, 1)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "background": {
+            "value": "rgba(127,288,220, 1)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.action.default.secondary.color}",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(127,288,220, 1)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "bg": {
+          "background": {
+            "value": "rgba(0,0,0, 1)",
+            "description": "Group: Background color for the page\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.action.default.bg.color}",
+            "description": "Group: Background color for the page\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(0,0,0, 1)",
+            "description": "Group: Background color for the page\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "critical": {
+          "background": {
+            "value": "rgba(176,16,56, 1)",
+            "description": "Group: Color for critical actions and errors\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.action.default.critical.color}",
+            "description": "Group: Color for critical actions and errors\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(176,16,56, 1)",
+            "description": "Group: Color for critical actions and errors\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "warning": {
           "background": {
             "value": "rgba(255,218,7, 1)",
             "description": "Group: Color for semi-critical actions and warnings\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(255,218,7, 1)",
+            "value": "{ui.action.default.warning.color}",
             "description": "Group: Color for semi-critical actions and warnings\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -348,70 +399,14 @@
             "type": "color"
           }
         },
-        "disabled": {
-          "background": {
-            "value": "rgba(255,218,7, 0.5)",
-            "description": "Group: Color for semi-critical actions and warnings\nState: Disabled\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(255,218,7, 0.5)",
-            "description": "Group: Color for semi-critical actions and warnings\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(255,218,7, 0.5)",
-            "description": "Group: Color for semi-critical actions and warnings\nState: Disabled\nProperty: Border color",
-            "type": "color"
-          }
-        }
-      },
-      "success": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default",
-        "hovered": {
-          "background": {
-            "value": "rgba(0,255,0, 0.9)",
-            "description": "Group: Color for successful actions\nState: Hovered\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(0,255,0, 0.9)",
-            "description": "Group: Color for successful actions\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,255,0, 0.9)",
-            "description": "Group: Color for successful actions\nState: Hovered\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "pressed": {
-          "background": {
-            "value": "rgba(0,255,0, 0.95)",
-            "description": "Group: Color for successful actions\nState: Pressed/Clicked\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(0,255,0, 0.95)",
-            "description": "Group: Color for successful actions\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,255,0, 0.95)",
-            "description": "Group: Color for successful actions\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
+        "success": {
           "background": {
             "value": "rgba(0,255,0, 1)",
             "description": "Group: Color for successful actions\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(0,255,0, 1)",
+            "value": "{ui.action.default.success.color}",
             "description": "Group: Color for successful actions\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -420,15 +415,102 @@
             "description": "Group: Color for successful actions\nState: Selective/Active/Highlighted\nProperty: Border color",
             "type": "color"
           }
+        }
+      },
+      "disabled": {
+        "primary": {
+          "background": {
+            "value": "rgba(243,87,161, 0.5)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.action.default.primary.color}",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(243,87,161, 0.5)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Border color",
+            "type": "color"
+          }
         },
-        "disabled": {
+        "secondary": {
+          "background": {
+            "value": "rgba(127,288,220, 0.5)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.action.default.secondary.color}",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(127,288,220, 0.5)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "bg": {
+          "background": {
+            "value": "rgba(0,0,0, 0.5)",
+            "description": "Group: Background color for the page\nState: Disabled\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.action.default.bg.color}",
+            "description": "Group: Background color for the page\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(0,0,0, 0.5)",
+            "description": "Group: Background color for the page\nState: Disabled\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "critical": {
+          "background": {
+            "value": "rgba(176,16,56, 0.5)",
+            "description": "Group: Color for critical actions and errors\nState: Disabled\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.action.default.critical.color}",
+            "description": "Group: Color for critical actions and errors\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(176,16,56, 0.5)",
+            "description": "Group: Color for critical actions and errors\nState: Disabled\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "warning": {
+          "background": {
+            "value": "rgba(255,218,7, 0.5)",
+            "description": "Group: Color for semi-critical actions and warnings\nState: Disabled\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.action.default.warning.color}",
+            "description": "Group: Color for semi-critical actions and warnings\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(255,218,7, 0.5)",
+            "description": "Group: Color for semi-critical actions and warnings\nState: Disabled\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "success": {
           "background": {
             "value": "rgba(0,255,0, 0.5)",
             "description": "Group: Color for successful actions\nState: Disabled\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(0,255,0, 0.5)",
+            "value": "{ui.action.default.success.color}",
             "description": "Group: Color for successful actions\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -441,18 +523,102 @@
       }
     },
     "link": {
-      "primary": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default",
-        "hovered": {
+      "default": {
+        "primary": {
+          "background": {
+            "value": "rgba(243,87,161, 1)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Default\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(243,87,161, 1)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Default\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "background": {
+            "value": "rgba(127,288,220, 1)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Default\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(127,288,220, 1)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Default\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "critical": {
+          "background": {
+            "value": "rgba(176,16,56, 1)",
+            "description": "Group: Color for critical actions and errors\nState: Default\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Color for critical actions and errors\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(176,16,56, 1)",
+            "description": "Group: Color for critical actions and errors\nState: Default\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "warning": {
+          "background": {
+            "value": "rgba(255,218,7, 1)",
+            "description": "Group: Color for semi-critical actions and warnings\nState: Default\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Color for semi-critical actions and warnings\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(255,218,7, 1)",
+            "description": "Group: Color for semi-critical actions and warnings\nState: Default\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "success": {
+          "background": {
+            "value": "rgba(0,255,0, 1)",
+            "description": "Group: Color for successful actions\nState: Default\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Color for successful actions\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(0,255,0, 1)",
+            "description": "Group: Color for successful actions\nState: Default\nProperty: Border color",
+            "type": "color"
+          }
+        }
+      },
+      "hovered": {
+        "primary": {
           "background": {
             "value": "rgba(243,87,161, 0.9)",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(243,87,161, 0.9)",
+            "value": "{ui.link.default.primary.color}",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -462,70 +628,14 @@
             "type": "color"
           }
         },
-        "pressed": {
-          "background": {
-            "value": "rgba(243,87,161, 0.95)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(243,87,161, 0.95)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(243,87,161, 0.95)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
-            "value": "rgba(243,87,161, 1)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(243,87,161, 1)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(243,87,161, 1)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
-            "value": "rgba(243,87,161, 0.5)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(243,87,161, 0.5)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(243,87,161, 0.5)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Border color",
-            "type": "color"
-          }
-        }
-      },
-      "secondary": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default",
-        "hovered": {
+        "secondary": {
           "background": {
             "value": "rgba(127,288,220, 0.9)",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(127,288,220, 0.9)",
+            "value": "{ui.link.default.secondary.color}",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -535,70 +645,14 @@
             "type": "color"
           }
         },
-        "pressed": {
-          "background": {
-            "value": "rgba(127,288,220, 0.95)",
-            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Pressed/Clicked\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(127,288,220, 0.95)",
-            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(127,288,220, 0.95)",
-            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
-            "value": "rgba(127,288,220, 1)",
-            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(127,288,220, 1)",
-            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(127,288,220, 1)",
-            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
-            "value": "rgba(127,288,220, 0.5)",
-            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(127,288,220, 0.5)",
-            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(127,288,220, 0.5)",
-            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Border color",
-            "type": "color"
-          }
-        }
-      },
-      "critical": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default",
-        "hovered": {
+        "critical": {
           "background": {
             "value": "rgba(176,16,56, 0.9)",
             "description": "Group: Color for critical actions and errors\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(176,16,56, 0.9)",
+            "value": "{ui.link.default.critical.color}",
             "description": "Group: Color for critical actions and errors\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -608,70 +662,14 @@
             "type": "color"
           }
         },
-        "pressed": {
-          "background": {
-            "value": "rgba(176,16,56, 0.95)",
-            "description": "Group: Color for critical actions and errors\nState: Pressed/Clicked\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(176,16,56, 0.95)",
-            "description": "Group: Color for critical actions and errors\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(176,16,56, 0.95)",
-            "description": "Group: Color for critical actions and errors\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
-            "value": "rgba(176,16,56, 1)",
-            "description": "Group: Color for critical actions and errors\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(176,16,56, 1)",
-            "description": "Group: Color for critical actions and errors\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(176,16,56, 1)",
-            "description": "Group: Color for critical actions and errors\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
-            "value": "rgba(176,16,56, 0.5)",
-            "description": "Group: Color for critical actions and errors\nState: Disabled\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(176,16,56, 0.5)",
-            "description": "Group: Color for critical actions and errors\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(176,16,56, 0.5)",
-            "description": "Group: Color for critical actions and errors\nState: Disabled\nProperty: Border color",
-            "type": "color"
-          }
-        }
-      },
-      "warning": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default",
-        "hovered": {
+        "warning": {
           "background": {
             "value": "rgba(255,218,7, 0.9)",
             "description": "Group: Color for semi-critical actions and warnings\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(255,218,7, 0.9)",
+            "value": "{ui.link.default.warning.color}",
             "description": "Group: Color for semi-critical actions and warnings\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -681,14 +679,84 @@
             "type": "color"
           }
         },
-        "pressed": {
+        "success": {
+          "background": {
+            "value": "rgba(0,255,0, 0.9)",
+            "description": "Group: Color for successful actions\nState: Hovered\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.link.default.success.color}",
+            "description": "Group: Color for successful actions\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(0,255,0, 0.9)",
+            "description": "Group: Color for successful actions\nState: Hovered\nProperty: Border color",
+            "type": "color"
+          }
+        }
+      },
+      "pressed": {
+        "primary": {
+          "background": {
+            "value": "rgba(243,87,161, 0.95)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.link.default.primary.color}",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(243,87,161, 0.95)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "background": {
+            "value": "rgba(127,288,220, 0.95)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Pressed/Clicked\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.link.default.secondary.color}",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(127,288,220, 0.95)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "critical": {
+          "background": {
+            "value": "rgba(176,16,56, 0.95)",
+            "description": "Group: Color for critical actions and errors\nState: Pressed/Clicked\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.link.default.critical.color}",
+            "description": "Group: Color for critical actions and errors\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(176,16,56, 0.95)",
+            "description": "Group: Color for critical actions and errors\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "warning": {
           "background": {
             "value": "rgba(255,218,7, 0.95)",
             "description": "Group: Color for semi-critical actions and warnings\nState: Pressed/Clicked\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(255,218,7, 0.95)",
+            "value": "{ui.link.default.warning.color}",
             "description": "Group: Color for semi-critical actions and warnings\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -698,14 +766,84 @@
             "type": "color"
           }
         },
-        "selected": {
+        "success": {
+          "background": {
+            "value": "rgba(0,255,0, 0.95)",
+            "description": "Group: Color for successful actions\nState: Pressed/Clicked\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.link.default.success.color}",
+            "description": "Group: Color for successful actions\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(0,255,0, 0.95)",
+            "description": "Group: Color for successful actions\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          }
+        }
+      },
+      "selected": {
+        "primary": {
+          "background": {
+            "value": "rgba(243,87,161, 1)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.link.default.primary.color}",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(243,87,161, 1)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "background": {
+            "value": "rgba(127,288,220, 1)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.link.default.secondary.color}",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(127,288,220, 1)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "critical": {
+          "background": {
+            "value": "rgba(176,16,56, 1)",
+            "description": "Group: Color for critical actions and errors\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.link.default.critical.color}",
+            "description": "Group: Color for critical actions and errors\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(176,16,56, 1)",
+            "description": "Group: Color for critical actions and errors\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "warning": {
           "background": {
             "value": "rgba(255,218,7, 1)",
             "description": "Group: Color for semi-critical actions and warnings\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(255,218,7, 1)",
+            "value": "{ui.link.default.warning.color}",
             "description": "Group: Color for semi-critical actions and warnings\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -715,70 +853,14 @@
             "type": "color"
           }
         },
-        "disabled": {
-          "background": {
-            "value": "rgba(255,218,7, 0.5)",
-            "description": "Group: Color for semi-critical actions and warnings\nState: Disabled\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(255,218,7, 0.5)",
-            "description": "Group: Color for semi-critical actions and warnings\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(255,218,7, 0.5)",
-            "description": "Group: Color for semi-critical actions and warnings\nState: Disabled\nProperty: Border color",
-            "type": "color"
-          }
-        }
-      },
-      "success": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default",
-        "hovered": {
-          "background": {
-            "value": "rgba(0,255,0, 0.9)",
-            "description": "Group: Color for successful actions\nState: Hovered\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(0,255,0, 0.9)",
-            "description": "Group: Color for successful actions\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,255,0, 0.9)",
-            "description": "Group: Color for successful actions\nState: Hovered\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "pressed": {
-          "background": {
-            "value": "rgba(0,255,0, 0.95)",
-            "description": "Group: Color for successful actions\nState: Pressed/Clicked\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(0,255,0, 0.95)",
-            "description": "Group: Color for successful actions\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,255,0, 0.95)",
-            "description": "Group: Color for successful actions\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
+        "success": {
           "background": {
             "value": "rgba(0,255,0, 1)",
             "description": "Group: Color for successful actions\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(0,255,0, 1)",
+            "value": "{ui.link.default.success.color}",
             "description": "Group: Color for successful actions\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -787,15 +869,85 @@
             "description": "Group: Color for successful actions\nState: Selective/Active/Highlighted\nProperty: Border color",
             "type": "color"
           }
+        }
+      },
+      "disabled": {
+        "primary": {
+          "background": {
+            "value": "rgba(243,87,161, 0.5)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.link.default.primary.color}",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(243,87,161, 0.5)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Border color",
+            "type": "color"
+          }
         },
-        "disabled": {
+        "secondary": {
+          "background": {
+            "value": "rgba(127,288,220, 0.5)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.link.default.secondary.color}",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(127,288,220, 0.5)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "critical": {
+          "background": {
+            "value": "rgba(176,16,56, 0.5)",
+            "description": "Group: Color for critical actions and errors\nState: Disabled\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.link.default.critical.color}",
+            "description": "Group: Color for critical actions and errors\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(176,16,56, 0.5)",
+            "description": "Group: Color for critical actions and errors\nState: Disabled\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "warning": {
+          "background": {
+            "value": "rgba(255,218,7, 0.5)",
+            "description": "Group: Color for semi-critical actions and warnings\nState: Disabled\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.link.default.warning.color}",
+            "description": "Group: Color for semi-critical actions and warnings\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(255,218,7, 0.5)",
+            "description": "Group: Color for semi-critical actions and warnings\nState: Disabled\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "success": {
           "background": {
             "value": "rgba(0,255,0, 0.5)",
             "description": "Group: Color for successful actions\nState: Disabled\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(0,255,0, 0.5)",
+            "value": "{ui.link.default.success.color}",
             "description": "Group: Color for successful actions\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -808,18 +960,68 @@
       }
     },
     "tab": {
-      "primary": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default",
-        "hovered": {
+      "default": {
+        "primary": {
+          "background": {
+            "value": "rgba(243,87,161, 1)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Default\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(243,87,161, 1)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Default\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "background": {
+            "value": "rgba(127,288,220, 1)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Default\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(127,288,220, 1)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Default\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "bg": {
+          "background": {
+            "value": "rgba(0,0,0, 1)",
+            "description": "Group: Background color for the page\nState: Default\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Background color for the page\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(0,0,0, 1)",
+            "description": "Group: Background color for the page\nState: Default\nProperty: Border color",
+            "type": "color"
+          }
+        }
+      },
+      "hovered": {
+        "primary": {
           "background": {
             "value": "rgba(243,87,161, 0.9)",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(243,87,161, 0.9)",
+            "value": "{ui.tab.default.primary.color}",
             "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -829,70 +1031,14 @@
             "type": "color"
           }
         },
-        "pressed": {
-          "background": {
-            "value": "rgba(243,87,161, 0.95)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(243,87,161, 0.95)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(243,87,161, 0.95)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
-            "value": "rgba(243,87,161, 1)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(243,87,161, 1)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(243,87,161, 1)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
-            "value": "rgba(243,87,161, 0.5)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(243,87,161, 0.5)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(243,87,161, 0.5)",
-            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Border color",
-            "type": "color"
-          }
-        }
-      },
-      "secondary": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default",
-        "hovered": {
+        "secondary": {
           "background": {
             "value": "rgba(127,288,220, 0.9)",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(127,288,220, 0.9)",
+            "value": "{ui.tab.default.secondary.color}",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -902,14 +1048,50 @@
             "type": "color"
           }
         },
-        "pressed": {
+        "bg": {
+          "background": {
+            "value": "rgba(0,0,0, 0.9)",
+            "description": "Group: Background color for the page\nState: Hovered\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.tab.default.bg.color}",
+            "description": "Group: Background color for the page\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(0,0,0, 0.9)",
+            "description": "Group: Background color for the page\nState: Hovered\nProperty: Border color",
+            "type": "color"
+          }
+        }
+      },
+      "pressed": {
+        "primary": {
+          "background": {
+            "value": "rgba(243,87,161, 0.95)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.tab.default.primary.color}",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(243,87,161, 0.95)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "secondary": {
           "background": {
             "value": "rgba(127,288,220, 0.95)",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Pressed/Clicked\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(127,288,220, 0.95)",
+            "value": "{ui.tab.default.secondary.color}",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -919,14 +1101,50 @@
             "type": "color"
           }
         },
-        "selected": {
+        "bg": {
+          "background": {
+            "value": "rgba(0,0,0, 0.95)",
+            "description": "Group: Background color for the page\nState: Pressed/Clicked\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.tab.default.bg.color}",
+            "description": "Group: Background color for the page\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(0,0,0, 0.95)",
+            "description": "Group: Background color for the page\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          }
+        }
+      },
+      "selected": {
+        "primary": {
+          "background": {
+            "value": "rgba(243,87,161, 1)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.tab.default.primary.color}",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(243,87,161, 1)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "secondary": {
           "background": {
             "value": "rgba(127,288,220, 1)",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(127,288,220, 1)",
+            "value": "{ui.tab.default.secondary.color}",
             "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -936,70 +1154,14 @@
             "type": "color"
           }
         },
-        "disabled": {
-          "background": {
-            "value": "rgba(127,288,220, 0.5)",
-            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(127,288,220, 0.5)",
-            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(127,288,220, 0.5)",
-            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Border color",
-            "type": "color"
-          }
-        }
-      },
-      "bg": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default",
-        "hovered": {
-          "background": {
-            "value": "rgba(0,0,0, 0.9)",
-            "description": "Group: Background color for the page\nState: Hovered\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(0,0,0, 0.9)",
-            "description": "Group: Background color for the page\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,0,0, 0.9)",
-            "description": "Group: Background color for the page\nState: Hovered\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "pressed": {
-          "background": {
-            "value": "rgba(0,0,0, 0.95)",
-            "description": "Group: Background color for the page\nState: Pressed/Clicked\nProperty: Background / fill color",
-            "type": "color"
-          },
-          "color": {
-            "value": "rgba(0,0,0, 0.95)",
-            "description": "Group: Background color for the page\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,0,0, 0.95)",
-            "description": "Group: Background color for the page\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
+        "bg": {
           "background": {
             "value": "rgba(0,0,0, 1)",
             "description": "Group: Background color for the page\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(0,0,0, 1)",
+            "value": "{ui.tab.default.bg.color}",
             "description": "Group: Background color for the page\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -1008,15 +1170,51 @@
             "description": "Group: Background color for the page\nState: Selective/Active/Highlighted\nProperty: Border color",
             "type": "color"
           }
+        }
+      },
+      "disabled": {
+        "primary": {
+          "background": {
+            "value": "rgba(243,87,161, 0.5)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.tab.default.primary.color}",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(243,87,161, 0.5)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Border color",
+            "type": "color"
+          }
         },
-        "disabled": {
+        "secondary": {
+          "background": {
+            "value": "rgba(127,288,220, 0.5)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "{ui.tab.default.secondary.color}",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(127,288,220, 0.5)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "bg": {
           "background": {
             "value": "rgba(0,0,0, 0.5)",
             "description": "Group: Background color for the page\nState: Disabled\nProperty: Background / fill color",
             "type": "color"
           },
           "color": {
-            "value": "rgba(0,0,0, 0.5)",
+            "value": "{ui.tab.default.bg.color}",
             "description": "Group: Background color for the page\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
@@ -1029,62 +1227,148 @@
       }
     },
     "symbol": {
-      "primary": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default"
-      },
-      "secondary": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default"
-      },
-      "critical": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default"
-      },
-      "warning": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default"
-      },
-      "success": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default"
+      "default": {
+        "primary": {
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          }
+        },
+        "critical": {
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Color for critical actions and errors\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          }
+        },
+        "warning": {
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Color for semi-critical actions and warnings\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          }
+        },
+        "success": {
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Color for successful actions\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          }
+        }
       }
     },
     "surface": {
-      "primary": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default"
-      },
-      "secondary": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default"
-      },
-      "bg": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default"
-      },
-      "critical": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default"
-      },
-      "warning": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default"
-      },
-      "success": {
-        "key": "default",
-        "baseOpacity": "1",
-        "description": "Default"
+      "default": {
+        "primary": {
+          "background": {
+            "value": "rgba(243,87,161, 1)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Default\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(243,87,161, 1)",
+            "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Default\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "background": {
+            "value": "rgba(127,288,220, 1)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Default\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(127,288,220, 1)",
+            "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Default\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "bg": {
+          "background": {
+            "value": "rgba(0,0,0, 1)",
+            "description": "Group: Background color for the page\nState: Default\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Background color for the page\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(0,0,0, 1)",
+            "description": "Group: Background color for the page\nState: Default\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "critical": {
+          "background": {
+            "value": "rgba(176,16,56, 1)",
+            "description": "Group: Color for critical actions and errors\nState: Default\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Color for critical actions and errors\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(176,16,56, 1)",
+            "description": "Group: Color for critical actions and errors\nState: Default\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "warning": {
+          "background": {
+            "value": "rgba(255,218,7, 1)",
+            "description": "Group: Color for semi-critical actions and warnings\nState: Default\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Color for semi-critical actions and warnings\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(255,218,7, 1)",
+            "description": "Group: Color for semi-critical actions and warnings\nState: Default\nProperty: Border color",
+            "type": "color"
+          }
+        },
+        "success": {
+          "background": {
+            "value": "rgba(0,255,0, 1)",
+            "description": "Group: Color for successful actions\nState: Default\nProperty: Background / fill color",
+            "type": "color"
+          },
+          "color": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Group: Color for successful actions\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "rgba(0,255,0, 1)",
+            "description": "Group: Color for successful actions\nState: Default\nProperty: Border color",
+            "type": "color"
+          }
+        }
       }
     }
   }

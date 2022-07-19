@@ -95,24 +95,24 @@ const UI_ELEMENTS = {
     key: 'action',
     baseOpacity: '1',
     description: 'Buttons',
-    roles: [ROLES.PRIMARY, ROLES.SECONDARY, ROLES.BG, ROLES.CRITICAL, ROLES.WARNING, ROLES.SUCCESS],
     states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
+    roles: [ROLES.PRIMARY, ROLES.SECONDARY, ROLES.BG, ROLES.CRITICAL, ROLES.WARNING, ROLES.SUCCESS],
     properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
   },
   LINK: {
     key: 'link',
     baseOpacity: '1',
     description: 'Plain text links',
-    roles: [ROLES.PRIMARY, ROLES.SECONDARY, ROLES.CRITICAL, ROLES.WARNING, ROLES.SUCCESS],
     states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
+    roles: [ROLES.PRIMARY, ROLES.SECONDARY, ROLES.CRITICAL, ROLES.WARNING, ROLES.SUCCESS],
     properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
   },
   TAB: {
     key: 'tab',
     baseOpacity: '1',
     description: 'Fancier links for tabs / navigation',
-    roles: [ROLES.PRIMARY, ROLES.SECONDARY, ROLES.BG],
     states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
+    roles: [ROLES.PRIMARY, ROLES.SECONDARY, ROLES.BG],
     properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
   },
 
@@ -121,52 +121,54 @@ const UI_ELEMENTS = {
     key: 'symbol',
     baseOpacity: '1',
     description: 'Header text, paragraph text, icons, (needs to be legible on background surface color)',
-    roles: [ROLES.PRIMARY, ROLES.SECONDARY, ROLES.CRITICAL, ROLES.WARNING, ROLES.SUCCESS],
     states: [STATES.DEFAULT],
+    roles: [ROLES.PRIMARY, ROLES.SECONDARY, ROLES.CRITICAL, ROLES.WARNING, ROLES.SUCCESS],
     properties: [PROPERTIES.COLOR]
   },
   SURFACE: {
     key: 'surface',
     baseOpacity: '0.5',
     description: 'Card, warning message, info box, etc... Fill is typically muted color, border is higher contrast',
-    roles: [ROLES.PRIMARY, ROLES.SECONDARY, ROLES.BG, ROLES.CRITICAL, ROLES.WARNING, ROLES.SUCCESS],
     states: [STATES.DEFAULT],
+    roles: [ROLES.PRIMARY, ROLES.SECONDARY, ROLES.BG, ROLES.CRITICAL, ROLES.WARNING, ROLES.SUCCESS],
     properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
   }
 }
 
 // theme creators realistically shouldn't need to set all of these. we'll have good fallbacks
 
-const jsonObj = Object.values(UI_ELEMENTS).reduce((obj, uiElement) => {
-  return {
-    ...obj,
-    [uiElement.key]: uiElement.roles.reduce((obj, role) => {
-      return {
-        ...obj,
-        [role.key]: uiElement.states.reduce((obj, state) => {
-          return {
-            ...obj,
-            [state.key]: uiElement.properties.reduce((obj, property) => {
-              const color = getDefinition({ role, state, property })
-              return {
-                ...obj,
-                [property.key]: color
-              }
-            }, {})
-          }
-        })
-      }
-    }, {})
-  }
-}, {})
+const jsonObj = {
+  ui: Object.values(UI_ELEMENTS).reduce((obj, uiElement) => {
+    return {
+      ...obj,
+      [uiElement.key]: uiElement.states.reduce((obj, state) => {
+        return {
+          ...obj,
+          [state.key]: uiElement.roles.reduce((obj, role) => {
+            return {
+              ...obj,
+              [role.key]: uiElement.properties.reduce((obj, property) => {
+                const color = getDefinition({ uiElement, role, state, property })
+                return {
+                  ...obj,
+                  [property.key]: color
+                }
+              }, {})
+            }
+          }, {})
+        }
+      }, {})
+    }
+  }, {})
+}
 
-function getDefinition ({ role, state, property }) {
+function getDefinition ({ uiElement, role, state, property }) {
   let color
-  if (['shadow', 'border', 'text'].includes(property.key)) {
-    color = `{color.${role.key}.${state.key}.fill}`
+  if (property.key === 'border') {
+    color = `rgba(${role.baseRgbCsv}, 0.3)`
   }
-  else if (property.key === 'text-on-fill') {
-    color = state.key === 'default' ? 'rgba(255, 255, 255, 1)' : `{color.${role.key}.default.text-on-fill}`
+  else if (property.key === 'color') {
+    color = state.key === 'default' ? 'rgba(255, 255, 255, 1)' : `{ui.${uiElement.key}.default.${role.key}.color}`
   } else {
     if (role.baseRgbCsv) {
       color = `rgba(${role.baseRgbCsv}, ${state.baseOpacity})`
@@ -181,4 +183,4 @@ function getDefinition ({ role, state, property }) {
   }
 }
 
-fs.writeFileSync('./tokens/color.json', JSON.stringify({ ui: jsonObj }, null, 2))
+fs.writeFileSync('./tokens/color.json', JSON.stringify(jsonObj, null, 2))
