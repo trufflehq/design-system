@@ -135,7 +135,7 @@ function getDefinition ({ colorGroup, state, styleProperty }) {
     color = `{color.${colorGroup.key}.${state.key}.fill}`
   }
   else if (styleProperty.key === 'text-on-fill') {
-    color = state.key === 'default' ? 'rgba(255, 255, 255, 1)' : `{color.${colorGroup.key}.default.text}`
+    color = state.key === 'default' ? 'rgba(255, 255, 255, 1)' : `{color.${colorGroup.key}.default.text-on-fill}`
   } else {
     if (colorGroup.baseRgbCsv) {
       color = `rgba(${colorGroup.baseRgbCsv}, ${state.baseOpacity})`

@@ -111,7 +111,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.primary.default.text}",
+          "value": "{color.primary.default.text-on-fill}",
           "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -138,7 +138,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.primary.default.text}",
+          "value": "{color.primary.default.text-on-fill}",
           "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Hovered\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -165,7 +165,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.primary.default.text}",
+          "value": "{color.primary.default.text-on-fill}",
           "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -192,7 +192,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.primary.default.text}",
+          "value": "{color.primary.default.text-on-fill}",
           "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -219,7 +219,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.primary.default.text}",
+          "value": "{color.primary.default.text-on-fill}",
           "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Muted - softer colors for background/info-box\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -275,7 +275,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.secondary.default.text}",
+          "value": "{color.secondary.default.text-on-fill}",
           "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -302,7 +302,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.secondary.default.text}",
+          "value": "{color.secondary.default.text-on-fill}",
           "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Hovered\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -329,7 +329,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.secondary.default.text}",
+          "value": "{color.secondary.default.text-on-fill}",
           "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Pressed/Clicked\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -356,7 +356,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.secondary.default.text}",
+          "value": "{color.secondary.default.text-on-fill}",
           "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Selective/Active/Highlighted\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -383,7 +383,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.secondary.default.text}",
+          "value": "{color.secondary.default.text-on-fill}",
           "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Muted - softer colors for background/info-box\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -439,7 +439,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.bg.default.text}",
+          "value": "{color.bg.default.text-on-fill}",
           "description": "Group: Background color for the page\nState: Disabled\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -466,7 +466,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.bg.default.text}",
+          "value": "{color.bg.default.text-on-fill}",
           "description": "Group: Background color for the page\nState: Hovered\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -493,7 +493,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.bg.default.text}",
+          "value": "{color.bg.default.text-on-fill}",
           "description": "Group: Background color for the page\nState: Pressed/Clicked\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -520,7 +520,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.bg.default.text}",
+          "value": "{color.bg.default.text-on-fill}",
           "description": "Group: Background color for the page\nState: Selective/Active/Highlighted\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -547,7 +547,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.bg.default.text}",
+          "value": "{color.bg.default.text-on-fill}",
           "description": "Group: Background color for the page\nState: Muted - softer colors for background/info-box\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -603,7 +603,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.surface.default.text}",
+          "value": "{color.surface.default.text-on-fill}",
           "description": "Group: Color for cards, low priority buttons, etc...\nState: Disabled\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -630,7 +630,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.surface.default.text}",
+          "value": "{color.surface.default.text-on-fill}",
           "description": "Group: Color for cards, low priority buttons, etc...\nState: Hovered\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -657,7 +657,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.surface.default.text}",
+          "value": "{color.surface.default.text-on-fill}",
           "description": "Group: Color for cards, low priority buttons, etc...\nState: Pressed/Clicked\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -684,7 +684,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.surface.default.text}",
+          "value": "{color.surface.default.text-on-fill}",
           "description": "Group: Color for cards, low priority buttons, etc...\nState: Selective/Active/Highlighted\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -711,7 +711,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.surface.default.text}",
+          "value": "{color.surface.default.text-on-fill}",
           "description": "Group: Color for cards, low priority buttons, etc...\nState: Muted - softer colors for background/info-box\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -801,7 +801,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.critical.default.text}",
+          "value": "{color.critical.default.text-on-fill}",
           "description": "Group: Color for critical actions and errors\nState: Disabled\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -828,7 +828,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.critical.default.text}",
+          "value": "{color.critical.default.text-on-fill}",
           "description": "Group: Color for critical actions and errors\nState: Hovered\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -855,7 +855,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.critical.default.text}",
+          "value": "{color.critical.default.text-on-fill}",
           "description": "Group: Color for critical actions and errors\nState: Pressed/Clicked\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -882,7 +882,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.critical.default.text}",
+          "value": "{color.critical.default.text-on-fill}",
           "description": "Group: Color for critical actions and errors\nState: Selective/Active/Highlighted\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -909,7 +909,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.critical.default.text}",
+          "value": "{color.critical.default.text-on-fill}",
           "description": "Group: Color for critical actions and errors\nState: Muted - softer colors for background/info-box\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -965,7 +965,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.warning.default.text}",
+          "value": "{color.warning.default.text-on-fill}",
           "description": "Group: Color for semi-critical actions and warnings\nState: Disabled\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -992,7 +992,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.warning.default.text}",
+          "value": "{color.warning.default.text-on-fill}",
           "description": "Group: Color for semi-critical actions and warnings\nState: Hovered\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -1019,7 +1019,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.warning.default.text}",
+          "value": "{color.warning.default.text-on-fill}",
           "description": "Group: Color for semi-critical actions and warnings\nState: Pressed/Clicked\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -1046,7 +1046,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.warning.default.text}",
+          "value": "{color.warning.default.text-on-fill}",
           "description": "Group: Color for semi-critical actions and warnings\nState: Selective/Active/Highlighted\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -1073,7 +1073,7 @@
           "type": "color"
         },
         "text-on-fill": {
-          "value": "{color.warning.default.text}",
+          "value": "{color.warning.default.text-on-fill}",
           "description": "Group: Color for semi-critical actions and warnings\nState: Muted - softer colors for background/info-box\nProperty: Color of text on this state's fill color",
           "type": "color"
         },
@@ -1673,49 +1673,5 @@
   "size-4xl": {
     "value": "124",
     "type": "sizing"
-  },
-  "shadow-1": {
-    "value": {
-      "x": "0",
-      "y": "2",
-      "blur": "4",
-      "spread": "0",
-      "color": "rgba(0,0,0,0.5)",
-      "type": "dropShadow"
-    },
-    "type": "boxShadow"
-  },
-  "shadow-2": {
-    "value": {
-      "x": "0",
-      "y": "4",
-      "blur": "8",
-      "spread": "0",
-      "color": "rgba(0,0,0,0.5)",
-      "type": "dropShadow"
-    },
-    "type": "boxShadow"
-  },
-  "shadow-3": {
-    "value": {
-      "x": "0",
-      "y": "8",
-      "blur": "16",
-      "spread": "0",
-      "color": "rgba(0,0,0,0.5)",
-      "type": "dropShadow"
-    },
-    "type": "boxShadow"
-  },
-  "shadow-4": {
-    "value": {
-      "x": "0",
-      "y": "12",
-      "blur": "24",
-      "spread": "0",
-      "color": "rgba(0,0,0,0.5)",
-      "type": "dropShadow"
-    },
-    "type": "boxShadow"
   }
 }
