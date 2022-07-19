@@ -13,19 +13,19 @@ You can see how we generated the base set of placeholder colors in ./scripts/gen
 - `success`
 
 **ui-element** is one of:  
-- `action`
-- `link`
-- `tab`
-- `symbol`
-- `dialog`
-- `surface`
+- `action` - Buttons and fabs
+- `link` - Plain text links (needs to be legible on background surface color)
+- `tab` - Fancier links for tabs / navigation
+- `symbol` - Header text, paragraph text, icons, (needs to be legible on background surface color)
+- `dialog` - Dialogs and modals
+- `surface` - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast
 
 **state** is one of:  
 - `default`
-- `disabled`
-- `hovered`
-- `pressed`
-- `selected`
+- `disabled` - (only for interactive ui-elements)
+- `hovered` - (only for interactive ui-elements)
+- `pressed` - (only for interactive ui-elements)
+- `selected` - (only for interactive ui-elements)
 
 **property** a css property and one of:
 - `background`

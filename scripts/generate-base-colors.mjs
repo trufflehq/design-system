@@ -54,21 +54,21 @@ const UI_ELEMENTS = {
   ACTION: {
     key: 'action',
     baseOpacity: '1',
-    description: 'Buttons',
+    description: 'Action - Buttons and fabs',
     states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
     properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
   },
   LINK: {
     key: 'link',
     baseOpacity: '1',
-    description: 'Plain text links',
+    description: 'Link - Plain text links (needs to be legible on background surface color)',
     states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
     properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
   },
   TAB: {
     key: 'tab',
     baseOpacity: '1',
-    description: 'Fancier links for tabs / navigation',
+    description: 'Tab - Fancier links for tabs / navigation',
     states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
     properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
   },
@@ -77,27 +77,27 @@ const UI_ELEMENTS = {
   SYMBOL: {
     key: 'symbol',
     baseOpacity: '1',
-    description: 'Header text, paragraph text, icons, (needs to be legible on background surface color)',
+    description: 'Symbol - Header text, paragraph text, icons, (needs to be legible on background surface color)',
     states: [STATES.DEFAULT],
     properties: [PROPERTIES.COLOR]
   },
   DIALOG: {
     key: 'dialog',
     baseOpacity: '1',
-    description: 'Dialogs and modals',
+    description: 'Dialog - Dialogs and modals',
     states: [STATES.DEFAULT],
     properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
   },
   SURFACE: {
     key: 'surface',
     baseOpacity: '0.5',
-    description: 'Card, warning message, info box, etc... Fill is typically muted color, border is higher contrast',
+    description: 'Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast',
     states: [STATES.DEFAULT],
     properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
   }
 }
 
-const ROLES = {
+const COLOR_ROLES = {
   PRIMARY: {
     key: 'primary',
     // these are placeholder color values. actual value will be set in figma
@@ -141,17 +141,17 @@ const ROLES = {
 // theme creators realistically shouldn't need to set all of these. we'll have good fallbacks
 
 const jsonObj = {
-  color: Object.values(ROLES).reduce((obj, role) => {
+  color: Object.values(COLOR_ROLES).reduce((obj, colorRole) => {
     return {
       ...obj,
-      [role.key]: role.uiElements.reduce((obj, uiElement) => {
+      [colorRole.key]: colorRole.uiElements.reduce((obj, uiElement) => {
         return {
           ...obj,
           [uiElement.key]: uiElement.states.reduce((obj, state) => {
             return {
               ...obj,
               [state.key]: uiElement.properties.reduce((obj, property) => {
-                const color = getDefinition({ uiElement, role, state, property })
+                const color = getDefinition({ uiElement, colorRole, state, property })
                 return {
                   ...obj,
                   [property.key]: color
@@ -165,23 +165,23 @@ const jsonObj = {
   }, {})
 }
 
-function getDefinition ({ uiElement, role, state, property }) {
+function getDefinition ({ uiElement, colorRole, state, property }) {
   let color
   if (property.key === 'border-color') {
-    color = `rgba(${role.baseRgbCsv}, 0.3)`
+    color = `rgba(${colorRole.baseRgbCsv}, 0.3)`
   }
   else if (property.key === 'color') {
-    color = state.key === 'default' ? 'rgba(255, 255, 255, 1)' : `{color.${role.key}.${uiElement.key}.default.color}`
+    color = state.key === 'default' ? 'rgba(255, 255, 255, 1)' : `{color.${colorRole.key}.${uiElement.key}.default.color}`
   } else {
-    if (role.baseRgbCsv) {
-      color = `rgba(${role.baseRgbCsv}, ${state.baseOpacity})`
+    if (colorRole.baseRgbCsv) {
+      color = `rgba(${colorRole.baseRgbCsv}, ${state.baseOpacity})`
     } else {
-      color = role.base
+      color = colorRole.base
     }
   }
   return {
     value: color,
-    description: `Group: ${role.description}\nState: ${state.description}\nProperty: ${property.description}`,
+    description: `Color Role: ${colorRole.description}\nUI Element: ${uiElement.description}\nState: ${state.description}\nProperty: ${property.description}`,
     type: "color"
   }
 }
