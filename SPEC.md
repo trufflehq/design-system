@@ -4,7 +4,7 @@ Naming should follow this convention:
 
 You can see how we generated the base set of placeholder colors in ./scripts/generate-base-colors.mjs
 
-color-role is one of:  
+**color-role** is one of:  
 - `primary`
 - `secondary`
 - `bg`
@@ -12,7 +12,7 @@ color-role is one of:
 - `warning`
 - `success`
 
-ui-element is one of:  
+**ui-element** is one of:  
 - `action`
 - `link`
 - `tab`
@@ -20,14 +20,14 @@ ui-element is one of:
 - `dialog`
 - `surface`
 
-state is one of:  
+**state** is one of:  
 - `default`
 - `disabled`
 - `hovered`
 - `pressed`
 - `selected`
 
-property a css property and one of:
+**property** a css property and one of:
 - `background`
 - `color`
 - `border-color`
@@ -62,7 +62,7 @@ property a css property and one of:
 ### Implementing
 In the future, you should see it in Figma (once that's setup we can add a video for using the figma-tokens plugin to inspect).
 
-If it's not in Figma, always use the color name that makes the most sense for what you're building. The majority of variables are references to other variables. Eg `--tfl-color-primary-hovered-border` is defined as `var(--tfl-color-primary-hovered-fill)`. But we still want to use `--tfl-color-primary-hovered-border` in case a theme developer chooses to have that color be different from the non-hovered border color.
+If it's not in Figma, always use the color name that makes the most sense for what you're building. The majority of variables are references to other variables. Eg `--tfl-color-primary-action-hovered-border-color` is defined as `var(--tfl-color-primary-action-hovered-background)`. But we still want to use `--tfl-color-primary-action-hovered-border-color` in case a theme developer chooses to have that color be different from the non-hovered border color.
 
 ## Spacing
 - Spacing tokens are used for component-level spacing
