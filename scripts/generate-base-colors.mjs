@@ -134,8 +134,7 @@ const COLOR_ROLES = {
     baseRgbCsv: '0,255,0',
     description: 'Color for successful actions',
     uiElements: [UI_ELEMENTS.ACTION, UI_ELEMENTS.LINK, UI_ELEMENTS.SYMBOL, UI_ELEMENTS.SURFACE]
-  },
-  // we can add these if/when needed: accent1, accent2, neutral
+  }
 }
 
 // theme creators realistically shouldn't need to set all of these. we'll have good fallbacks

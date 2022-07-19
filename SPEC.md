@@ -13,9 +13,9 @@ You can see how we generated the base set of placeholder colors in ./scripts/gen
 - `success`
 
 **ui-element** is one of:  
-- `action` - Buttons and fabs
-- `link` - Plain text links (needs to be legible on background surface color)
-- `tab` - Fancier links for tabs / navigation
+- `action` - Buttons and fabs (interactive)
+- `link` - Plain text links (needs to be legible on background surface color) (interactive)
+- `tab` - Fancier links for tabs / navigation (interactive)
 - `symbol` - Header text, paragraph text, icons, (needs to be legible on background surface color)
 - `dialog` - Dialogs and modals
 - `surface` - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast
