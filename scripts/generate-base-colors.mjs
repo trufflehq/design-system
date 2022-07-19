@@ -77,15 +77,23 @@ const INTERACTIVE_STATES = [
 const PROPERTIES = {
   BACKGROUND: {
     key: 'background',
-    description: 'Background / fill color'
+    description: 'Background / fill color',
+    figmaType: 'color'
   },
   COLOR: {
     key: 'color',
-    description: 'Text / foreground color on site background color (white/black)'
+    description: 'Text / foreground color on site background color (white/black)',
+    figmaType: 'color'
   },
   BORDER_COLOR: {
     key: 'border-color',
-    description: 'Border color'
+    description: 'Border color',
+    figmaType: 'color'
+  },
+  BORDER_RADIUS: {
+    key: 'border-radius',
+    description: 'Border radius',
+    figmaType: 'borderRadius'
   }
 }
 
@@ -97,7 +105,7 @@ const UI_ELEMENTS = {
     description: 'Buttons',
     states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
     roles: [ROLES.PRIMARY, ROLES.SECONDARY, ROLES.BG, ROLES.CRITICAL, ROLES.WARNING, ROLES.SUCCESS],
-    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
+    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR, PROPERTIES.BORDER_RADIUS]
   },
   LINK: {
     key: 'link',
@@ -179,7 +187,7 @@ function getDefinition ({ uiElement, role, state, property }) {
   return {
     value: color,
     description: `Group: ${role.description}\nState: ${state.description}\nProperty: ${property.description}`,
-    type: "color"
+    type: property.figmaType
   }
 }
 
