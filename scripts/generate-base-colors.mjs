@@ -1,5 +1,7 @@
 import fs from 'fs'
 
+// used for initial setup. shouldn't really need to use again
+
 const COLOR_GROUPS = [
   {
     key: 'primary',
@@ -28,12 +30,12 @@ const COLOR_GROUPS = [
   },
   {
     key: 'critical',
-    baseRgbCsv: '255,0,0',
+    baseRgbCsv: '176,16,56',
     description: 'Color for critical actions and errors'
   },
   {
     key: 'warning',
-    baseRgbCsv: '255,255,0',
+    baseRgbCsv: '255,218,7',
     description: 'Color for semi-critical actions and warnings'
   },
   // we can add these if/when needed: accent1, accent2, neutral
@@ -127,8 +129,11 @@ function getStates (colorGroupKey) {
 
 function getDefinition ({ colorGroup, state, styleProperty }) {
   let color
-  if (styleProperty.key === 'text') {
-    color = 'rgba(255, 255, 255, 1)'
+  if (['shadow', 'border'].includes(styleProperty.key)) {
+    color = `{${colorGroup.key}.${state.key}.fill}`
+  }
+  else if (styleProperty.key === 'text') {
+    color = state.key === 'default' ? 'rgba(255, 255, 255, 1)' : `{${colorGroup.key}.default.text}`
   } else {
     if (colorGroup.baseRgbCsv) {
       color = `rgba(${colorGroup.baseRgbCsv}, ${state.baseOpacity})`

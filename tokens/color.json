@@ -12,12 +12,12 @@
         "type": "color"
       },
       "border": {
-        "value": "rgba(243,87,161, 1)",
+        "value": "{primary.default.fill}",
         "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Default\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(243,87,161, 1)",
+        "value": "{primary.default.fill}",
         "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Default\nProperty: Shadow color",
         "type": "color"
       }
@@ -29,17 +29,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{primary.default.text}",
         "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(243,87,161, 0.5)",
+        "value": "{primary.disabled.fill}",
         "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(243,87,161, 0.5)",
+        "value": "{primary.disabled.fill}",
         "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Disabled\nProperty: Shadow color",
         "type": "color"
       }
@@ -51,17 +51,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{primary.default.text}",
         "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Hovered\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(243,87,161, 0.9)",
+        "value": "{primary.hovered.fill}",
         "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Hovered\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(243,87,161, 0.9)",
+        "value": "{primary.hovered.fill}",
         "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Hovered\nProperty: Shadow color",
         "type": "color"
       }
@@ -73,17 +73,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{primary.default.text}",
         "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(243,87,161, 0.95)",
+        "value": "{primary.pressed.fill}",
         "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(243,87,161, 0.95)",
+        "value": "{primary.pressed.fill}",
         "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Pressed/Clicked\nProperty: Shadow color",
         "type": "color"
       }
@@ -95,17 +95,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{primary.default.text}",
         "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(243,87,161, 1)",
+        "value": "{primary.selected.fill}",
         "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(243,87,161, 1)",
+        "value": "{primary.selected.fill}",
         "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Selective/Active/Highlighted\nProperty: Shadow color",
         "type": "color"
       }
@@ -117,17 +117,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{primary.default.text}",
         "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Muted - softer colors for background/info-box\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(243,87,161, 0.6)",
+        "value": "{primary.muted.fill}",
         "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Muted - softer colors for background/info-box\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(243,87,161, 0.6)",
+        "value": "{primary.muted.fill}",
         "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Muted - softer colors for background/info-box\nProperty: Shadow color",
         "type": "color"
       }
@@ -139,17 +139,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{primary.default.text}",
         "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(243,87,161, 1)",
+        "value": "{primary.foreground.fill}",
         "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(243,87,161, 1)",
+        "value": "{primary.foreground.fill}",
         "description": "Group: Used for key UI elements (buttons, active states, etc...)\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Shadow color",
         "type": "color"
       }
@@ -168,12 +168,12 @@
         "type": "color"
       },
       "border": {
-        "value": "rgba(127,288,220, 1)",
+        "value": "{secondary.default.fill}",
         "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Default\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(127,288,220, 1)",
+        "value": "{secondary.default.fill}",
         "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Default\nProperty: Shadow color",
         "type": "color"
       }
@@ -185,17 +185,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{secondary.default.text}",
         "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(127,288,220, 0.5)",
+        "value": "{secondary.disabled.fill}",
         "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(127,288,220, 0.5)",
+        "value": "{secondary.disabled.fill}",
         "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Disabled\nProperty: Shadow color",
         "type": "color"
       }
@@ -207,17 +207,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{secondary.default.text}",
         "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Hovered\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(127,288,220, 0.9)",
+        "value": "{secondary.hovered.fill}",
         "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Hovered\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(127,288,220, 0.9)",
+        "value": "{secondary.hovered.fill}",
         "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Hovered\nProperty: Shadow color",
         "type": "color"
       }
@@ -229,17 +229,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{secondary.default.text}",
         "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Pressed/Clicked\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(127,288,220, 0.95)",
+        "value": "{secondary.pressed.fill}",
         "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Pressed/Clicked\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(127,288,220, 0.95)",
+        "value": "{secondary.pressed.fill}",
         "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Pressed/Clicked\nProperty: Shadow color",
         "type": "color"
       }
@@ -251,17 +251,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{secondary.default.text}",
         "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Selective/Active/Highlighted\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(127,288,220, 1)",
+        "value": "{secondary.selected.fill}",
         "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Selective/Active/Highlighted\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(127,288,220, 1)",
+        "value": "{secondary.selected.fill}",
         "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Selective/Active/Highlighted\nProperty: Shadow color",
         "type": "color"
       }
@@ -273,17 +273,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{secondary.default.text}",
         "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Muted - softer colors for background/info-box\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(127,288,220, 0.6)",
+        "value": "{secondary.muted.fill}",
         "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Muted - softer colors for background/info-box\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(127,288,220, 0.6)",
+        "value": "{secondary.muted.fill}",
         "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Muted - softer colors for background/info-box\nProperty: Shadow color",
         "type": "color"
       }
@@ -295,17 +295,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{secondary.default.text}",
         "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(127,288,220, 1)",
+        "value": "{secondary.foreground.fill}",
         "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(127,288,220, 1)",
+        "value": "{secondary.foreground.fill}",
         "description": "Group: Alternate color used for less prominent UI elements, and for adding variety\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Shadow color",
         "type": "color"
       }
@@ -324,12 +324,12 @@
         "type": "color"
       },
       "border": {
-        "value": "rgba(0,0,0, 1)",
+        "value": "{bg.default.fill}",
         "description": "Group: Background color for the page\nState: Default\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(0,0,0, 1)",
+        "value": "{bg.default.fill}",
         "description": "Group: Background color for the page\nState: Default\nProperty: Shadow color",
         "type": "color"
       }
@@ -341,17 +341,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{bg.default.text}",
         "description": "Group: Background color for the page\nState: Disabled\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(0,0,0, 0.5)",
+        "value": "{bg.disabled.fill}",
         "description": "Group: Background color for the page\nState: Disabled\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(0,0,0, 0.5)",
+        "value": "{bg.disabled.fill}",
         "description": "Group: Background color for the page\nState: Disabled\nProperty: Shadow color",
         "type": "color"
       }
@@ -363,17 +363,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{bg.default.text}",
         "description": "Group: Background color for the page\nState: Hovered\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(0,0,0, 0.9)",
+        "value": "{bg.hovered.fill}",
         "description": "Group: Background color for the page\nState: Hovered\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(0,0,0, 0.9)",
+        "value": "{bg.hovered.fill}",
         "description": "Group: Background color for the page\nState: Hovered\nProperty: Shadow color",
         "type": "color"
       }
@@ -385,17 +385,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{bg.default.text}",
         "description": "Group: Background color for the page\nState: Pressed/Clicked\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(0,0,0, 0.95)",
+        "value": "{bg.pressed.fill}",
         "description": "Group: Background color for the page\nState: Pressed/Clicked\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(0,0,0, 0.95)",
+        "value": "{bg.pressed.fill}",
         "description": "Group: Background color for the page\nState: Pressed/Clicked\nProperty: Shadow color",
         "type": "color"
       }
@@ -407,17 +407,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{bg.default.text}",
         "description": "Group: Background color for the page\nState: Selective/Active/Highlighted\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(0,0,0, 1)",
+        "value": "{bg.selected.fill}",
         "description": "Group: Background color for the page\nState: Selective/Active/Highlighted\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(0,0,0, 1)",
+        "value": "{bg.selected.fill}",
         "description": "Group: Background color for the page\nState: Selective/Active/Highlighted\nProperty: Shadow color",
         "type": "color"
       }
@@ -429,17 +429,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{bg.default.text}",
         "description": "Group: Background color for the page\nState: Muted - softer colors for background/info-box\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(0,0,0, 0.6)",
+        "value": "{bg.muted.fill}",
         "description": "Group: Background color for the page\nState: Muted - softer colors for background/info-box\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(0,0,0, 0.6)",
+        "value": "{bg.muted.fill}",
         "description": "Group: Background color for the page\nState: Muted - softer colors for background/info-box\nProperty: Shadow color",
         "type": "color"
       }
@@ -451,17 +451,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{bg.default.text}",
         "description": "Group: Background color for the page\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(0,0,0, 1)",
+        "value": "{bg.foreground.fill}",
         "description": "Group: Background color for the page\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(0,0,0, 1)",
+        "value": "{bg.foreground.fill}",
         "description": "Group: Background color for the page\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Shadow color",
         "type": "color"
       }
@@ -480,12 +480,12 @@
         "type": "color"
       },
       "border": {
-        "value": "rgba(255, 255, 255, 0.1)",
+        "value": "{surface.default.fill}",
         "description": "Group: Color for cards, low priority buttons, etc...\nState: Default\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(255, 255, 255, 0.1)",
+        "value": "{surface.default.fill}",
         "description": "Group: Color for cards, low priority buttons, etc...\nState: Default\nProperty: Shadow color",
         "type": "color"
       }
@@ -497,17 +497,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{surface.default.text}",
         "description": "Group: Color for cards, low priority buttons, etc...\nState: Disabled\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(255, 255, 255, 0.1)",
+        "value": "{surface.disabled.fill}",
         "description": "Group: Color for cards, low priority buttons, etc...\nState: Disabled\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(255, 255, 255, 0.1)",
+        "value": "{surface.disabled.fill}",
         "description": "Group: Color for cards, low priority buttons, etc...\nState: Disabled\nProperty: Shadow color",
         "type": "color"
       }
@@ -519,17 +519,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{surface.default.text}",
         "description": "Group: Color for cards, low priority buttons, etc...\nState: Hovered\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(255, 255, 255, 0.1)",
+        "value": "{surface.hovered.fill}",
         "description": "Group: Color for cards, low priority buttons, etc...\nState: Hovered\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(255, 255, 255, 0.1)",
+        "value": "{surface.hovered.fill}",
         "description": "Group: Color for cards, low priority buttons, etc...\nState: Hovered\nProperty: Shadow color",
         "type": "color"
       }
@@ -541,17 +541,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{surface.default.text}",
         "description": "Group: Color for cards, low priority buttons, etc...\nState: Pressed/Clicked\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(255, 255, 255, 0.1)",
+        "value": "{surface.pressed.fill}",
         "description": "Group: Color for cards, low priority buttons, etc...\nState: Pressed/Clicked\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(255, 255, 255, 0.1)",
+        "value": "{surface.pressed.fill}",
         "description": "Group: Color for cards, low priority buttons, etc...\nState: Pressed/Clicked\nProperty: Shadow color",
         "type": "color"
       }
@@ -563,17 +563,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{surface.default.text}",
         "description": "Group: Color for cards, low priority buttons, etc...\nState: Selective/Active/Highlighted\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(255, 255, 255, 0.1)",
+        "value": "{surface.selected.fill}",
         "description": "Group: Color for cards, low priority buttons, etc...\nState: Selective/Active/Highlighted\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(255, 255, 255, 0.1)",
+        "value": "{surface.selected.fill}",
         "description": "Group: Color for cards, low priority buttons, etc...\nState: Selective/Active/Highlighted\nProperty: Shadow color",
         "type": "color"
       }
@@ -585,17 +585,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{surface.default.text}",
         "description": "Group: Color for cards, low priority buttons, etc...\nState: Muted - softer colors for background/info-box\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(255, 255, 255, 0.1)",
+        "value": "{surface.muted.fill}",
         "description": "Group: Color for cards, low priority buttons, etc...\nState: Muted - softer colors for background/info-box\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(255, 255, 255, 0.1)",
+        "value": "{surface.muted.fill}",
         "description": "Group: Color for cards, low priority buttons, etc...\nState: Muted - softer colors for background/info-box\nProperty: Shadow color",
         "type": "color"
       }
@@ -607,17 +607,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{surface.default.text}",
         "description": "Group: Color for cards, low priority buttons, etc...\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(255, 255, 255, 0.1)",
+        "value": "{surface.foreground.fill}",
         "description": "Group: Color for cards, low priority buttons, etc...\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(255, 255, 255, 0.1)",
+        "value": "{surface.foreground.fill}",
         "description": "Group: Color for cards, low priority buttons, etc...\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Shadow color",
         "type": "color"
       }
@@ -636,12 +636,12 @@
         "type": "color"
       },
       "border": {
-        "value": "rgba(30,30,30, 1)",
+        "value": "{dialog.default.fill}",
         "description": "Group: Color for dialogs and any content that overlays the page\nState: Default\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(30,30,30, 1)",
+        "value": "{dialog.default.fill}",
         "description": "Group: Color for dialogs and any content that overlays the page\nState: Default\nProperty: Shadow color",
         "type": "color"
       }
@@ -653,17 +653,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{dialog.default.text}",
         "description": "Group: Color for dialogs and any content that overlays the page\nState: Disabled\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(30,30,30, 0.5)",
+        "value": "{dialog.disabled.fill}",
         "description": "Group: Color for dialogs and any content that overlays the page\nState: Disabled\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(30,30,30, 0.5)",
+        "value": "{dialog.disabled.fill}",
         "description": "Group: Color for dialogs and any content that overlays the page\nState: Disabled\nProperty: Shadow color",
         "type": "color"
       }
@@ -675,17 +675,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{dialog.default.text}",
         "description": "Group: Color for dialogs and any content that overlays the page\nState: Hovered\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(30,30,30, 0.9)",
+        "value": "{dialog.hovered.fill}",
         "description": "Group: Color for dialogs and any content that overlays the page\nState: Hovered\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(30,30,30, 0.9)",
+        "value": "{dialog.hovered.fill}",
         "description": "Group: Color for dialogs and any content that overlays the page\nState: Hovered\nProperty: Shadow color",
         "type": "color"
       }
@@ -697,17 +697,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{dialog.default.text}",
         "description": "Group: Color for dialogs and any content that overlays the page\nState: Pressed/Clicked\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(30,30,30, 0.95)",
+        "value": "{dialog.pressed.fill}",
         "description": "Group: Color for dialogs and any content that overlays the page\nState: Pressed/Clicked\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(30,30,30, 0.95)",
+        "value": "{dialog.pressed.fill}",
         "description": "Group: Color for dialogs and any content that overlays the page\nState: Pressed/Clicked\nProperty: Shadow color",
         "type": "color"
       }
@@ -719,17 +719,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{dialog.default.text}",
         "description": "Group: Color for dialogs and any content that overlays the page\nState: Selective/Active/Highlighted\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(30,30,30, 1)",
+        "value": "{dialog.selected.fill}",
         "description": "Group: Color for dialogs and any content that overlays the page\nState: Selective/Active/Highlighted\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(30,30,30, 1)",
+        "value": "{dialog.selected.fill}",
         "description": "Group: Color for dialogs and any content that overlays the page\nState: Selective/Active/Highlighted\nProperty: Shadow color",
         "type": "color"
       }
@@ -741,17 +741,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{dialog.default.text}",
         "description": "Group: Color for dialogs and any content that overlays the page\nState: Muted - softer colors for background/info-box\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(30,30,30, 0.6)",
+        "value": "{dialog.muted.fill}",
         "description": "Group: Color for dialogs and any content that overlays the page\nState: Muted - softer colors for background/info-box\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(30,30,30, 0.6)",
+        "value": "{dialog.muted.fill}",
         "description": "Group: Color for dialogs and any content that overlays the page\nState: Muted - softer colors for background/info-box\nProperty: Shadow color",
         "type": "color"
       }
@@ -763,17 +763,17 @@
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{dialog.default.text}",
         "description": "Group: Color for dialogs and any content that overlays the page\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(30,30,30, 1)",
+        "value": "{dialog.foreground.fill}",
         "description": "Group: Color for dialogs and any content that overlays the page\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(30,30,30, 1)",
+        "value": "{dialog.foreground.fill}",
         "description": "Group: Color for dialogs and any content that overlays the page\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Shadow color",
         "type": "color"
       }
@@ -782,7 +782,7 @@
   "critical": {
     "default": {
       "fill": {
-        "value": "rgba(255,0,0, 1)",
+        "value": "rgba(176,16,56, 1)",
         "description": "Group: Color for critical actions and errors\nState: Default\nProperty: Fill / background color",
         "type": "color"
       },
@@ -792,144 +792,144 @@
         "type": "color"
       },
       "border": {
-        "value": "rgba(255,0,0, 1)",
+        "value": "{critical.default.fill}",
         "description": "Group: Color for critical actions and errors\nState: Default\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(255,0,0, 1)",
+        "value": "{critical.default.fill}",
         "description": "Group: Color for critical actions and errors\nState: Default\nProperty: Shadow color",
         "type": "color"
       }
     },
     "disabled": {
       "fill": {
-        "value": "rgba(255,0,0, 0.5)",
+        "value": "rgba(176,16,56, 0.5)",
         "description": "Group: Color for critical actions and errors\nState: Disabled\nProperty: Fill / background color",
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{critical.default.text}",
         "description": "Group: Color for critical actions and errors\nState: Disabled\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(255,0,0, 0.5)",
+        "value": "{critical.disabled.fill}",
         "description": "Group: Color for critical actions and errors\nState: Disabled\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(255,0,0, 0.5)",
+        "value": "{critical.disabled.fill}",
         "description": "Group: Color for critical actions and errors\nState: Disabled\nProperty: Shadow color",
         "type": "color"
       }
     },
     "hovered": {
       "fill": {
-        "value": "rgba(255,0,0, 0.9)",
+        "value": "rgba(176,16,56, 0.9)",
         "description": "Group: Color for critical actions and errors\nState: Hovered\nProperty: Fill / background color",
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{critical.default.text}",
         "description": "Group: Color for critical actions and errors\nState: Hovered\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(255,0,0, 0.9)",
+        "value": "{critical.hovered.fill}",
         "description": "Group: Color for critical actions and errors\nState: Hovered\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(255,0,0, 0.9)",
+        "value": "{critical.hovered.fill}",
         "description": "Group: Color for critical actions and errors\nState: Hovered\nProperty: Shadow color",
         "type": "color"
       }
     },
     "pressed": {
       "fill": {
-        "value": "rgba(255,0,0, 0.95)",
+        "value": "rgba(176,16,56, 0.95)",
         "description": "Group: Color for critical actions and errors\nState: Pressed/Clicked\nProperty: Fill / background color",
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{critical.default.text}",
         "description": "Group: Color for critical actions and errors\nState: Pressed/Clicked\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(255,0,0, 0.95)",
+        "value": "{critical.pressed.fill}",
         "description": "Group: Color for critical actions and errors\nState: Pressed/Clicked\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(255,0,0, 0.95)",
+        "value": "{critical.pressed.fill}",
         "description": "Group: Color for critical actions and errors\nState: Pressed/Clicked\nProperty: Shadow color",
         "type": "color"
       }
     },
     "selected": {
       "fill": {
-        "value": "rgba(255,0,0, 1)",
+        "value": "rgba(176,16,56, 1)",
         "description": "Group: Color for critical actions and errors\nState: Selective/Active/Highlighted\nProperty: Fill / background color",
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{critical.default.text}",
         "description": "Group: Color for critical actions and errors\nState: Selective/Active/Highlighted\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(255,0,0, 1)",
+        "value": "{critical.selected.fill}",
         "description": "Group: Color for critical actions and errors\nState: Selective/Active/Highlighted\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(255,0,0, 1)",
+        "value": "{critical.selected.fill}",
         "description": "Group: Color for critical actions and errors\nState: Selective/Active/Highlighted\nProperty: Shadow color",
         "type": "color"
       }
     },
     "muted": {
       "fill": {
-        "value": "rgba(255,0,0, 0.6)",
+        "value": "rgba(176,16,56, 0.6)",
         "description": "Group: Color for critical actions and errors\nState: Muted - softer colors for background/info-box\nProperty: Fill / background color",
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{critical.default.text}",
         "description": "Group: Color for critical actions and errors\nState: Muted - softer colors for background/info-box\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(255,0,0, 0.6)",
+        "value": "{critical.muted.fill}",
         "description": "Group: Color for critical actions and errors\nState: Muted - softer colors for background/info-box\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(255,0,0, 0.6)",
+        "value": "{critical.muted.fill}",
         "description": "Group: Color for critical actions and errors\nState: Muted - softer colors for background/info-box\nProperty: Shadow color",
         "type": "color"
       }
     },
     "foreground": {
       "fill": {
-        "value": "rgba(255,0,0, 1)",
+        "value": "rgba(176,16,56, 1)",
         "description": "Group: Color for critical actions and errors\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Fill / background color",
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{critical.default.text}",
         "description": "Group: Color for critical actions and errors\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(255,0,0, 1)",
+        "value": "{critical.foreground.fill}",
         "description": "Group: Color for critical actions and errors\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(255,0,0, 1)",
+        "value": "{critical.foreground.fill}",
         "description": "Group: Color for critical actions and errors\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Shadow color",
         "type": "color"
       }
@@ -938,7 +938,7 @@
   "warning": {
     "default": {
       "fill": {
-        "value": "rgba(255,255,0, 1)",
+        "value": "rgba(255,218,7, 1)",
         "description": "Group: Color for semi-critical actions and warnings\nState: Default\nProperty: Fill / background color",
         "type": "color"
       },
@@ -948,144 +948,144 @@
         "type": "color"
       },
       "border": {
-        "value": "rgba(255,255,0, 1)",
+        "value": "{warning.default.fill}",
         "description": "Group: Color for semi-critical actions and warnings\nState: Default\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(255,255,0, 1)",
+        "value": "{warning.default.fill}",
         "description": "Group: Color for semi-critical actions and warnings\nState: Default\nProperty: Shadow color",
         "type": "color"
       }
     },
     "disabled": {
       "fill": {
-        "value": "rgba(255,255,0, 0.5)",
+        "value": "rgba(255,218,7, 0.5)",
         "description": "Group: Color for semi-critical actions and warnings\nState: Disabled\nProperty: Fill / background color",
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{warning.default.text}",
         "description": "Group: Color for semi-critical actions and warnings\nState: Disabled\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(255,255,0, 0.5)",
+        "value": "{warning.disabled.fill}",
         "description": "Group: Color for semi-critical actions and warnings\nState: Disabled\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(255,255,0, 0.5)",
+        "value": "{warning.disabled.fill}",
         "description": "Group: Color for semi-critical actions and warnings\nState: Disabled\nProperty: Shadow color",
         "type": "color"
       }
     },
     "hovered": {
       "fill": {
-        "value": "rgba(255,255,0, 0.9)",
+        "value": "rgba(255,218,7, 0.9)",
         "description": "Group: Color for semi-critical actions and warnings\nState: Hovered\nProperty: Fill / background color",
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{warning.default.text}",
         "description": "Group: Color for semi-critical actions and warnings\nState: Hovered\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(255,255,0, 0.9)",
+        "value": "{warning.hovered.fill}",
         "description": "Group: Color for semi-critical actions and warnings\nState: Hovered\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(255,255,0, 0.9)",
+        "value": "{warning.hovered.fill}",
         "description": "Group: Color for semi-critical actions and warnings\nState: Hovered\nProperty: Shadow color",
         "type": "color"
       }
     },
     "pressed": {
       "fill": {
-        "value": "rgba(255,255,0, 0.95)",
+        "value": "rgba(255,218,7, 0.95)",
         "description": "Group: Color for semi-critical actions and warnings\nState: Pressed/Clicked\nProperty: Fill / background color",
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{warning.default.text}",
         "description": "Group: Color for semi-critical actions and warnings\nState: Pressed/Clicked\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(255,255,0, 0.95)",
+        "value": "{warning.pressed.fill}",
         "description": "Group: Color for semi-critical actions and warnings\nState: Pressed/Clicked\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(255,255,0, 0.95)",
+        "value": "{warning.pressed.fill}",
         "description": "Group: Color for semi-critical actions and warnings\nState: Pressed/Clicked\nProperty: Shadow color",
         "type": "color"
       }
     },
     "selected": {
       "fill": {
-        "value": "rgba(255,255,0, 1)",
+        "value": "rgba(255,218,7, 1)",
         "description": "Group: Color for semi-critical actions and warnings\nState: Selective/Active/Highlighted\nProperty: Fill / background color",
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{warning.default.text}",
         "description": "Group: Color for semi-critical actions and warnings\nState: Selective/Active/Highlighted\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(255,255,0, 1)",
+        "value": "{warning.selected.fill}",
         "description": "Group: Color for semi-critical actions and warnings\nState: Selective/Active/Highlighted\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(255,255,0, 1)",
+        "value": "{warning.selected.fill}",
         "description": "Group: Color for semi-critical actions and warnings\nState: Selective/Active/Highlighted\nProperty: Shadow color",
         "type": "color"
       }
     },
     "muted": {
       "fill": {
-        "value": "rgba(255,255,0, 0.6)",
+        "value": "rgba(255,218,7, 0.6)",
         "description": "Group: Color for semi-critical actions and warnings\nState: Muted - softer colors for background/info-box\nProperty: Fill / background color",
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{warning.default.text}",
         "description": "Group: Color for semi-critical actions and warnings\nState: Muted - softer colors for background/info-box\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(255,255,0, 0.6)",
+        "value": "{warning.muted.fill}",
         "description": "Group: Color for semi-critical actions and warnings\nState: Muted - softer colors for background/info-box\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(255,255,0, 0.6)",
+        "value": "{warning.muted.fill}",
         "description": "Group: Color for semi-critical actions and warnings\nState: Muted - softer colors for background/info-box\nProperty: Shadow color",
         "type": "color"
       }
     },
     "foreground": {
       "fill": {
-        "value": "rgba(255,255,0, 1)",
+        "value": "rgba(255,218,7, 1)",
         "description": "Group: Color for semi-critical actions and warnings\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Fill / background color",
         "type": "color"
       },
       "text": {
-        "value": "rgba(255, 255, 255, 1)",
+        "value": "{warning.default.text}",
         "description": "Group: Color for semi-critical actions and warnings\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Text color",
         "type": "color"
       },
       "border": {
-        "value": "rgba(255,255,0, 1)",
+        "value": "{warning.foreground.fill}",
         "description": "Group: Color for semi-critical actions and warnings\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Border color",
         "type": "color"
       },
       "shadow": {
-        "value": "rgba(255,255,0, 1)",
+        "value": "{warning.foreground.fill}",
         "description": "Group: Color for semi-critical actions and warnings\nState: Foreground - when using as a text color and you need higher contrast\nProperty: Shadow color",
         "type": "color"
       }
