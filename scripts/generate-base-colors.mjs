@@ -5,7 +5,6 @@ import fs from 'fs'
 const STATES = {
   DEFAULT: {
     key: 'default',
-    baseOpacity: '1',
     description: 'Default'
   },
   DISABLED: {
@@ -25,14 +24,9 @@ const STATES = {
   },
   SELECTED: {
     key: 'selected',
-    baseOpacity: '1',
     description: 'Selective/Active/Highlighted'
   }
 }
-
-const INTERACTIVE_STATES = [
-  STATES.HOVERED, STATES.PRESSED, STATES.SELECTED, STATES.DISABLED
-]
 
 const PROPERTIES = {
   BACKGROUND: {
@@ -50,59 +44,36 @@ const PROPERTIES = {
 }
 
 // page, text, action, input, surface
-const THEMES = {
-  // ui-elements
-  BUTTON: {
-    key: 'button',
-    baseOpacity: '1',
-    description: 'Solid - Buttons and fabs',
-    states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
-    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
+const VARIANTS = {
+  // ui-elements, so theme devs can color separately
+  ACTION_HIGH_EMPHASIS: {
+    key: 'highx',
+    description: 'High emphasis buttons, fabs, tags, etc...'
+  },
+  ACTION_MEDIUM_EMPHASIS: {
+    key: 'medx',
+    description: 'Medium emphasis buttons, fabs, tags, etc...'
+  },
+  ACTION_LOW_EMPHASIS: {
+    key: 'lowx',
+    description: 'Low emphasis buttons, fabs, tags, etc...'
   },
   INPUT: {
     key: 'input',
-    baseOpacity: '1',
-    description: 'Input - text boxes, text areas and dropdowns',
-    states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
-    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
+    description: 'Text inputs and textareas'
   },
-
-  // generic
-  MUTED: {
-    key: 'muted',
-    baseOpacity: '1',
-    description: 'Muted - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast',
-    states: [STATES.DEFAULT],
-    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
+  FOREGROUND: {
+    key: 'fg',
+    description: 'Header text, paragraph text, icons, links (needs to be legible on background surface color)'
   },
-  FILLED: {
-    key: 'filled',
-    baseOpacity: '1',
-    description: 'Filled - Buttons and fabs',
-    states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
-    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
+  SURFACE: {
+    key: 'surface',
+    description: 'Cards, dialogs, etc...'
   },
-  OUTLINED: {
-    key: 'outlined',
-    baseOpacity: '1',
-    description: 'Outline - Tags, inputs, textareas, dropdowns, alternate buttons',
-    states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
-    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
+  FLAT: {
+    key: 'flat',
+    description: 'Flat background'
   },
-  TEXT: {
-    key: 'text',
-    baseOpacity: '1',
-    description: 'Header text, paragraph text, icons, links (needs to be legible on background surface color)',
-    states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
-    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
-  },
-  GHOST: {
-    key: 'ghost',
-    baseOpacity: '1',
-    description: 'Ghost - Fancier links for tabs / navigation',
-    states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
-    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
-  }
 }
 
 const COLOR_ROLES = {
@@ -145,14 +116,14 @@ const jsonObj = {
   color: Object.values(COLOR_ROLES).reduce((obj, colorRole) => {
     return {
       ...obj,
-      [colorRole.key]: Object.values(THEMES).reduce((obj, theme) => {
+      [colorRole.key]: Object.values(VARIANTS).reduce((obj, variant) => {
         return {
           ...obj,
-          [theme.key]: Object.values(STATES).reduce((obj, state) => {
+          [variant.key]: Object.values(STATES).reduce((obj, state) => {
             return {
               ...obj,
               [state.key]: Object.values(PROPERTIES).reduce((obj, property) => {
-                const color = getDefinition({ theme, colorRole, state, property })
+                const color = getDefinition({ variant, colorRole, state, property })
                 return {
                   ...obj,
                   [property.key]: color
@@ -166,13 +137,13 @@ const jsonObj = {
   }, {})
 }
 
-function getDefinition ({ theme, colorRole, state, property }) {
+function getDefinition ({ variant, colorRole, state, property }) {
   let color
   if (property.key === 'border-color') {
     color = `rgba(${colorRole.baseRgbCsv}, 0.3)`
   }
   else if (property.key === 'color') {
-    color = state.key === 'default' ? 'rgba(255, 255, 255, 1)' : `{color.${colorRole.key}.${theme.key}.default.color}`
+    color = state.key === 'default' ? 'rgba(255, 255, 255, 1)' : `{color.${colorRole.key}.${variant.key}.default.color}`
   } else {
     if (colorRole.baseRgbCsv) {
       color = `rgba(${colorRole.baseRgbCsv}, ${state.baseOpacity})`
@@ -182,7 +153,7 @@ function getDefinition ({ theme, colorRole, state, property }) {
   }
   return {
     value: color,
-    description: `Color Role: ${colorRole.description}\nUI Element: ${theme.description}\nState: ${state.description}\nProperty: ${property.description}`,
+    description: `Color Role: ${colorRole.description}\nUI Element: ${variant.description}\nState: ${state.description}\nProperty: ${property.description}`,
     type: "color"
   }
 }
