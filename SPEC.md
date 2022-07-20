@@ -19,6 +19,7 @@ You can see how we generated the base set of placeholder colors in ./scripts/gen
 - `symbol` - Header text, paragraph text, icons, (needs to be legible on background surface color)
 - `dialog` - Dialogs and modals
 - `surface` - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast
+- `page` - Background of page
 
 **state** is one of:  
 - `default`

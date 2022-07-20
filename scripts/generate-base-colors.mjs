@@ -94,6 +94,13 @@ const UI_ELEMENTS = {
     description: 'Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast',
     states: [STATES.DEFAULT],
     properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
+  },
+  PAGE: {
+    key: 'page',
+    baseOpacity: '1',
+    description: 'Page background',
+    states: [STATES.DEFAULT],
+    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR]
   }
 }
 
@@ -115,7 +122,7 @@ const COLOR_ROLES = {
     key: 'bg',
     baseRgbCsv: '0,0,0',
     description: 'Background color for the page',
-    uiElements: [UI_ELEMENTS.ACTION, UI_ELEMENTS.DIALOG, UI_ELEMENTS.TAB, UI_ELEMENTS.SURFACE]
+    uiElements: [UI_ELEMENTS.PAGE, UI_ELEMENTS.ACTION, UI_ELEMENTS.DIALOG, UI_ELEMENTS.TAB, UI_ELEMENTS.SURFACE]
   },
   CRITICAL: {
     key: 'critical',
