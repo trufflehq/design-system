@@ -2,86 +2,82 @@
   "color": {
     "primary": {
       "action": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(243,87,161, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "rgba(255, 255, 255, 1)",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(243,87,161, 0.3)",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "hovered": {
-          "background": {
+          "hovered": {
             "value": "rgba(243,87,161, 0.9)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.primary.action.default.color}",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(243,87,161, 0.3)",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "pressed": {
-          "background": {
+          "pressed": {
             "value": "rgba(243,87,161, 0.95)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.primary.action.default.color}",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(243,87,161, 0.3)",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
+          "selected": {
             "value": "rgba(243,87,161, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.primary.action.default.color}",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(243,87,161, 0.3)",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
+          "disabled": {
             "value": "rgba(243,87,161, 0.5)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
-            "value": "{color.primary.action.default.color}",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+          }
+        },
+        "color": {
+          "default": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
-          "border-color": {
+          "hovered": {
+            "value": "{color.primary.action.color.default}",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{color.primary.action.color.default}",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.primary.action.color.default}",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.primary.action.color.default}",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          }
+        },
+        "border-color": {
+          "default": {
+            "value": "rgba(243,87,161, 0.3)",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Border color",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "rgba(243,87,161, 0.3)",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Border color",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "rgba(243,87,161, 0.3)",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          },
+          "selected": {
+            "value": "rgba(243,87,161, 0.3)",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          },
+          "disabled": {
             "value": "rgba(243,87,161, 0.3)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Border color",
             "type": "color"
@@ -89,86 +85,82 @@
         }
       },
       "link": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(243,87,161, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "rgba(255, 255, 255, 1)",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(243,87,161, 0.3)",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "hovered": {
-          "background": {
+          "hovered": {
             "value": "rgba(243,87,161, 0.9)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.primary.link.default.color}",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(243,87,161, 0.3)",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "pressed": {
-          "background": {
+          "pressed": {
             "value": "rgba(243,87,161, 0.95)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.primary.link.default.color}",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(243,87,161, 0.3)",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
+          "selected": {
             "value": "rgba(243,87,161, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.primary.link.default.color}",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(243,87,161, 0.3)",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
+          "disabled": {
             "value": "rgba(243,87,161, 0.5)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Disabled\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
-            "value": "{color.primary.link.default.color}",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+          }
+        },
+        "color": {
+          "default": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
-          "border-color": {
+          "hovered": {
+            "value": "{color.primary.link.color.default}",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{color.primary.link.color.default}",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.primary.link.color.default}",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.primary.link.color.default}",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          }
+        },
+        "border-color": {
+          "default": {
+            "value": "rgba(243,87,161, 0.3)",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Border color",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "rgba(243,87,161, 0.3)",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Border color",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "rgba(243,87,161, 0.3)",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          },
+          "selected": {
+            "value": "rgba(243,87,161, 0.3)",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          },
+          "disabled": {
             "value": "rgba(243,87,161, 0.3)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Disabled\nProperty: Border color",
             "type": "color"
@@ -176,86 +168,82 @@
         }
       },
       "tab": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(243,87,161, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "rgba(255, 255, 255, 1)",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(243,87,161, 0.3)",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Default\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "hovered": {
-          "background": {
+          "hovered": {
             "value": "rgba(243,87,161, 0.9)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.primary.tab.default.color}",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(243,87,161, 0.3)",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Hovered\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "pressed": {
-          "background": {
+          "pressed": {
             "value": "rgba(243,87,161, 0.95)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Pressed/Clicked\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.primary.tab.default.color}",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(243,87,161, 0.3)",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
+          "selected": {
             "value": "rgba(243,87,161, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.primary.tab.default.color}",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(243,87,161, 0.3)",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
+          "disabled": {
             "value": "rgba(243,87,161, 0.5)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Disabled\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
-            "value": "{color.primary.tab.default.color}",
-            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+          }
+        },
+        "color": {
+          "default": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
-          "border-color": {
+          "hovered": {
+            "value": "{color.primary.tab.color.default}",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{color.primary.tab.color.default}",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.primary.tab.color.default}",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.primary.tab.color.default}",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          }
+        },
+        "border-color": {
+          "default": {
+            "value": "rgba(243,87,161, 0.3)",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Default\nProperty: Border color",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "rgba(243,87,161, 0.3)",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Hovered\nProperty: Border color",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "rgba(243,87,161, 0.3)",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          },
+          "selected": {
+            "value": "rgba(243,87,161, 0.3)",
+            "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          },
+          "disabled": {
             "value": "rgba(243,87,161, 0.3)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Tab - Fancier links for tabs / navigation\nState: Disabled\nProperty: Border color",
             "type": "color"
@@ -263,8 +251,8 @@
         }
       },
       "symbol": {
-        "default": {
-          "color": {
+        "color": {
+          "default": {
             "value": "rgba(255, 255, 255, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Symbol - Header text, paragraph text, icons, (needs to be legible on background surface color)\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
@@ -272,18 +260,22 @@
         }
       },
       "surface": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(243,87,161, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast\nState: Default\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
+          }
+        },
+        "color": {
+          "default": {
             "value": "rgba(255, 255, 255, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
-          },
-          "border-color": {
+          }
+        },
+        "border-color": {
+          "default": {
             "value": "rgba(243,87,161, 0.3)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast\nState: Default\nProperty: Border color",
             "type": "color"
@@ -293,86 +285,82 @@
     },
     "secondary": {
       "action": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(127,288,220, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "rgba(255, 255, 255, 1)",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(127,288,220, 0.3)",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "hovered": {
-          "background": {
+          "hovered": {
             "value": "rgba(127,288,220, 0.9)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.secondary.action.default.color}",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(127,288,220, 0.3)",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "pressed": {
-          "background": {
+          "pressed": {
             "value": "rgba(127,288,220, 0.95)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.secondary.action.default.color}",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(127,288,220, 0.3)",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
+          "selected": {
             "value": "rgba(127,288,220, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.secondary.action.default.color}",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(127,288,220, 0.3)",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
+          "disabled": {
             "value": "rgba(127,288,220, 0.5)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
-            "value": "{color.secondary.action.default.color}",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+          }
+        },
+        "color": {
+          "default": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
-          "border-color": {
+          "hovered": {
+            "value": "{color.secondary.action.color.default}",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{color.secondary.action.color.default}",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.secondary.action.color.default}",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.secondary.action.color.default}",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          }
+        },
+        "border-color": {
+          "default": {
+            "value": "rgba(127,288,220, 0.3)",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Border color",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "rgba(127,288,220, 0.3)",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Border color",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "rgba(127,288,220, 0.3)",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          },
+          "selected": {
+            "value": "rgba(127,288,220, 0.3)",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          },
+          "disabled": {
             "value": "rgba(127,288,220, 0.3)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Border color",
             "type": "color"
@@ -380,86 +368,82 @@
         }
       },
       "link": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(127,288,220, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "rgba(255, 255, 255, 1)",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(127,288,220, 0.3)",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "hovered": {
-          "background": {
+          "hovered": {
             "value": "rgba(127,288,220, 0.9)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.secondary.link.default.color}",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(127,288,220, 0.3)",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "pressed": {
-          "background": {
+          "pressed": {
             "value": "rgba(127,288,220, 0.95)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.secondary.link.default.color}",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(127,288,220, 0.3)",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
+          "selected": {
             "value": "rgba(127,288,220, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.secondary.link.default.color}",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(127,288,220, 0.3)",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
+          "disabled": {
             "value": "rgba(127,288,220, 0.5)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Disabled\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
-            "value": "{color.secondary.link.default.color}",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+          }
+        },
+        "color": {
+          "default": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
-          "border-color": {
+          "hovered": {
+            "value": "{color.secondary.link.color.default}",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{color.secondary.link.color.default}",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.secondary.link.color.default}",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.secondary.link.color.default}",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          }
+        },
+        "border-color": {
+          "default": {
+            "value": "rgba(127,288,220, 0.3)",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Border color",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "rgba(127,288,220, 0.3)",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Border color",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "rgba(127,288,220, 0.3)",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          },
+          "selected": {
+            "value": "rgba(127,288,220, 0.3)",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          },
+          "disabled": {
             "value": "rgba(127,288,220, 0.3)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Disabled\nProperty: Border color",
             "type": "color"
@@ -467,86 +451,82 @@
         }
       },
       "tab": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(127,288,220, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "rgba(255, 255, 255, 1)",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(127,288,220, 0.3)",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Default\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "hovered": {
-          "background": {
+          "hovered": {
             "value": "rgba(127,288,220, 0.9)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.secondary.tab.default.color}",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(127,288,220, 0.3)",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Hovered\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "pressed": {
-          "background": {
+          "pressed": {
             "value": "rgba(127,288,220, 0.95)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Pressed/Clicked\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.secondary.tab.default.color}",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(127,288,220, 0.3)",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
+          "selected": {
             "value": "rgba(127,288,220, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.secondary.tab.default.color}",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(127,288,220, 0.3)",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
+          "disabled": {
             "value": "rgba(127,288,220, 0.5)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Disabled\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
-            "value": "{color.secondary.tab.default.color}",
-            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+          }
+        },
+        "color": {
+          "default": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
-          "border-color": {
+          "hovered": {
+            "value": "{color.secondary.tab.color.default}",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{color.secondary.tab.color.default}",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.secondary.tab.color.default}",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.secondary.tab.color.default}",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          }
+        },
+        "border-color": {
+          "default": {
+            "value": "rgba(127,288,220, 0.3)",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Default\nProperty: Border color",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "rgba(127,288,220, 0.3)",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Hovered\nProperty: Border color",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "rgba(127,288,220, 0.3)",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          },
+          "selected": {
+            "value": "rgba(127,288,220, 0.3)",
+            "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          },
+          "disabled": {
             "value": "rgba(127,288,220, 0.3)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Tab - Fancier links for tabs / navigation\nState: Disabled\nProperty: Border color",
             "type": "color"
@@ -554,8 +534,8 @@
         }
       },
       "symbol": {
-        "default": {
-          "color": {
+        "color": {
+          "default": {
             "value": "rgba(255, 255, 255, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Symbol - Header text, paragraph text, icons, (needs to be legible on background surface color)\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
@@ -563,18 +543,22 @@
         }
       },
       "surface": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(127,288,220, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast\nState: Default\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
+          }
+        },
+        "color": {
+          "default": {
             "value": "rgba(255, 255, 255, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
-          },
-          "border-color": {
+          }
+        },
+        "border-color": {
+          "default": {
             "value": "rgba(127,288,220, 0.3)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast\nState: Default\nProperty: Border color",
             "type": "color"
@@ -584,13 +568,15 @@
     },
     "bg": {
       "page": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(0,0,0, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Page background\nState: Default\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
+          }
+        },
+        "color": {
+          "default": {
             "value": "rgba(255, 255, 255, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Page background\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
@@ -598,86 +584,82 @@
         }
       },
       "action": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(0,0,0, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "rgba(255, 255, 255, 1)",
-            "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,0,0, 0.3)",
-            "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "hovered": {
-          "background": {
+          "hovered": {
             "value": "rgba(0,0,0, 0.9)",
             "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.bg.action.default.color}",
-            "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,0,0, 0.3)",
-            "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "pressed": {
-          "background": {
+          "pressed": {
             "value": "rgba(0,0,0, 0.95)",
             "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.bg.action.default.color}",
-            "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,0,0, 0.3)",
-            "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
+          "selected": {
             "value": "rgba(0,0,0, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.bg.action.default.color}",
-            "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,0,0, 0.3)",
-            "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
+          "disabled": {
             "value": "rgba(0,0,0, 0.5)",
             "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
-            "value": "{color.bg.action.default.color}",
-            "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+          }
+        },
+        "color": {
+          "default": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
-          "border-color": {
+          "hovered": {
+            "value": "{color.bg.action.color.default}",
+            "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{color.bg.action.color.default}",
+            "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.bg.action.color.default}",
+            "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.bg.action.color.default}",
+            "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          }
+        },
+        "border-color": {
+          "default": {
+            "value": "rgba(0,0,0, 0.3)",
+            "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Border color",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "rgba(0,0,0, 0.3)",
+            "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Border color",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "rgba(0,0,0, 0.3)",
+            "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          },
+          "selected": {
+            "value": "rgba(0,0,0, 0.3)",
+            "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          },
+          "disabled": {
             "value": "rgba(0,0,0, 0.3)",
             "description": "Color Role: Background color for the page\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Border color",
             "type": "color"
@@ -685,18 +667,22 @@
         }
       },
       "dialog": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(0,0,0, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Dialog - Dialogs and modals\nState: Default\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
+          }
+        },
+        "color": {
+          "default": {
             "value": "rgba(255, 255, 255, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Dialog - Dialogs and modals\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
-          },
-          "border-color": {
+          }
+        },
+        "border-color": {
+          "default": {
             "value": "rgba(0,0,0, 0.3)",
             "description": "Color Role: Background color for the page\nUI Element: Dialog - Dialogs and modals\nState: Default\nProperty: Border color",
             "type": "color"
@@ -704,86 +690,82 @@
         }
       },
       "tab": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(0,0,0, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "rgba(255, 255, 255, 1)",
-            "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,0,0, 0.3)",
-            "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Default\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "hovered": {
-          "background": {
+          "hovered": {
             "value": "rgba(0,0,0, 0.9)",
             "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.bg.tab.default.color}",
-            "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,0,0, 0.3)",
-            "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Hovered\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "pressed": {
-          "background": {
+          "pressed": {
             "value": "rgba(0,0,0, 0.95)",
             "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Pressed/Clicked\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.bg.tab.default.color}",
-            "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,0,0, 0.3)",
-            "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
+          "selected": {
             "value": "rgba(0,0,0, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.bg.tab.default.color}",
-            "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,0,0, 0.3)",
-            "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
+          "disabled": {
             "value": "rgba(0,0,0, 0.5)",
             "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Disabled\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
-            "value": "{color.bg.tab.default.color}",
-            "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+          }
+        },
+        "color": {
+          "default": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
-          "border-color": {
+          "hovered": {
+            "value": "{color.bg.tab.color.default}",
+            "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{color.bg.tab.color.default}",
+            "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.bg.tab.color.default}",
+            "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.bg.tab.color.default}",
+            "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          }
+        },
+        "border-color": {
+          "default": {
+            "value": "rgba(0,0,0, 0.3)",
+            "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Default\nProperty: Border color",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "rgba(0,0,0, 0.3)",
+            "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Hovered\nProperty: Border color",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "rgba(0,0,0, 0.3)",
+            "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          },
+          "selected": {
+            "value": "rgba(0,0,0, 0.3)",
+            "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          },
+          "disabled": {
             "value": "rgba(0,0,0, 0.3)",
             "description": "Color Role: Background color for the page\nUI Element: Tab - Fancier links for tabs / navigation\nState: Disabled\nProperty: Border color",
             "type": "color"
@@ -791,18 +773,22 @@
         }
       },
       "surface": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(0,0,0, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast\nState: Default\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
+          }
+        },
+        "color": {
+          "default": {
             "value": "rgba(255, 255, 255, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
-          },
-          "border-color": {
+          }
+        },
+        "border-color": {
+          "default": {
             "value": "rgba(0,0,0, 0.3)",
             "description": "Color Role: Background color for the page\nUI Element: Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast\nState: Default\nProperty: Border color",
             "type": "color"
@@ -812,86 +798,82 @@
     },
     "critical": {
       "action": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(176,16,56, 1)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "rgba(255, 255, 255, 1)",
-            "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(176,16,56, 0.3)",
-            "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "hovered": {
-          "background": {
+          "hovered": {
             "value": "rgba(176,16,56, 0.9)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.critical.action.default.color}",
-            "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(176,16,56, 0.3)",
-            "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "pressed": {
-          "background": {
+          "pressed": {
             "value": "rgba(176,16,56, 0.95)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.critical.action.default.color}",
-            "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(176,16,56, 0.3)",
-            "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
+          "selected": {
             "value": "rgba(176,16,56, 1)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.critical.action.default.color}",
-            "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(176,16,56, 0.3)",
-            "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
+          "disabled": {
             "value": "rgba(176,16,56, 0.5)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
-            "value": "{color.critical.action.default.color}",
-            "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+          }
+        },
+        "color": {
+          "default": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
-          "border-color": {
+          "hovered": {
+            "value": "{color.critical.action.color.default}",
+            "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{color.critical.action.color.default}",
+            "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.critical.action.color.default}",
+            "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.critical.action.color.default}",
+            "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          }
+        },
+        "border-color": {
+          "default": {
+            "value": "rgba(176,16,56, 0.3)",
+            "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Border color",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "rgba(176,16,56, 0.3)",
+            "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Border color",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "rgba(176,16,56, 0.3)",
+            "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          },
+          "selected": {
+            "value": "rgba(176,16,56, 0.3)",
+            "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          },
+          "disabled": {
             "value": "rgba(176,16,56, 0.3)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Border color",
             "type": "color"
@@ -899,86 +881,82 @@
         }
       },
       "link": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(176,16,56, 1)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "rgba(255, 255, 255, 1)",
-            "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(176,16,56, 0.3)",
-            "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "hovered": {
-          "background": {
+          "hovered": {
             "value": "rgba(176,16,56, 0.9)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.critical.link.default.color}",
-            "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(176,16,56, 0.3)",
-            "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "pressed": {
-          "background": {
+          "pressed": {
             "value": "rgba(176,16,56, 0.95)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.critical.link.default.color}",
-            "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(176,16,56, 0.3)",
-            "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
+          "selected": {
             "value": "rgba(176,16,56, 1)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.critical.link.default.color}",
-            "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(176,16,56, 0.3)",
-            "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
+          "disabled": {
             "value": "rgba(176,16,56, 0.5)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Disabled\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
-            "value": "{color.critical.link.default.color}",
-            "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+          }
+        },
+        "color": {
+          "default": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
-          "border-color": {
+          "hovered": {
+            "value": "{color.critical.link.color.default}",
+            "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{color.critical.link.color.default}",
+            "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.critical.link.color.default}",
+            "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.critical.link.color.default}",
+            "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          }
+        },
+        "border-color": {
+          "default": {
+            "value": "rgba(176,16,56, 0.3)",
+            "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Border color",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "rgba(176,16,56, 0.3)",
+            "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Border color",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "rgba(176,16,56, 0.3)",
+            "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          },
+          "selected": {
+            "value": "rgba(176,16,56, 0.3)",
+            "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          },
+          "disabled": {
             "value": "rgba(176,16,56, 0.3)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Disabled\nProperty: Border color",
             "type": "color"
@@ -986,8 +964,8 @@
         }
       },
       "symbol": {
-        "default": {
-          "color": {
+        "color": {
+          "default": {
             "value": "rgba(255, 255, 255, 1)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Symbol - Header text, paragraph text, icons, (needs to be legible on background surface color)\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
@@ -995,18 +973,22 @@
         }
       },
       "surface": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(176,16,56, 1)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast\nState: Default\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
+          }
+        },
+        "color": {
+          "default": {
             "value": "rgba(255, 255, 255, 1)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
-          },
-          "border-color": {
+          }
+        },
+        "border-color": {
+          "default": {
             "value": "rgba(176,16,56, 0.3)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast\nState: Default\nProperty: Border color",
             "type": "color"
@@ -1016,86 +998,82 @@
     },
     "warning": {
       "action": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(255,218,7, 1)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "rgba(255, 255, 255, 1)",
-            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(255,218,7, 0.3)",
-            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "hovered": {
-          "background": {
+          "hovered": {
             "value": "rgba(255,218,7, 0.9)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.warning.action.default.color}",
-            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(255,218,7, 0.3)",
-            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "pressed": {
-          "background": {
+          "pressed": {
             "value": "rgba(255,218,7, 0.95)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.warning.action.default.color}",
-            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(255,218,7, 0.3)",
-            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
+          "selected": {
             "value": "rgba(255,218,7, 1)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.warning.action.default.color}",
-            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(255,218,7, 0.3)",
-            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
+          "disabled": {
             "value": "rgba(255,218,7, 0.5)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
-            "value": "{color.warning.action.default.color}",
-            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+          }
+        },
+        "color": {
+          "default": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
-          "border-color": {
+          "hovered": {
+            "value": "{color.warning.action.color.default}",
+            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{color.warning.action.color.default}",
+            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.warning.action.color.default}",
+            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.warning.action.color.default}",
+            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          }
+        },
+        "border-color": {
+          "default": {
+            "value": "rgba(255,218,7, 0.3)",
+            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Border color",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "rgba(255,218,7, 0.3)",
+            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Border color",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "rgba(255,218,7, 0.3)",
+            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          },
+          "selected": {
+            "value": "rgba(255,218,7, 0.3)",
+            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          },
+          "disabled": {
             "value": "rgba(255,218,7, 0.3)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Border color",
             "type": "color"
@@ -1103,86 +1081,82 @@
         }
       },
       "link": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(255,218,7, 1)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "rgba(255, 255, 255, 1)",
-            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(255,218,7, 0.3)",
-            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "hovered": {
-          "background": {
+          "hovered": {
             "value": "rgba(255,218,7, 0.9)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.warning.link.default.color}",
-            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(255,218,7, 0.3)",
-            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "pressed": {
-          "background": {
+          "pressed": {
             "value": "rgba(255,218,7, 0.95)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.warning.link.default.color}",
-            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(255,218,7, 0.3)",
-            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
+          "selected": {
             "value": "rgba(255,218,7, 1)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.warning.link.default.color}",
-            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(255,218,7, 0.3)",
-            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
+          "disabled": {
             "value": "rgba(255,218,7, 0.5)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Disabled\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
-            "value": "{color.warning.link.default.color}",
-            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+          }
+        },
+        "color": {
+          "default": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
-          "border-color": {
+          "hovered": {
+            "value": "{color.warning.link.color.default}",
+            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{color.warning.link.color.default}",
+            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.warning.link.color.default}",
+            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.warning.link.color.default}",
+            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          }
+        },
+        "border-color": {
+          "default": {
+            "value": "rgba(255,218,7, 0.3)",
+            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Border color",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "rgba(255,218,7, 0.3)",
+            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Border color",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "rgba(255,218,7, 0.3)",
+            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          },
+          "selected": {
+            "value": "rgba(255,218,7, 0.3)",
+            "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          },
+          "disabled": {
             "value": "rgba(255,218,7, 0.3)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Disabled\nProperty: Border color",
             "type": "color"
@@ -1190,8 +1164,8 @@
         }
       },
       "symbol": {
-        "default": {
-          "color": {
+        "color": {
+          "default": {
             "value": "rgba(255, 255, 255, 1)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Symbol - Header text, paragraph text, icons, (needs to be legible on background surface color)\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
@@ -1199,18 +1173,22 @@
         }
       },
       "surface": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(255,218,7, 1)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast\nState: Default\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
+          }
+        },
+        "color": {
+          "default": {
             "value": "rgba(255, 255, 255, 1)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
-          },
-          "border-color": {
+          }
+        },
+        "border-color": {
+          "default": {
             "value": "rgba(255,218,7, 0.3)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast\nState: Default\nProperty: Border color",
             "type": "color"
@@ -1220,86 +1198,82 @@
     },
     "success": {
       "action": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(0,255,0, 1)",
             "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "rgba(255, 255, 255, 1)",
-            "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,255,0, 0.3)",
-            "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "hovered": {
-          "background": {
+          "hovered": {
             "value": "rgba(0,255,0, 0.9)",
             "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.success.action.default.color}",
-            "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,255,0, 0.3)",
-            "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "pressed": {
-          "background": {
+          "pressed": {
             "value": "rgba(0,255,0, 0.95)",
             "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.success.action.default.color}",
-            "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,255,0, 0.3)",
-            "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
+          "selected": {
             "value": "rgba(0,255,0, 1)",
             "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.success.action.default.color}",
-            "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,255,0, 0.3)",
-            "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
+          "disabled": {
             "value": "rgba(0,255,0, 0.5)",
             "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
-            "value": "{color.success.action.default.color}",
-            "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+          }
+        },
+        "color": {
+          "default": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
-          "border-color": {
+          "hovered": {
+            "value": "{color.success.action.color.default}",
+            "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{color.success.action.color.default}",
+            "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.success.action.color.default}",
+            "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.success.action.color.default}",
+            "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          }
+        },
+        "border-color": {
+          "default": {
+            "value": "rgba(0,255,0, 0.3)",
+            "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Default\nProperty: Border color",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "rgba(0,255,0, 0.3)",
+            "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Hovered\nProperty: Border color",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "rgba(0,255,0, 0.3)",
+            "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          },
+          "selected": {
+            "value": "rgba(0,255,0, 0.3)",
+            "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          },
+          "disabled": {
             "value": "rgba(0,255,0, 0.3)",
             "description": "Color Role: Color for successful actions\nUI Element: Action - Buttons and fabs\nState: Disabled\nProperty: Border color",
             "type": "color"
@@ -1307,86 +1281,82 @@
         }
       },
       "link": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(0,255,0, 1)",
             "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "rgba(255, 255, 255, 1)",
-            "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,255,0, 0.3)",
-            "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "hovered": {
-          "background": {
+          "hovered": {
             "value": "rgba(0,255,0, 0.9)",
             "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.success.link.default.color}",
-            "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,255,0, 0.3)",
-            "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "pressed": {
-          "background": {
+          "pressed": {
             "value": "rgba(0,255,0, 0.95)",
             "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.success.link.default.color}",
-            "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,255,0, 0.3)",
-            "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "selected": {
-          "background": {
+          "selected": {
             "value": "rgba(0,255,0, 1)",
             "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
-          "color": {
-            "value": "{color.success.link.default.color}",
-            "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "rgba(0,255,0, 0.3)",
-            "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Border color",
-            "type": "color"
-          }
-        },
-        "disabled": {
-          "background": {
+          "disabled": {
             "value": "rgba(0,255,0, 0.5)",
             "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Disabled\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
-            "value": "{color.success.link.default.color}",
-            "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+          }
+        },
+        "color": {
+          "default": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
           },
-          "border-color": {
+          "hovered": {
+            "value": "{color.success.link.color.default}",
+            "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{color.success.link.color.default}",
+            "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.success.link.color.default}",
+            "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.success.link.color.default}",
+            "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Disabled\nProperty: Text / foreground color on site background color (white/black)",
+            "type": "color"
+          }
+        },
+        "border-color": {
+          "default": {
+            "value": "rgba(0,255,0, 0.3)",
+            "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Default\nProperty: Border color",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "rgba(0,255,0, 0.3)",
+            "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Hovered\nProperty: Border color",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "rgba(0,255,0, 0.3)",
+            "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Pressed/Clicked\nProperty: Border color",
+            "type": "color"
+          },
+          "selected": {
+            "value": "rgba(0,255,0, 0.3)",
+            "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Border color",
+            "type": "color"
+          },
+          "disabled": {
             "value": "rgba(0,255,0, 0.3)",
             "description": "Color Role: Color for successful actions\nUI Element: Link - Plain text links (needs to be legible on background surface color)\nState: Disabled\nProperty: Border color",
             "type": "color"
@@ -1394,8 +1364,8 @@
         }
       },
       "symbol": {
-        "default": {
-          "color": {
+        "color": {
+          "default": {
             "value": "rgba(255, 255, 255, 1)",
             "description": "Color Role: Color for successful actions\nUI Element: Symbol - Header text, paragraph text, icons, (needs to be legible on background surface color)\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
@@ -1403,18 +1373,22 @@
         }
       },
       "surface": {
-        "default": {
-          "background": {
+        "background": {
+          "default": {
             "value": "rgba(0,255,0, 1)",
             "description": "Color Role: Color for successful actions\nUI Element: Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast\nState: Default\nProperty: Background / fill color",
             "type": "color"
-          },
-          "color": {
+          }
+        },
+        "color": {
+          "default": {
             "value": "rgba(255, 255, 255, 1)",
             "description": "Color Role: Color for successful actions\nUI Element: Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast\nState: Default\nProperty: Text / foreground color on site background color (white/black)",
             "type": "color"
-          },
-          "border-color": {
+          }
+        },
+        "border-color": {
+          "default": {
             "value": "rgba(0,255,0, 0.3)",
             "description": "Color Role: Color for successful actions\nUI Element: Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast\nState: Default\nProperty: Border color",
             "type": "color"

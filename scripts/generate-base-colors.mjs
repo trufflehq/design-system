@@ -49,7 +49,33 @@ const PROPERTIES = {
   }
 }
 
+// page, text, action, input, surface
 const UI_ELEMENTS = {
+  // static elements
+  PAGE: {
+    key: 'page',
+    baseOpacity: '1',
+    description: 'Page background',
+    states: [STATES.DEFAULT],
+    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR]
+  },
+  // TODO: how do we do 3 variations of page background color and have buttons still stand out
+  SURFACE: {
+    key: 'surface',
+    baseOpacity: '1',
+    description: 'Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast',
+    states: [STATES.DEFAULT],
+    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
+  },
+  // any way we can get rid of this and still get effect of a surface w/ opacity
+  DIALOG: {
+    key: 'dialog',
+    baseOpacity: '1',
+    description: 'Dialog - Dialogs and modals',
+    states: [STATES.DEFAULT],
+    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
+  },
+
   // interactive elements
   ACTION: {
     key: 'action',
@@ -58,10 +84,17 @@ const UI_ELEMENTS = {
     states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
     properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
   },
-  LINK: {
-    key: 'link',
+  INPUT: {
+    key: 'input',
     baseOpacity: '1',
-    description: 'Link - Plain text links (needs to be legible on background surface color)',
+    description: 'Input - text boxes, text areas and dropdowns',
+    states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
+    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
+  },
+  TEXT: {
+    key: 'text',
+    baseOpacity: '1',
+    description: 'Header text, paragraph text, icons, links (needs to be legible on background surface color)',
     states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
     properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
   },
@@ -71,37 +104,8 @@ const UI_ELEMENTS = {
     description: 'Tab - Fancier links for tabs / navigation',
     states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
     properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
-  },
-
-  // static elements
-  SYMBOL: {
-    key: 'symbol',
-    baseOpacity: '1',
-    description: 'Symbol - Header text, paragraph text, icons, (needs to be legible on background surface color)',
-    states: [STATES.DEFAULT],
-    properties: [PROPERTIES.COLOR]
-  },
-  DIALOG: {
-    key: 'dialog',
-    baseOpacity: '1',
-    description: 'Dialog - Dialogs and modals',
-    states: [STATES.DEFAULT],
-    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
-  },
-  SURFACE: {
-    key: 'surface',
-    baseOpacity: '0.5',
-    description: 'Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast',
-    states: [STATES.DEFAULT],
-    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
-  },
-  PAGE: {
-    key: 'page',
-    baseOpacity: '1',
-    description: 'Page background',
-    states: [STATES.DEFAULT],
-    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR]
   }
+  
 }
 
 const COLOR_ROLES = {
@@ -153,14 +157,14 @@ const jsonObj = {
       [colorRole.key]: colorRole.uiElements.reduce((obj, uiElement) => {
         return {
           ...obj,
-          [uiElement.key]: uiElement.states.reduce((obj, state) => {
+          [uiElement.key]: uiElement.properties.reduce((obj, property) => {
             return {
               ...obj,
-              [state.key]: uiElement.properties.reduce((obj, property) => {
+              [property.key]: uiElement.states.reduce((obj, state) => {
                 const color = getDefinition({ uiElement, colorRole, state, property })
                 return {
                   ...obj,
-                  [property.key]: color
+                  [state.key]: color
                 }
               }, {})
             }
@@ -177,7 +181,7 @@ function getDefinition ({ uiElement, colorRole, state, property }) {
     color = `rgba(${colorRole.baseRgbCsv}, 0.3)`
   }
   else if (property.key === 'color') {
-    color = state.key === 'default' ? 'rgba(255, 255, 255, 1)' : `{color.${colorRole.key}.${uiElement.key}.default.color}`
+    color = state.key === 'default' ? 'rgba(255, 255, 255, 1)' : `{color.${colorRole.key}.${uiElement.key}.color.default}`
   } else {
     if (colorRole.baseRgbCsv) {
       color = `rgba(${colorRole.baseRgbCsv}, ${state.baseOpacity})`
