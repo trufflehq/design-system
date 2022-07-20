@@ -559,99 +559,99 @@
     "type": "textDecoration"
   },
   "line-height-body-2xl": {
-    "value": "28",
+    "value": "28px",
     "type": "lineHeights"
   },
   "line-height-body-xl": {
-    "value": "28",
+    "value": "28px",
     "type": "lineHeights"
   },
   "line-height-body-lg": {
-    "value": "24",
+    "value": "24px",
     "type": "lineHeights"
   },
   "line-height-body-md": {
-    "value": "20",
+    "value": "20px",
     "type": "lineHeights"
   },
   "line-height-body-sm": {
-    "value": "18",
+    "value": "18px",
     "type": "lineHeights"
   },
   "line-height-body-xs": {
-    "value": "16",
+    "value": "16px",
     "type": "lineHeights"
   },
   "line-height-body-2xs": {
-    "value": "12",
+    "value": "12px",
     "type": "lineHeights"
   },
   "line-height-heading-2xl": {
-    "value": "76",
+    "value": "76px",
     "type": "lineHeights"
   },
   "line-height-heading-xl": {
-    "value": "58",
+    "value": "58px",
     "type": "lineHeights"
   },
   "line-height-heading-lg": {
-    "value": "44",
+    "value": "44px",
     "type": "lineHeights"
   },
   "line-height-heading-md": {
-    "value": "34",
+    "value": "34px",
     "type": "lineHeights"
   },
   "line-height-heading-sm": {
-    "value": "28",
+    "value": "28px",
     "type": "lineHeights"
   },
   "line-height-heading-xs": {
-    "value": "24",
+    "value": "24px",
     "type": "lineHeights"
   },
   "line-height-heading-2xs": {
-    "value": "20",
+    "value": "20px",
     "type": "lineHeights"
   },
   "size-3xs": {
-    "value": "16",
+    "value": "16px",
     "type": "sizing"
   },
   "size-2xs": {
-    "value": "20",
+    "value": "20px",
     "type": "sizing"
   },
   "size-xs": {
-    "value": "24",
+    "value": "24px",
     "type": "sizing"
   },
   "size-sm": {
-    "value": "28",
+    "value": "28px",
     "type": "sizing"
   },
   "size-md": {
-    "value": "32",
+    "value": "32px",
     "type": "sizing"
   },
   "size-lg": {
-    "value": "40",
+    "value": "40px",
     "type": "sizing"
   },
   "size-xl": {
-    "value": "48",
+    "value": "48px",
     "type": "sizing"
   },
   "size-2xl": {
-    "value": "64",
+    "value": "64px",
     "type": "sizing"
   },
   "size-3xl": {
-    "value": "96",
+    "value": "96px",
     "type": "sizing"
   },
   "size-4xl": {
-    "value": "124",
+    "value": "124px",
     "type": "sizing"
   }
 }
