@@ -47,33 +47,87 @@ const PROPERTIES = {
 const VARIANTS = {
   // ui-elements, so theme devs can color separately
   ACTION_HIGH_EMPHASIS: {
-    name: 'Action (high emphasis)',
-    key: 'highx',
-    description: 'High emphasis buttons, fabs, tags, etc...'
+    key: 'action-high-emphasis', // TODO: convert to highx for cssvar
+    description: 'High emphasis buttons, fabs, tags, etc...',
+    formula: ({ colorRole, state }) => {
+      // same as flat
+      return {
+        [PROPERTIES.BACKGROUND.key]: `{color.${colorRole.key}.flat.${state.key}.${PROPERTIES.BACKGROUND.key}}`,
+        [PROPERTIES.COLOR.key]: `{color.${colorRole.key}.flat.${state.key}.${PROPERTIES.COLOR.key}}`,
+        [PROPERTIES.BORDER_COLOR.key]: `{color.${colorRole.key}.flat.${state.key}.${PROPERTIES.BORDER_COLOR.key}}`
+      }
+    }
   },
   ACTION_MEDIUM_EMPHASIS: {
-    key: 'medx',
-    description: 'Medium emphasis buttons, fabs, tags, etc...'
+    key: 'action-med-emphasis', // TODO: convert to medx for cssvar
+    description: 'Medium emphasis buttons, fabs, tags, etc...',
+    formula: ({ colorRole, state }) => {
+      // outline
+      return {
+        [PROPERTIES.BACKGROUND.key]: 'transparent',
+        [PROPERTIES.COLOR.key]: `{color.${colorRole.key}.flat.${state.key}.${PROPERTIES.BACKGROUND.key}}`,
+        [PROPERTIES.BORDER_COLOR.key]: `{color.${colorRole.key}.flat.${state.key}.${PROPERTIES.BACKGROUND.key}}`,
+      }
+    }
   },
   ACTION_LOW_EMPHASIS: {
-    key: 'lowx',
-    description: 'Low emphasis buttons, fabs, tags, etc...'
+    key: 'action-low-emphasis', // TODO: convert to lowx for cssvar
+    description: 'Low emphasis buttons, fabs, tags, etc...',
+    formula: ({ colorRole, state }) => {
+      // text
+      return {
+        [PROPERTIES.BACKGROUND.key]: 'transparent',
+        [PROPERTIES.COLOR.key]: `{color.${colorRole.key}.flat.${state.key}.${PROPERTIES.BACKGROUND.key}}`,
+        [PROPERTIES.BORDER_COLOR.key]: 'transparent',
+      }
+    }
   },
   INPUT: {
     key: 'input',
-    description: 'Text inputs and textareas'
+    description: 'Text inputs and textareas',
+    formula: ({ colorRole, state }) => {
+      // outline
+      return {
+        [PROPERTIES.BACKGROUND.key]: 'transparent',
+        [PROPERTIES.COLOR.key]: `{color.${colorRole.key}.flat.${state.key}.${PROPERTIES.BACKGROUND.key}}`,
+        [PROPERTIES.BORDER_COLOR.key]: `{color.${colorRole.key}.flat.${state.key}.${PROPERTIES.BACKGROUND.key}}`,
+      }
+    }
   },
   FOREGROUND: {
     key: 'fg',
-    description: 'Header text, paragraph text, icons, links (needs to be legible on background surface color)'
+    description: 'Header text, paragraph text, icons, links (needs to be legible on background surface color)',
+    formula: ({ colorRole, state }) => {
+      // text
+      return {
+        [PROPERTIES.BACKGROUND.key]: 'transparent',
+        [PROPERTIES.COLOR.key]: `{color.${colorRole.key}.flat.${state.key}.${PROPERTIES.BACKGROUND.key}}`,
+        [PROPERTIES.BORDER_COLOR.key]: 'transparent',
+      }
+    }
   },
   SURFACE: {
     key: 'surface',
-    description: 'Cards, dialogs, etc...'
+    description: 'Cards, dialogs, etc...',
+    formula: ({ colorRole, state }) => {
+      // text
+      return {
+        [PROPERTIES.BACKGROUND.key]: 'rgba(255, 255, 255, 0.05',
+        [PROPERTIES.COLOR.key]: 'inherit',
+        [PROPERTIES.BORDER_COLOR.key]: 'transparent',
+      }
+    }
   },
   FLAT: {
     key: 'flat',
-    description: 'Flat background'
+    description: 'Flat background',
+    formula: ({ colorRole }) => {
+      return {
+        [PROPERTIES.BACKGROUND.key]: `rgba(${colorRole.baseRgbCsv},1)`,
+        [PROPERTIES.COLOR.key]: `rgba(255, 255, 255, 1)`,
+        [PROPERTIES.BORDER_COLOR.key]: 'transparent'
+      }
+    }
   },
 }
 
@@ -139,21 +193,8 @@ const jsonObj = {
 }
 
 function getDefinition ({ variant, colorRole, state, property }) {
-  let color
-  if (property.key === 'border-color') {
-    color = `rgba(${colorRole.baseRgbCsv}, 0.3)`
-  }
-  else if (property.key === 'color') {
-    color = state.key === 'default' ? 'rgba(255, 255, 255, 1)' : `{color.${colorRole.key}.${variant.key}.default.color}`
-  } else {
-    if (colorRole.baseRgbCsv) {
-      color = `rgba(${colorRole.baseRgbCsv}, ${state.baseOpacity || 1})`
-    } else {
-      color = colorRole.base
-    }
-  }
   return {
-    value: color,
+    value: variant.formula?.({ colorRole, state })[property.key] || 'rgba(255, 0, 0, 1)',
     description: `Color Role: ${colorRole.description}\nUI Element: ${variant.description}\nState: ${state.description}\nProperty: ${property.description}`,
     type: "color"
   }
