@@ -50,37 +50,12 @@ const PROPERTIES = {
 }
 
 // page, text, action, input, surface
-const UI_ELEMENTS = {
-  // static elements
-  PAGE: {
-    key: 'page',
+const THEMES = {
+  // ui-elements
+  BUTTON: {
+    key: 'button',
     baseOpacity: '1',
-    description: 'Page background',
-    states: [STATES.DEFAULT],
-    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR]
-  },
-  // TODO: how do we do 3 variations of page background color and have buttons still stand out
-  SURFACE: {
-    key: 'surface',
-    baseOpacity: '1',
-    description: 'Surface - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast',
-    states: [STATES.DEFAULT],
-    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
-  },
-  // any way we can get rid of this and still get effect of a surface w/ opacity
-  DIALOG: {
-    key: 'dialog',
-    baseOpacity: '1',
-    description: 'Dialog - Dialogs and modals',
-    states: [STATES.DEFAULT],
-    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
-  },
-
-  // interactive elements
-  ACTION: {
-    key: 'action',
-    baseOpacity: '1',
-    description: 'Action - Buttons and fabs',
+    description: 'Solid - Buttons and fabs',
     states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
     properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
   },
@@ -91,6 +66,29 @@ const UI_ELEMENTS = {
     states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
     properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
   },
+
+  // generic
+  MUTED: {
+    key: 'muted',
+    baseOpacity: '1',
+    description: 'Muted - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast',
+    states: [STATES.DEFAULT],
+    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
+  },
+  FILLED: {
+    key: 'filled',
+    baseOpacity: '1',
+    description: 'Filled - Buttons and fabs',
+    states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
+    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
+  },
+  OUTLINED: {
+    key: 'outlined',
+    baseOpacity: '1',
+    description: 'Outline - Tags, inputs, textareas, dropdowns, alternate buttons',
+    states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
+    properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
+  },
   TEXT: {
     key: 'text',
     baseOpacity: '1',
@@ -98,14 +96,13 @@ const UI_ELEMENTS = {
     states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
     properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
   },
-  TAB: {
-    key: 'tab',
+  GHOST: {
+    key: 'ghost',
     baseOpacity: '1',
-    description: 'Tab - Fancier links for tabs / navigation',
+    description: 'Ghost - Fancier links for tabs / navigation',
     states: [STATES.DEFAULT, ...INTERACTIVE_STATES],
     properties: [PROPERTIES.BACKGROUND, PROPERTIES.COLOR, PROPERTIES.BORDER_COLOR]
   }
-  
 }
 
 const COLOR_ROLES = {
@@ -113,38 +110,32 @@ const COLOR_ROLES = {
     key: 'primary',
     // these are placeholder color values. actual value will be set in figma
     baseRgbCsv: '243,87,161',
-    description: 'Used for key UI elements (buttons, active states, etc...)',
-    uiElements: [UI_ELEMENTS.ACTION, UI_ELEMENTS.LINK, UI_ELEMENTS.TAB, UI_ELEMENTS.SYMBOL, UI_ELEMENTS.SURFACE]
+    description: 'Used for key UI elements (buttons, active states, etc...)'
   },
   SECONDARY: {
     key: 'secondary',
     baseRgbCsv: '127,288,220',
-    description: 'Alternate color used for less prominent UI elements, and for adding variety',
-    uiElements: [UI_ELEMENTS.ACTION, UI_ELEMENTS.LINK, UI_ELEMENTS.TAB, UI_ELEMENTS.SYMBOL, UI_ELEMENTS.SURFACE]
+    description: 'Alternate color used for less prominent UI elements, and for adding variety'
   },
   BG: {
     key: 'bg',
     baseRgbCsv: '0,0,0',
-    description: 'Background color for the page',
-    uiElements: [UI_ELEMENTS.PAGE, UI_ELEMENTS.ACTION, UI_ELEMENTS.DIALOG, UI_ELEMENTS.TAB, UI_ELEMENTS.SURFACE]
+    description: 'Background color for the page'
   },
   CRITICAL: {
     key: 'critical',
     baseRgbCsv: '176,16,56',
-    description: 'Color for critical actions and errors',
-    uiElements: [UI_ELEMENTS.ACTION, UI_ELEMENTS.LINK, UI_ELEMENTS.SYMBOL, UI_ELEMENTS.SURFACE]
+    description: 'Color for critical actions and errors'
   },
   WARNING: {
     key: 'warning',
     baseRgbCsv: '255,218,7',
-    description: 'Color for semi-critical actions and warnings',
-    uiElements: [UI_ELEMENTS.ACTION, UI_ELEMENTS.LINK, UI_ELEMENTS.SYMBOL, UI_ELEMENTS.SURFACE]
+    description: 'Color for semi-critical actions and warnings'
   },
   SUCCESS: {
     key: 'success',
     baseRgbCsv: '0,255,0',
-    description: 'Color for successful actions',
-    uiElements: [UI_ELEMENTS.ACTION, UI_ELEMENTS.LINK, UI_ELEMENTS.SYMBOL, UI_ELEMENTS.SURFACE]
+    description: 'Color for successful actions'
   }
 }
 
@@ -154,17 +145,17 @@ const jsonObj = {
   color: Object.values(COLOR_ROLES).reduce((obj, colorRole) => {
     return {
       ...obj,
-      [colorRole.key]: colorRole.uiElements.reduce((obj, uiElement) => {
+      [colorRole.key]: Object.values(THEMES).reduce((obj, theme) => {
         return {
           ...obj,
-          [uiElement.key]: uiElement.properties.reduce((obj, property) => {
+          [theme.key]: Object.values(STATES).reduce((obj, state) => {
             return {
               ...obj,
-              [property.key]: uiElement.states.reduce((obj, state) => {
-                const color = getDefinition({ uiElement, colorRole, state, property })
+              [state.key]: Object.values(PROPERTIES).reduce((obj, property) => {
+                const color = getDefinition({ theme, colorRole, state, property })
                 return {
                   ...obj,
-                  [state.key]: color
+                  [property.key]: color
                 }
               }, {})
             }
@@ -175,13 +166,13 @@ const jsonObj = {
   }, {})
 }
 
-function getDefinition ({ uiElement, colorRole, state, property }) {
+function getDefinition ({ theme, colorRole, state, property }) {
   let color
   if (property.key === 'border-color') {
     color = `rgba(${colorRole.baseRgbCsv}, 0.3)`
   }
   else if (property.key === 'color') {
-    color = state.key === 'default' ? 'rgba(255, 255, 255, 1)' : `{color.${colorRole.key}.${uiElement.key}.color.default}`
+    color = state.key === 'default' ? 'rgba(255, 255, 255, 1)' : `{color.${colorRole.key}.${theme.key}.default.color}`
   } else {
     if (colorRole.baseRgbCsv) {
       color = `rgba(${colorRole.baseRgbCsv}, ${state.baseOpacity})`
@@ -191,7 +182,7 @@ function getDefinition ({ uiElement, colorRole, state, property }) {
   }
   return {
     value: color,
-    description: `Color Role: ${colorRole.description}\nUI Element: ${uiElement.description}\nState: ${state.description}\nProperty: ${property.description}`,
+    description: `Color Role: ${colorRole.description}\nUI Element: ${theme.description}\nState: ${state.description}\nProperty: ${property.description}`,
     type: "color"
   }
 }
