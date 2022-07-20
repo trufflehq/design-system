@@ -4,7 +4,7 @@
       "highx": {
         "default": {
           "background": {
-            "value": "rgba(243,87,161, undefined)",
+            "value": "rgba(243,87,161, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: High emphasis buttons, fabs, tags, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -72,7 +72,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(243,87,161, undefined)",
+            "value": "rgba(243,87,161, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: High emphasis buttons, fabs, tags, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -91,7 +91,7 @@
       "medx": {
         "default": {
           "background": {
-            "value": "rgba(243,87,161, undefined)",
+            "value": "rgba(243,87,161, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Medium emphasis buttons, fabs, tags, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -159,7 +159,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(243,87,161, undefined)",
+            "value": "rgba(243,87,161, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Medium emphasis buttons, fabs, tags, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -178,7 +178,7 @@
       "lowx": {
         "default": {
           "background": {
-            "value": "rgba(243,87,161, undefined)",
+            "value": "rgba(243,87,161, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Low emphasis buttons, fabs, tags, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -246,7 +246,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(243,87,161, undefined)",
+            "value": "rgba(243,87,161, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Low emphasis buttons, fabs, tags, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -265,7 +265,7 @@
       "input": {
         "default": {
           "background": {
-            "value": "rgba(243,87,161, undefined)",
+            "value": "rgba(243,87,161, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Text inputs and textareas\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -333,7 +333,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(243,87,161, undefined)",
+            "value": "rgba(243,87,161, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Text inputs and textareas\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -352,7 +352,7 @@
       "fg": {
         "default": {
           "background": {
-            "value": "rgba(243,87,161, undefined)",
+            "value": "rgba(243,87,161, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Header text, paragraph text, icons, links (needs to be legible on background surface color)\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -420,7 +420,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(243,87,161, undefined)",
+            "value": "rgba(243,87,161, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Header text, paragraph text, icons, links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -439,7 +439,7 @@
       "surface": {
         "default": {
           "background": {
-            "value": "rgba(243,87,161, undefined)",
+            "value": "rgba(243,87,161, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Cards, dialogs, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -507,7 +507,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(243,87,161, undefined)",
+            "value": "rgba(243,87,161, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Cards, dialogs, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -526,7 +526,7 @@
       "flat": {
         "default": {
           "background": {
-            "value": "rgba(243,87,161, undefined)",
+            "value": "rgba(243,87,161, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Flat background\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -594,7 +594,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(243,87,161, undefined)",
+            "value": "rgba(243,87,161, 1)",
             "description": "Color Role: Used for key UI elements (buttons, active states, etc...)\nUI Element: Flat background\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -615,7 +615,7 @@
       "highx": {
         "default": {
           "background": {
-            "value": "rgba(127,288,220, undefined)",
+            "value": "rgba(127,288,220, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: High emphasis buttons, fabs, tags, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -683,7 +683,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(127,288,220, undefined)",
+            "value": "rgba(127,288,220, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: High emphasis buttons, fabs, tags, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -702,7 +702,7 @@
       "medx": {
         "default": {
           "background": {
-            "value": "rgba(127,288,220, undefined)",
+            "value": "rgba(127,288,220, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Medium emphasis buttons, fabs, tags, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -770,7 +770,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(127,288,220, undefined)",
+            "value": "rgba(127,288,220, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Medium emphasis buttons, fabs, tags, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -789,7 +789,7 @@
       "lowx": {
         "default": {
           "background": {
-            "value": "rgba(127,288,220, undefined)",
+            "value": "rgba(127,288,220, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Low emphasis buttons, fabs, tags, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -857,7 +857,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(127,288,220, undefined)",
+            "value": "rgba(127,288,220, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Low emphasis buttons, fabs, tags, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -876,7 +876,7 @@
       "input": {
         "default": {
           "background": {
-            "value": "rgba(127,288,220, undefined)",
+            "value": "rgba(127,288,220, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Text inputs and textareas\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -944,7 +944,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(127,288,220, undefined)",
+            "value": "rgba(127,288,220, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Text inputs and textareas\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -963,7 +963,7 @@
       "fg": {
         "default": {
           "background": {
-            "value": "rgba(127,288,220, undefined)",
+            "value": "rgba(127,288,220, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Header text, paragraph text, icons, links (needs to be legible on background surface color)\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1031,7 +1031,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(127,288,220, undefined)",
+            "value": "rgba(127,288,220, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Header text, paragraph text, icons, links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1050,7 +1050,7 @@
       "surface": {
         "default": {
           "background": {
-            "value": "rgba(127,288,220, undefined)",
+            "value": "rgba(127,288,220, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Cards, dialogs, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1118,7 +1118,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(127,288,220, undefined)",
+            "value": "rgba(127,288,220, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Cards, dialogs, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1137,7 +1137,7 @@
       "flat": {
         "default": {
           "background": {
-            "value": "rgba(127,288,220, undefined)",
+            "value": "rgba(127,288,220, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Flat background\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1205,7 +1205,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(127,288,220, undefined)",
+            "value": "rgba(127,288,220, 1)",
             "description": "Color Role: Alternate color used for less prominent UI elements, and for adding variety\nUI Element: Flat background\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1226,7 +1226,7 @@
       "highx": {
         "default": {
           "background": {
-            "value": "rgba(0,0,0, undefined)",
+            "value": "rgba(0,0,0, 1)",
             "description": "Color Role: Background color for the page\nUI Element: High emphasis buttons, fabs, tags, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1294,7 +1294,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(0,0,0, undefined)",
+            "value": "rgba(0,0,0, 1)",
             "description": "Color Role: Background color for the page\nUI Element: High emphasis buttons, fabs, tags, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1313,7 +1313,7 @@
       "medx": {
         "default": {
           "background": {
-            "value": "rgba(0,0,0, undefined)",
+            "value": "rgba(0,0,0, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Medium emphasis buttons, fabs, tags, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1381,7 +1381,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(0,0,0, undefined)",
+            "value": "rgba(0,0,0, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Medium emphasis buttons, fabs, tags, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1400,7 +1400,7 @@
       "lowx": {
         "default": {
           "background": {
-            "value": "rgba(0,0,0, undefined)",
+            "value": "rgba(0,0,0, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Low emphasis buttons, fabs, tags, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1468,7 +1468,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(0,0,0, undefined)",
+            "value": "rgba(0,0,0, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Low emphasis buttons, fabs, tags, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1487,7 +1487,7 @@
       "input": {
         "default": {
           "background": {
-            "value": "rgba(0,0,0, undefined)",
+            "value": "rgba(0,0,0, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Text inputs and textareas\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1555,7 +1555,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(0,0,0, undefined)",
+            "value": "rgba(0,0,0, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Text inputs and textareas\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1574,7 +1574,7 @@
       "fg": {
         "default": {
           "background": {
-            "value": "rgba(0,0,0, undefined)",
+            "value": "rgba(0,0,0, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Header text, paragraph text, icons, links (needs to be legible on background surface color)\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1642,7 +1642,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(0,0,0, undefined)",
+            "value": "rgba(0,0,0, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Header text, paragraph text, icons, links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1661,7 +1661,7 @@
       "surface": {
         "default": {
           "background": {
-            "value": "rgba(0,0,0, undefined)",
+            "value": "rgba(0,0,0, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Cards, dialogs, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1729,7 +1729,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(0,0,0, undefined)",
+            "value": "rgba(0,0,0, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Cards, dialogs, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1748,7 +1748,7 @@
       "flat": {
         "default": {
           "background": {
-            "value": "rgba(0,0,0, undefined)",
+            "value": "rgba(0,0,0, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Flat background\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1816,7 +1816,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(0,0,0, undefined)",
+            "value": "rgba(0,0,0, 1)",
             "description": "Color Role: Background color for the page\nUI Element: Flat background\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1837,7 +1837,7 @@
       "highx": {
         "default": {
           "background": {
-            "value": "rgba(176,16,56, undefined)",
+            "value": "rgba(176,16,56, 1)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: High emphasis buttons, fabs, tags, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1905,7 +1905,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(176,16,56, undefined)",
+            "value": "rgba(176,16,56, 1)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: High emphasis buttons, fabs, tags, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1924,7 +1924,7 @@
       "medx": {
         "default": {
           "background": {
-            "value": "rgba(176,16,56, undefined)",
+            "value": "rgba(176,16,56, 1)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Medium emphasis buttons, fabs, tags, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -1992,7 +1992,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(176,16,56, undefined)",
+            "value": "rgba(176,16,56, 1)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Medium emphasis buttons, fabs, tags, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2011,7 +2011,7 @@
       "lowx": {
         "default": {
           "background": {
-            "value": "rgba(176,16,56, undefined)",
+            "value": "rgba(176,16,56, 1)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Low emphasis buttons, fabs, tags, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2079,7 +2079,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(176,16,56, undefined)",
+            "value": "rgba(176,16,56, 1)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Low emphasis buttons, fabs, tags, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2098,7 +2098,7 @@
       "input": {
         "default": {
           "background": {
-            "value": "rgba(176,16,56, undefined)",
+            "value": "rgba(176,16,56, 1)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Text inputs and textareas\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2166,7 +2166,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(176,16,56, undefined)",
+            "value": "rgba(176,16,56, 1)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Text inputs and textareas\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2185,7 +2185,7 @@
       "fg": {
         "default": {
           "background": {
-            "value": "rgba(176,16,56, undefined)",
+            "value": "rgba(176,16,56, 1)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Header text, paragraph text, icons, links (needs to be legible on background surface color)\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2253,7 +2253,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(176,16,56, undefined)",
+            "value": "rgba(176,16,56, 1)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Header text, paragraph text, icons, links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2272,7 +2272,7 @@
       "surface": {
         "default": {
           "background": {
-            "value": "rgba(176,16,56, undefined)",
+            "value": "rgba(176,16,56, 1)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Cards, dialogs, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2340,7 +2340,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(176,16,56, undefined)",
+            "value": "rgba(176,16,56, 1)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Cards, dialogs, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2359,7 +2359,7 @@
       "flat": {
         "default": {
           "background": {
-            "value": "rgba(176,16,56, undefined)",
+            "value": "rgba(176,16,56, 1)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Flat background\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2427,7 +2427,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(176,16,56, undefined)",
+            "value": "rgba(176,16,56, 1)",
             "description": "Color Role: Color for critical actions and errors\nUI Element: Flat background\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2448,7 +2448,7 @@
       "highx": {
         "default": {
           "background": {
-            "value": "rgba(255,218,7, undefined)",
+            "value": "rgba(255,218,7, 1)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: High emphasis buttons, fabs, tags, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2516,7 +2516,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(255,218,7, undefined)",
+            "value": "rgba(255,218,7, 1)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: High emphasis buttons, fabs, tags, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2535,7 +2535,7 @@
       "medx": {
         "default": {
           "background": {
-            "value": "rgba(255,218,7, undefined)",
+            "value": "rgba(255,218,7, 1)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Medium emphasis buttons, fabs, tags, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2603,7 +2603,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(255,218,7, undefined)",
+            "value": "rgba(255,218,7, 1)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Medium emphasis buttons, fabs, tags, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2622,7 +2622,7 @@
       "lowx": {
         "default": {
           "background": {
-            "value": "rgba(255,218,7, undefined)",
+            "value": "rgba(255,218,7, 1)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Low emphasis buttons, fabs, tags, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2690,7 +2690,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(255,218,7, undefined)",
+            "value": "rgba(255,218,7, 1)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Low emphasis buttons, fabs, tags, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2709,7 +2709,7 @@
       "input": {
         "default": {
           "background": {
-            "value": "rgba(255,218,7, undefined)",
+            "value": "rgba(255,218,7, 1)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Text inputs and textareas\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2777,7 +2777,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(255,218,7, undefined)",
+            "value": "rgba(255,218,7, 1)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Text inputs and textareas\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2796,7 +2796,7 @@
       "fg": {
         "default": {
           "background": {
-            "value": "rgba(255,218,7, undefined)",
+            "value": "rgba(255,218,7, 1)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Header text, paragraph text, icons, links (needs to be legible on background surface color)\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2864,7 +2864,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(255,218,7, undefined)",
+            "value": "rgba(255,218,7, 1)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Header text, paragraph text, icons, links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2883,7 +2883,7 @@
       "surface": {
         "default": {
           "background": {
-            "value": "rgba(255,218,7, undefined)",
+            "value": "rgba(255,218,7, 1)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Cards, dialogs, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2951,7 +2951,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(255,218,7, undefined)",
+            "value": "rgba(255,218,7, 1)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Cards, dialogs, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -2970,7 +2970,7 @@
       "flat": {
         "default": {
           "background": {
-            "value": "rgba(255,218,7, undefined)",
+            "value": "rgba(255,218,7, 1)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Flat background\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -3038,7 +3038,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(255,218,7, undefined)",
+            "value": "rgba(255,218,7, 1)",
             "description": "Color Role: Color for semi-critical actions and warnings\nUI Element: Flat background\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -3059,7 +3059,7 @@
       "highx": {
         "default": {
           "background": {
-            "value": "rgba(0,255,0, undefined)",
+            "value": "rgba(0,255,0, 1)",
             "description": "Color Role: Color for successful actions\nUI Element: High emphasis buttons, fabs, tags, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -3127,7 +3127,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(0,255,0, undefined)",
+            "value": "rgba(0,255,0, 1)",
             "description": "Color Role: Color for successful actions\nUI Element: High emphasis buttons, fabs, tags, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -3146,7 +3146,7 @@
       "medx": {
         "default": {
           "background": {
-            "value": "rgba(0,255,0, undefined)",
+            "value": "rgba(0,255,0, 1)",
             "description": "Color Role: Color for successful actions\nUI Element: Medium emphasis buttons, fabs, tags, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -3214,7 +3214,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(0,255,0, undefined)",
+            "value": "rgba(0,255,0, 1)",
             "description": "Color Role: Color for successful actions\nUI Element: Medium emphasis buttons, fabs, tags, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -3233,7 +3233,7 @@
       "lowx": {
         "default": {
           "background": {
-            "value": "rgba(0,255,0, undefined)",
+            "value": "rgba(0,255,0, 1)",
             "description": "Color Role: Color for successful actions\nUI Element: Low emphasis buttons, fabs, tags, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -3301,7 +3301,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(0,255,0, undefined)",
+            "value": "rgba(0,255,0, 1)",
             "description": "Color Role: Color for successful actions\nUI Element: Low emphasis buttons, fabs, tags, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -3320,7 +3320,7 @@
       "input": {
         "default": {
           "background": {
-            "value": "rgba(0,255,0, undefined)",
+            "value": "rgba(0,255,0, 1)",
             "description": "Color Role: Color for successful actions\nUI Element: Text inputs and textareas\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -3388,7 +3388,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(0,255,0, undefined)",
+            "value": "rgba(0,255,0, 1)",
             "description": "Color Role: Color for successful actions\nUI Element: Text inputs and textareas\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -3407,7 +3407,7 @@
       "fg": {
         "default": {
           "background": {
-            "value": "rgba(0,255,0, undefined)",
+            "value": "rgba(0,255,0, 1)",
             "description": "Color Role: Color for successful actions\nUI Element: Header text, paragraph text, icons, links (needs to be legible on background surface color)\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -3475,7 +3475,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(0,255,0, undefined)",
+            "value": "rgba(0,255,0, 1)",
             "description": "Color Role: Color for successful actions\nUI Element: Header text, paragraph text, icons, links (needs to be legible on background surface color)\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -3494,7 +3494,7 @@
       "surface": {
         "default": {
           "background": {
-            "value": "rgba(0,255,0, undefined)",
+            "value": "rgba(0,255,0, 1)",
             "description": "Color Role: Color for successful actions\nUI Element: Cards, dialogs, etc...\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -3562,7 +3562,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(0,255,0, undefined)",
+            "value": "rgba(0,255,0, 1)",
             "description": "Color Role: Color for successful actions\nUI Element: Cards, dialogs, etc...\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },
@@ -3581,7 +3581,7 @@
       "flat": {
         "default": {
           "background": {
-            "value": "rgba(0,255,0, undefined)",
+            "value": "rgba(0,255,0, 1)",
             "description": "Color Role: Color for successful actions\nUI Element: Flat background\nState: Default\nProperty: Background / fill color",
             "type": "color"
           },
@@ -3649,7 +3649,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba(0,255,0, undefined)",
+            "value": "rgba(0,255,0, 1)",
             "description": "Color Role: Color for successful actions\nUI Element: Flat background\nState: Selective/Active/Highlighted\nProperty: Background / fill color",
             "type": "color"
           },

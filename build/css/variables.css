@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 20 Jul 2022 03:19:43 GMT
+ * Generated on Wed, 20 Jul 2022 03:21:14 GMT
  */
 
 :root {
@@ -164,7 +164,7 @@
   --tfl-border-radius-md: 4px;
   --tfl-border-radius-sm: 2px;
   --tfl-color-success-flat-selected-border-color: rgba(0, 255, 0, 0.3);
-  --tfl-color-success-flat-selected-background: #000000;
+  --tfl-color-success-flat-selected-background: #00ff00;
   --tfl-color-success-flat-pressed-border-color: rgba(0, 255, 0, 0.3);
   --tfl-color-success-flat-pressed-background: rgba(0, 255, 0, 0.95);
   --tfl-color-success-flat-hovered-border-color: rgba(0, 255, 0, 0.3);
@@ -173,9 +173,9 @@
   --tfl-color-success-flat-disabled-background: rgba(0, 255, 0, 0.5);
   --tfl-color-success-flat-default-border-color: rgba(0, 255, 0, 0.3);
   --tfl-color-success-flat-default-color: #ffffff;
-  --tfl-color-success-flat-default-background: #000000;
+  --tfl-color-success-flat-default-background: #00ff00;
   --tfl-color-success-surface-selected-border-color: rgba(0, 255, 0, 0.3);
-  --tfl-color-success-surface-selected-background: #000000;
+  --tfl-color-success-surface-selected-background: #00ff00;
   --tfl-color-success-surface-pressed-border-color: rgba(0, 255, 0, 0.3);
   --tfl-color-success-surface-pressed-background: rgba(0, 255, 0, 0.95);
   --tfl-color-success-surface-hovered-border-color: rgba(0, 255, 0, 0.3);
@@ -184,9 +184,9 @@
   --tfl-color-success-surface-disabled-background: rgba(0, 255, 0, 0.5);
   --tfl-color-success-surface-default-border-color: rgba(0, 255, 0, 0.3);
   --tfl-color-success-surface-default-color: #ffffff;
-  --tfl-color-success-surface-default-background: #000000;
+  --tfl-color-success-surface-default-background: #00ff00;
   --tfl-color-success-fg-selected-border-color: rgba(0, 255, 0, 0.3);
-  --tfl-color-success-fg-selected-background: #000000;
+  --tfl-color-success-fg-selected-background: #00ff00;
   --tfl-color-success-fg-pressed-border-color: rgba(0, 255, 0, 0.3);
   --tfl-color-success-fg-pressed-background: rgba(0, 255, 0, 0.95);
   --tfl-color-success-fg-hovered-border-color: rgba(0, 255, 0, 0.3);
@@ -195,9 +195,9 @@
   --tfl-color-success-fg-disabled-background: rgba(0, 255, 0, 0.5);
   --tfl-color-success-fg-default-border-color: rgba(0, 255, 0, 0.3);
   --tfl-color-success-fg-default-color: #ffffff;
-  --tfl-color-success-fg-default-background: #000000;
+  --tfl-color-success-fg-default-background: #00ff00;
   --tfl-color-success-input-selected-border-color: rgba(0, 255, 0, 0.3);
-  --tfl-color-success-input-selected-background: #000000;
+  --tfl-color-success-input-selected-background: #00ff00;
   --tfl-color-success-input-pressed-border-color: rgba(0, 255, 0, 0.3);
   --tfl-color-success-input-pressed-background: rgba(0, 255, 0, 0.95);
   --tfl-color-success-input-hovered-border-color: rgba(0, 255, 0, 0.3);
@@ -206,9 +206,9 @@
   --tfl-color-success-input-disabled-background: rgba(0, 255, 0, 0.5);
   --tfl-color-success-input-default-border-color: rgba(0, 255, 0, 0.3);
   --tfl-color-success-input-default-color: #ffffff;
-  --tfl-color-success-input-default-background: #000000;
+  --tfl-color-success-input-default-background: #00ff00;
   --tfl-color-success-lowx-selected-border-color: rgba(0, 255, 0, 0.3);
-  --tfl-color-success-lowx-selected-background: #000000;
+  --tfl-color-success-lowx-selected-background: #00ff00;
   --tfl-color-success-lowx-pressed-border-color: rgba(0, 255, 0, 0.3);
   --tfl-color-success-lowx-pressed-background: rgba(0, 255, 0, 0.95);
   --tfl-color-success-lowx-hovered-border-color: rgba(0, 255, 0, 0.3);
@@ -217,9 +217,9 @@
   --tfl-color-success-lowx-disabled-background: rgba(0, 255, 0, 0.5);
   --tfl-color-success-lowx-default-border-color: rgba(0, 255, 0, 0.3);
   --tfl-color-success-lowx-default-color: #ffffff;
-  --tfl-color-success-lowx-default-background: #000000;
+  --tfl-color-success-lowx-default-background: #00ff00;
   --tfl-color-success-medx-selected-border-color: rgba(0, 255, 0, 0.3);
-  --tfl-color-success-medx-selected-background: #000000;
+  --tfl-color-success-medx-selected-background: #00ff00;
   --tfl-color-success-medx-pressed-border-color: rgba(0, 255, 0, 0.3);
   --tfl-color-success-medx-pressed-background: rgba(0, 255, 0, 0.95);
   --tfl-color-success-medx-hovered-border-color: rgba(0, 255, 0, 0.3);
@@ -228,9 +228,9 @@
   --tfl-color-success-medx-disabled-background: rgba(0, 255, 0, 0.5);
   --tfl-color-success-medx-default-border-color: rgba(0, 255, 0, 0.3);
   --tfl-color-success-medx-default-color: #ffffff;
-  --tfl-color-success-medx-default-background: #000000;
+  --tfl-color-success-medx-default-background: #00ff00;
   --tfl-color-success-highx-selected-border-color: rgba(0, 255, 0, 0.3);
-  --tfl-color-success-highx-selected-background: #000000;
+  --tfl-color-success-highx-selected-background: #00ff00;
   --tfl-color-success-highx-pressed-border-color: rgba(0, 255, 0, 0.3);
   --tfl-color-success-highx-pressed-background: rgba(0, 255, 0, 0.95);
   --tfl-color-success-highx-hovered-border-color: rgba(0, 255, 0, 0.3);
@@ -239,9 +239,9 @@
   --tfl-color-success-highx-disabled-background: rgba(0, 255, 0, 0.5);
   --tfl-color-success-highx-default-border-color: rgba(0, 255, 0, 0.3);
   --tfl-color-success-highx-default-color: #ffffff;
-  --tfl-color-success-highx-default-background: #000000;
+  --tfl-color-success-highx-default-background: #00ff00;
   --tfl-color-warning-flat-selected-border-color: rgba(255, 218, 7, 0.3);
-  --tfl-color-warning-flat-selected-background: #000000;
+  --tfl-color-warning-flat-selected-background: #ffda07;
   --tfl-color-warning-flat-pressed-border-color: rgba(255, 218, 7, 0.3);
   --tfl-color-warning-flat-pressed-background: rgba(255, 218, 7, 0.95);
   --tfl-color-warning-flat-hovered-border-color: rgba(255, 218, 7, 0.3);
@@ -250,9 +250,9 @@
   --tfl-color-warning-flat-disabled-background: rgba(255, 218, 7, 0.5);
   --tfl-color-warning-flat-default-border-color: rgba(255, 218, 7, 0.3);
   --tfl-color-warning-flat-default-color: #ffffff;
-  --tfl-color-warning-flat-default-background: #000000;
+  --tfl-color-warning-flat-default-background: #ffda07;
   --tfl-color-warning-surface-selected-border-color: rgba(255, 218, 7, 0.3);
-  --tfl-color-warning-surface-selected-background: #000000;
+  --tfl-color-warning-surface-selected-background: #ffda07;
   --tfl-color-warning-surface-pressed-border-color: rgba(255, 218, 7, 0.3);
   --tfl-color-warning-surface-pressed-background: rgba(255, 218, 7, 0.95);
   --tfl-color-warning-surface-hovered-border-color: rgba(255, 218, 7, 0.3);
@@ -261,9 +261,9 @@
   --tfl-color-warning-surface-disabled-background: rgba(255, 218, 7, 0.5);
   --tfl-color-warning-surface-default-border-color: rgba(255, 218, 7, 0.3);
   --tfl-color-warning-surface-default-color: #ffffff;
-  --tfl-color-warning-surface-default-background: #000000;
+  --tfl-color-warning-surface-default-background: #ffda07;
   --tfl-color-warning-fg-selected-border-color: rgba(255, 218, 7, 0.3);
-  --tfl-color-warning-fg-selected-background: #000000;
+  --tfl-color-warning-fg-selected-background: #ffda07;
   --tfl-color-warning-fg-pressed-border-color: rgba(255, 218, 7, 0.3);
   --tfl-color-warning-fg-pressed-background: rgba(255, 218, 7, 0.95);
   --tfl-color-warning-fg-hovered-border-color: rgba(255, 218, 7, 0.3);
@@ -272,9 +272,9 @@
   --tfl-color-warning-fg-disabled-background: rgba(255, 218, 7, 0.5);
   --tfl-color-warning-fg-default-border-color: rgba(255, 218, 7, 0.3);
   --tfl-color-warning-fg-default-color: #ffffff;
-  --tfl-color-warning-fg-default-background: #000000;
+  --tfl-color-warning-fg-default-background: #ffda07;
   --tfl-color-warning-input-selected-border-color: rgba(255, 218, 7, 0.3);
-  --tfl-color-warning-input-selected-background: #000000;
+  --tfl-color-warning-input-selected-background: #ffda07;
   --tfl-color-warning-input-pressed-border-color: rgba(255, 218, 7, 0.3);
   --tfl-color-warning-input-pressed-background: rgba(255, 218, 7, 0.95);
   --tfl-color-warning-input-hovered-border-color: rgba(255, 218, 7, 0.3);
@@ -283,9 +283,9 @@
   --tfl-color-warning-input-disabled-background: rgba(255, 218, 7, 0.5);
   --tfl-color-warning-input-default-border-color: rgba(255, 218, 7, 0.3);
   --tfl-color-warning-input-default-color: #ffffff;
-  --tfl-color-warning-input-default-background: #000000;
+  --tfl-color-warning-input-default-background: #ffda07;
   --tfl-color-warning-lowx-selected-border-color: rgba(255, 218, 7, 0.3);
-  --tfl-color-warning-lowx-selected-background: #000000;
+  --tfl-color-warning-lowx-selected-background: #ffda07;
   --tfl-color-warning-lowx-pressed-border-color: rgba(255, 218, 7, 0.3);
   --tfl-color-warning-lowx-pressed-background: rgba(255, 218, 7, 0.95);
   --tfl-color-warning-lowx-hovered-border-color: rgba(255, 218, 7, 0.3);
@@ -294,9 +294,9 @@
   --tfl-color-warning-lowx-disabled-background: rgba(255, 218, 7, 0.5);
   --tfl-color-warning-lowx-default-border-color: rgba(255, 218, 7, 0.3);
   --tfl-color-warning-lowx-default-color: #ffffff;
-  --tfl-color-warning-lowx-default-background: #000000;
+  --tfl-color-warning-lowx-default-background: #ffda07;
   --tfl-color-warning-medx-selected-border-color: rgba(255, 218, 7, 0.3);
-  --tfl-color-warning-medx-selected-background: #000000;
+  --tfl-color-warning-medx-selected-background: #ffda07;
   --tfl-color-warning-medx-pressed-border-color: rgba(255, 218, 7, 0.3);
   --tfl-color-warning-medx-pressed-background: rgba(255, 218, 7, 0.95);
   --tfl-color-warning-medx-hovered-border-color: rgba(255, 218, 7, 0.3);
@@ -305,9 +305,9 @@
   --tfl-color-warning-medx-disabled-background: rgba(255, 218, 7, 0.5);
   --tfl-color-warning-medx-default-border-color: rgba(255, 218, 7, 0.3);
   --tfl-color-warning-medx-default-color: #ffffff;
-  --tfl-color-warning-medx-default-background: #000000;
+  --tfl-color-warning-medx-default-background: #ffda07;
   --tfl-color-warning-highx-selected-border-color: rgba(255, 218, 7, 0.3);
-  --tfl-color-warning-highx-selected-background: #000000;
+  --tfl-color-warning-highx-selected-background: #ffda07;
   --tfl-color-warning-highx-pressed-border-color: rgba(255, 218, 7, 0.3);
   --tfl-color-warning-highx-pressed-background: rgba(255, 218, 7, 0.95);
   --tfl-color-warning-highx-hovered-border-color: rgba(255, 218, 7, 0.3);
@@ -316,9 +316,9 @@
   --tfl-color-warning-highx-disabled-background: rgba(255, 218, 7, 0.5);
   --tfl-color-warning-highx-default-border-color: rgba(255, 218, 7, 0.3);
   --tfl-color-warning-highx-default-color: #ffffff;
-  --tfl-color-warning-highx-default-background: #000000;
+  --tfl-color-warning-highx-default-background: #ffda07;
   --tfl-color-critical-flat-selected-border-color: rgba(176, 16, 56, 0.3);
-  --tfl-color-critical-flat-selected-background: #000000;
+  --tfl-color-critical-flat-selected-background: #b01038;
   --tfl-color-critical-flat-pressed-border-color: rgba(176, 16, 56, 0.3);
   --tfl-color-critical-flat-pressed-background: rgba(176, 16, 56, 0.95);
   --tfl-color-critical-flat-hovered-border-color: rgba(176, 16, 56, 0.3);
@@ -327,9 +327,9 @@
   --tfl-color-critical-flat-disabled-background: rgba(176, 16, 56, 0.5);
   --tfl-color-critical-flat-default-border-color: rgba(176, 16, 56, 0.3);
   --tfl-color-critical-flat-default-color: #ffffff;
-  --tfl-color-critical-flat-default-background: #000000;
+  --tfl-color-critical-flat-default-background: #b01038;
   --tfl-color-critical-surface-selected-border-color: rgba(176, 16, 56, 0.3);
-  --tfl-color-critical-surface-selected-background: #000000;
+  --tfl-color-critical-surface-selected-background: #b01038;
   --tfl-color-critical-surface-pressed-border-color: rgba(176, 16, 56, 0.3);
   --tfl-color-critical-surface-pressed-background: rgba(176, 16, 56, 0.95);
   --tfl-color-critical-surface-hovered-border-color: rgba(176, 16, 56, 0.3);
@@ -338,9 +338,9 @@
   --tfl-color-critical-surface-disabled-background: rgba(176, 16, 56, 0.5);
   --tfl-color-critical-surface-default-border-color: rgba(176, 16, 56, 0.3);
   --tfl-color-critical-surface-default-color: #ffffff;
-  --tfl-color-critical-surface-default-background: #000000;
+  --tfl-color-critical-surface-default-background: #b01038;
   --tfl-color-critical-fg-selected-border-color: rgba(176, 16, 56, 0.3);
-  --tfl-color-critical-fg-selected-background: #000000;
+  --tfl-color-critical-fg-selected-background: #b01038;
   --tfl-color-critical-fg-pressed-border-color: rgba(176, 16, 56, 0.3);
   --tfl-color-critical-fg-pressed-background: rgba(176, 16, 56, 0.95);
   --tfl-color-critical-fg-hovered-border-color: rgba(176, 16, 56, 0.3);
@@ -349,9 +349,9 @@
   --tfl-color-critical-fg-disabled-background: rgba(176, 16, 56, 0.5);
   --tfl-color-critical-fg-default-border-color: rgba(176, 16, 56, 0.3);
   --tfl-color-critical-fg-default-color: #ffffff;
-  --tfl-color-critical-fg-default-background: #000000;
+  --tfl-color-critical-fg-default-background: #b01038;
   --tfl-color-critical-input-selected-border-color: rgba(176, 16, 56, 0.3);
-  --tfl-color-critical-input-selected-background: #000000;
+  --tfl-color-critical-input-selected-background: #b01038;
   --tfl-color-critical-input-pressed-border-color: rgba(176, 16, 56, 0.3);
   --tfl-color-critical-input-pressed-background: rgba(176, 16, 56, 0.95);
   --tfl-color-critical-input-hovered-border-color: rgba(176, 16, 56, 0.3);
@@ -360,9 +360,9 @@
   --tfl-color-critical-input-disabled-background: rgba(176, 16, 56, 0.5);
   --tfl-color-critical-input-default-border-color: rgba(176, 16, 56, 0.3);
   --tfl-color-critical-input-default-color: #ffffff;
-  --tfl-color-critical-input-default-background: #000000;
+  --tfl-color-critical-input-default-background: #b01038;
   --tfl-color-critical-lowx-selected-border-color: rgba(176, 16, 56, 0.3);
-  --tfl-color-critical-lowx-selected-background: #000000;
+  --tfl-color-critical-lowx-selected-background: #b01038;
   --tfl-color-critical-lowx-pressed-border-color: rgba(176, 16, 56, 0.3);
   --tfl-color-critical-lowx-pressed-background: rgba(176, 16, 56, 0.95);
   --tfl-color-critical-lowx-hovered-border-color: rgba(176, 16, 56, 0.3);
@@ -371,9 +371,9 @@
   --tfl-color-critical-lowx-disabled-background: rgba(176, 16, 56, 0.5);
   --tfl-color-critical-lowx-default-border-color: rgba(176, 16, 56, 0.3);
   --tfl-color-critical-lowx-default-color: #ffffff;
-  --tfl-color-critical-lowx-default-background: #000000;
+  --tfl-color-critical-lowx-default-background: #b01038;
   --tfl-color-critical-medx-selected-border-color: rgba(176, 16, 56, 0.3);
-  --tfl-color-critical-medx-selected-background: #000000;
+  --tfl-color-critical-medx-selected-background: #b01038;
   --tfl-color-critical-medx-pressed-border-color: rgba(176, 16, 56, 0.3);
   --tfl-color-critical-medx-pressed-background: rgba(176, 16, 56, 0.95);
   --tfl-color-critical-medx-hovered-border-color: rgba(176, 16, 56, 0.3);
@@ -382,9 +382,9 @@
   --tfl-color-critical-medx-disabled-background: rgba(176, 16, 56, 0.5);
   --tfl-color-critical-medx-default-border-color: rgba(176, 16, 56, 0.3);
   --tfl-color-critical-medx-default-color: #ffffff;
-  --tfl-color-critical-medx-default-background: #000000;
+  --tfl-color-critical-medx-default-background: #b01038;
   --tfl-color-critical-highx-selected-border-color: rgba(176, 16, 56, 0.3);
-  --tfl-color-critical-highx-selected-background: #000000;
+  --tfl-color-critical-highx-selected-background: #b01038;
   --tfl-color-critical-highx-pressed-border-color: rgba(176, 16, 56, 0.3);
   --tfl-color-critical-highx-pressed-background: rgba(176, 16, 56, 0.95);
   --tfl-color-critical-highx-hovered-border-color: rgba(176, 16, 56, 0.3);
@@ -393,7 +393,7 @@
   --tfl-color-critical-highx-disabled-background: rgba(176, 16, 56, 0.5);
   --tfl-color-critical-highx-default-border-color: rgba(176, 16, 56, 0.3);
   --tfl-color-critical-highx-default-color: #ffffff;
-  --tfl-color-critical-highx-default-background: #000000;
+  --tfl-color-critical-highx-default-background: #b01038;
   --tfl-color-bg-flat-selected-border-color: rgba(0, 0, 0, 0.3);
   --tfl-color-bg-flat-selected-background: #000000;
   --tfl-color-bg-flat-pressed-border-color: rgba(0, 0, 0, 0.3);
@@ -472,7 +472,7 @@
   --tfl-color-bg-highx-default-color: #ffffff;
   --tfl-color-bg-highx-default-background: #000000;
   --tfl-color-secondary-flat-selected-border-color: rgba(127, 255, 220, 0.3);
-  --tfl-color-secondary-flat-selected-background: #000000;
+  --tfl-color-secondary-flat-selected-background: #7fffdc;
   --tfl-color-secondary-flat-pressed-border-color: rgba(127, 255, 220, 0.3);
   --tfl-color-secondary-flat-pressed-background: rgba(127, 255, 220, 0.95);
   --tfl-color-secondary-flat-hovered-border-color: rgba(127, 255, 220, 0.3);
@@ -481,9 +481,9 @@
   --tfl-color-secondary-flat-disabled-background: rgba(127, 255, 220, 0.5);
   --tfl-color-secondary-flat-default-border-color: rgba(127, 255, 220, 0.3);
   --tfl-color-secondary-flat-default-color: #ffffff;
-  --tfl-color-secondary-flat-default-background: #000000;
+  --tfl-color-secondary-flat-default-background: #7fffdc;
   --tfl-color-secondary-surface-selected-border-color: rgba(127, 255, 220, 0.3);
-  --tfl-color-secondary-surface-selected-background: #000000;
+  --tfl-color-secondary-surface-selected-background: #7fffdc;
   --tfl-color-secondary-surface-pressed-border-color: rgba(127, 255, 220, 0.3);
   --tfl-color-secondary-surface-pressed-background: rgba(127, 255, 220, 0.95);
   --tfl-color-secondary-surface-hovered-border-color: rgba(127, 255, 220, 0.3);
@@ -492,9 +492,9 @@
   --tfl-color-secondary-surface-disabled-background: rgba(127, 255, 220, 0.5);
   --tfl-color-secondary-surface-default-border-color: rgba(127, 255, 220, 0.3);
   --tfl-color-secondary-surface-default-color: #ffffff;
-  --tfl-color-secondary-surface-default-background: #000000;
+  --tfl-color-secondary-surface-default-background: #7fffdc;
   --tfl-color-secondary-fg-selected-border-color: rgba(127, 255, 220, 0.3);
-  --tfl-color-secondary-fg-selected-background: #000000;
+  --tfl-color-secondary-fg-selected-background: #7fffdc;
   --tfl-color-secondary-fg-pressed-border-color: rgba(127, 255, 220, 0.3);
   --tfl-color-secondary-fg-pressed-background: rgba(127, 255, 220, 0.95);
   --tfl-color-secondary-fg-hovered-border-color: rgba(127, 255, 220, 0.3);
@@ -503,9 +503,9 @@
   --tfl-color-secondary-fg-disabled-background: rgba(127, 255, 220, 0.5);
   --tfl-color-secondary-fg-default-border-color: rgba(127, 255, 220, 0.3);
   --tfl-color-secondary-fg-default-color: #ffffff;
-  --tfl-color-secondary-fg-default-background: #000000;
+  --tfl-color-secondary-fg-default-background: #7fffdc;
   --tfl-color-secondary-input-selected-border-color: rgba(127, 255, 220, 0.3);
-  --tfl-color-secondary-input-selected-background: #000000;
+  --tfl-color-secondary-input-selected-background: #7fffdc;
   --tfl-color-secondary-input-pressed-border-color: rgba(127, 255, 220, 0.3);
   --tfl-color-secondary-input-pressed-background: rgba(127, 255, 220, 0.95);
   --tfl-color-secondary-input-hovered-border-color: rgba(127, 255, 220, 0.3);
@@ -514,9 +514,9 @@
   --tfl-color-secondary-input-disabled-background: rgba(127, 255, 220, 0.5);
   --tfl-color-secondary-input-default-border-color: rgba(127, 255, 220, 0.3);
   --tfl-color-secondary-input-default-color: #ffffff;
-  --tfl-color-secondary-input-default-background: #000000;
+  --tfl-color-secondary-input-default-background: #7fffdc;
   --tfl-color-secondary-lowx-selected-border-color: rgba(127, 255, 220, 0.3);
-  --tfl-color-secondary-lowx-selected-background: #000000;
+  --tfl-color-secondary-lowx-selected-background: #7fffdc;
   --tfl-color-secondary-lowx-pressed-border-color: rgba(127, 255, 220, 0.3);
   --tfl-color-secondary-lowx-pressed-background: rgba(127, 255, 220, 0.95);
   --tfl-color-secondary-lowx-hovered-border-color: rgba(127, 255, 220, 0.3);
@@ -525,9 +525,9 @@
   --tfl-color-secondary-lowx-disabled-background: rgba(127, 255, 220, 0.5);
   --tfl-color-secondary-lowx-default-border-color: rgba(127, 255, 220, 0.3);
   --tfl-color-secondary-lowx-default-color: #ffffff;
-  --tfl-color-secondary-lowx-default-background: #000000;
+  --tfl-color-secondary-lowx-default-background: #7fffdc;
   --tfl-color-secondary-medx-selected-border-color: rgba(127, 255, 220, 0.3);
-  --tfl-color-secondary-medx-selected-background: #000000;
+  --tfl-color-secondary-medx-selected-background: #7fffdc;
   --tfl-color-secondary-medx-pressed-border-color: rgba(127, 255, 220, 0.3);
   --tfl-color-secondary-medx-pressed-background: rgba(127, 255, 220, 0.95);
   --tfl-color-secondary-medx-hovered-border-color: rgba(127, 255, 220, 0.3);
@@ -536,9 +536,9 @@
   --tfl-color-secondary-medx-disabled-background: rgba(127, 255, 220, 0.5);
   --tfl-color-secondary-medx-default-border-color: rgba(127, 255, 220, 0.3);
   --tfl-color-secondary-medx-default-color: #ffffff;
-  --tfl-color-secondary-medx-default-background: #000000;
+  --tfl-color-secondary-medx-default-background: #7fffdc;
   --tfl-color-secondary-highx-selected-border-color: rgba(127, 255, 220, 0.3);
-  --tfl-color-secondary-highx-selected-background: #000000;
+  --tfl-color-secondary-highx-selected-background: #7fffdc;
   --tfl-color-secondary-highx-pressed-border-color: rgba(127, 255, 220, 0.3);
   --tfl-color-secondary-highx-pressed-background: rgba(127, 255, 220, 0.95);
   --tfl-color-secondary-highx-hovered-border-color: rgba(127, 255, 220, 0.3);
@@ -547,9 +547,9 @@
   --tfl-color-secondary-highx-disabled-background: rgba(127, 255, 220, 0.5);
   --tfl-color-secondary-highx-default-border-color: rgba(127, 255, 220, 0.3);
   --tfl-color-secondary-highx-default-color: #ffffff;
-  --tfl-color-secondary-highx-default-background: #000000;
+  --tfl-color-secondary-highx-default-background: #7fffdc;
   --tfl-color-primary-flat-selected-border-color: rgba(243, 87, 161, 0.3);
-  --tfl-color-primary-flat-selected-background: #000000;
+  --tfl-color-primary-flat-selected-background: #f357a1;
   --tfl-color-primary-flat-pressed-border-color: rgba(243, 87, 161, 0.3);
   --tfl-color-primary-flat-pressed-background: rgba(243, 87, 161, 0.95);
   --tfl-color-primary-flat-hovered-border-color: rgba(243, 87, 161, 0.3);
@@ -558,9 +558,9 @@
   --tfl-color-primary-flat-disabled-background: rgba(243, 87, 161, 0.5);
   --tfl-color-primary-flat-default-border-color: rgba(243, 87, 161, 0.3);
   --tfl-color-primary-flat-default-color: #ffffff;
-  --tfl-color-primary-flat-default-background: #000000;
+  --tfl-color-primary-flat-default-background: #f357a1;
   --tfl-color-primary-surface-selected-border-color: rgba(243, 87, 161, 0.3);
-  --tfl-color-primary-surface-selected-background: #000000;
+  --tfl-color-primary-surface-selected-background: #f357a1;
   --tfl-color-primary-surface-pressed-border-color: rgba(243, 87, 161, 0.3);
   --tfl-color-primary-surface-pressed-background: rgba(243, 87, 161, 0.95);
   --tfl-color-primary-surface-hovered-border-color: rgba(243, 87, 161, 0.3);
@@ -569,9 +569,9 @@
   --tfl-color-primary-surface-disabled-background: rgba(243, 87, 161, 0.5);
   --tfl-color-primary-surface-default-border-color: rgba(243, 87, 161, 0.3);
   --tfl-color-primary-surface-default-color: #ffffff;
-  --tfl-color-primary-surface-default-background: #000000;
+  --tfl-color-primary-surface-default-background: #f357a1;
   --tfl-color-primary-fg-selected-border-color: rgba(243, 87, 161, 0.3);
-  --tfl-color-primary-fg-selected-background: #000000;
+  --tfl-color-primary-fg-selected-background: #f357a1;
   --tfl-color-primary-fg-pressed-border-color: rgba(243, 87, 161, 0.3);
   --tfl-color-primary-fg-pressed-background: rgba(243, 87, 161, 0.95);
   --tfl-color-primary-fg-hovered-border-color: rgba(243, 87, 161, 0.3);
@@ -580,9 +580,9 @@
   --tfl-color-primary-fg-disabled-background: rgba(243, 87, 161, 0.5);
   --tfl-color-primary-fg-default-border-color: rgba(243, 87, 161, 0.3);
   --tfl-color-primary-fg-default-color: #ffffff;
-  --tfl-color-primary-fg-default-background: #000000;
+  --tfl-color-primary-fg-default-background: #f357a1;
   --tfl-color-primary-input-selected-border-color: rgba(243, 87, 161, 0.3);
-  --tfl-color-primary-input-selected-background: #000000;
+  --tfl-color-primary-input-selected-background: #f357a1;
   --tfl-color-primary-input-pressed-border-color: rgba(243, 87, 161, 0.3);
   --tfl-color-primary-input-pressed-background: rgba(243, 87, 161, 0.95);
   --tfl-color-primary-input-hovered-border-color: rgba(243, 87, 161, 0.3);
@@ -591,9 +591,9 @@
   --tfl-color-primary-input-disabled-background: rgba(243, 87, 161, 0.5);
   --tfl-color-primary-input-default-border-color: rgba(243, 87, 161, 0.3);
   --tfl-color-primary-input-default-color: #ffffff;
-  --tfl-color-primary-input-default-background: #000000;
+  --tfl-color-primary-input-default-background: #f357a1;
   --tfl-color-primary-lowx-selected-border-color: rgba(243, 87, 161, 0.3);
-  --tfl-color-primary-lowx-selected-background: #000000;
+  --tfl-color-primary-lowx-selected-background: #f357a1;
   --tfl-color-primary-lowx-pressed-border-color: rgba(243, 87, 161, 0.3);
   --tfl-color-primary-lowx-pressed-background: rgba(243, 87, 161, 0.95);
   --tfl-color-primary-lowx-hovered-border-color: rgba(243, 87, 161, 0.3);
@@ -602,9 +602,9 @@
   --tfl-color-primary-lowx-disabled-background: rgba(243, 87, 161, 0.5);
   --tfl-color-primary-lowx-default-border-color: rgba(243, 87, 161, 0.3);
   --tfl-color-primary-lowx-default-color: #ffffff;
-  --tfl-color-primary-lowx-default-background: #000000;
+  --tfl-color-primary-lowx-default-background: #f357a1;
   --tfl-color-primary-medx-selected-border-color: rgba(243, 87, 161, 0.3);
-  --tfl-color-primary-medx-selected-background: #000000;
+  --tfl-color-primary-medx-selected-background: #f357a1;
   --tfl-color-primary-medx-pressed-border-color: rgba(243, 87, 161, 0.3);
   --tfl-color-primary-medx-pressed-background: rgba(243, 87, 161, 0.95);
   --tfl-color-primary-medx-hovered-border-color: rgba(243, 87, 161, 0.3);
@@ -613,9 +613,9 @@
   --tfl-color-primary-medx-disabled-background: rgba(243, 87, 161, 0.5);
   --tfl-color-primary-medx-default-border-color: rgba(243, 87, 161, 0.3);
   --tfl-color-primary-medx-default-color: #ffffff;
-  --tfl-color-primary-medx-default-background: #000000;
+  --tfl-color-primary-medx-default-background: #f357a1;
   --tfl-color-primary-highx-selected-border-color: rgba(243, 87, 161, 0.3);
-  --tfl-color-primary-highx-selected-background: #000000;
+  --tfl-color-primary-highx-selected-background: #f357a1;
   --tfl-color-primary-highx-pressed-border-color: rgba(243, 87, 161, 0.3);
   --tfl-color-primary-highx-pressed-background: rgba(243, 87, 161, 0.95);
   --tfl-color-primary-highx-hovered-border-color: rgba(243, 87, 161, 0.3);
@@ -624,7 +624,7 @@
   --tfl-color-primary-highx-disabled-background: rgba(243, 87, 161, 0.5);
   --tfl-color-primary-highx-default-border-color: rgba(243, 87, 161, 0.3);
   --tfl-color-primary-highx-default-color: #ffffff;
-  --tfl-color-primary-highx-default-background: #000000;
+  --tfl-color-primary-highx-default-background: #f357a1;
   --tfl-color-success-flat-selected-color: var(--tfl-color-success-flat-default-color);
   --tfl-color-success-flat-pressed-color: var(--tfl-color-success-flat-default-color);
   --tfl-color-success-flat-hovered-color: var(--tfl-color-success-flat-default-color);

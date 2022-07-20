@@ -47,6 +47,7 @@ const PROPERTIES = {
 const VARIANTS = {
   // ui-elements, so theme devs can color separately
   ACTION_HIGH_EMPHASIS: {
+    name: 'Action (high emphasis)',
     key: 'highx',
     description: 'High emphasis buttons, fabs, tags, etc...'
   },
@@ -146,7 +147,7 @@ function getDefinition ({ variant, colorRole, state, property }) {
     color = state.key === 'default' ? 'rgba(255, 255, 255, 1)' : `{color.${colorRole.key}.${variant.key}.default.color}`
   } else {
     if (colorRole.baseRgbCsv) {
-      color = `rgba(${colorRole.baseRgbCsv}, ${state.baseOpacity})`
+      color = `rgba(${colorRole.baseRgbCsv}, ${state.baseOpacity || 1})`
     } else {
       color = colorRole.base
     }
