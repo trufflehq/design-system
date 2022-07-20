@@ -12,14 +12,14 @@ You can see how we generated the base set of placeholder colors in ./scripts/gen
 - `warning`
 - `success`
 
-**ui-element** is one of:  
-- `action` - Buttons and fabs (interactive)
-- `link` - Plain text links (needs to be legible on background surface color) (interactive)
-- `tab` - Fancier links for tabs / navigation (interactive)
-- `symbol` - Header text, paragraph text, icons, (needs to be legible on background surface color)
-- `dialog` - Dialogs and modals
-- `surface` - Cards, warning messages, info boxes, etc... Background is typically muted color, border is higher contrast
-- `page` - Background of page
+**variant** is one of:  
+- `highx` - High emphasis buttons, fabs, tags, etc...
+- `medx` - Medium emphasis buttons, fabs, tags, etc...
+- `lowx` - Low emphasis buttons, fabs, tags, etc...
+- `input` - Text inputs and textareas
+- `fg` - Header text, paragraph text, icons, links (needs to be legible on background surface color)
+- `surface` - Cards, dialogs, etc...
+- `flat` - Flat background
 
 **state** is one of:  
 - `default`
@@ -37,26 +37,26 @@ You can see how we generated the base set of placeholder colors in ./scripts/gen
 **Primary-colored button**
 ```css
 .button {
-  background: var(--tfl-color-primary-action-default-background);
-  color: var(--tfl-color-primary-action-default-color);
-  border-color: var(--tfl-color-primary-action-default-border-color);
+  background: var(--tfl-color-primary-highx-default-background);
+  color: var(--tfl-color-primary-highx-default-color);
+  border-color: var(--tfl-color-primary-highx-default-border-color);
 }
 
 .button:hover {
-  background: var(--tfl-color-primary-action-hovered-background);
-  color: var(--tfl-color-primary-action-hovered-color);
-  border-color: var(--tfl-color-primary-action-hovered-border-color);
+  background: var(--tfl-color-primary-highx-hovered-background);
+  color: var(--tfl-color-primary-highx-hovered-color);
+  border-color: var(--tfl-color-primary-highx-hovered-border-color);
 }
 ```
 
 **Secondary-colored link**
 ```css
 .link {
-  color: var(--tfl-color-secondary-link-default-color);
+  color: var(--tfl-color-secondary-fg-default-color);
 }
 
 .link:hover {
-  color: var(--tfl-color-secondary-link-hovered-color);
+  color: var(--tfl-color-secondary-fg-hovered-color);
 }
 ```
 
